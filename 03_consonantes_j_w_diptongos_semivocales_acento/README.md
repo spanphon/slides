@@ -1,0 +1,259 @@
+Overview
+--------
+
+-   This lesson includes basic information regarding consonants \[ʝ\] y
+    \[w\], diphthongs, glides and lexical stress
+-   The exercises have been moved to “index\_ex.Rmd” and can be used in
+    class
+-   There is reference to a hw assignment that is called
+    `1_acento_correspondencia` dentro de ‘tarea’ se encuentra en canvas
+    bajo el modulo de la semana 3 (under old system)
+
+Reading
+-------
+
+-   none until week 3
+
+Videos
+------
+
+-   For asynchronous teaching there are videos available here:
+-   The lecture is divided into 4 videos using the following outline:
+
+1.  Correspondencia exclusiva
+
+    > En este módulo vamos a hablar de las consonante j y w, los
+    > diptongos las semivocales y el acento
+    >
+    > El módulo consiste en 4 vídeos en los cuales profundizaremos
+    > nuestro conocimiento de la correspondencia entre grafemas y
+    > fonemas, las semivocales frente a las vocales, las consonantes o
+    > semiconsonante j y w y también el acento, tanto ortográfico como
+    > prosódico
+    >
+    > Comenzamos, entonces, hablando de la llamada correspondencia
+    > exclusiva o absoluta que existe en las letras y los sonidos del
+    > español
+    >
+    > Cuando digo correspondencia exclusiva me refiero específicamente a
+    > una relación entre letra y sonido que es 1 a 1
+    >
+    > Es decir, es una situación en la que el grafema es representado
+    > por un sólo fonema y, al revés, el fonema es representado por un
+    > sólo grafema Existen 9 casos de este tipo de correspondencia en
+    > español
+    >
+    > En esta lista, la columna de la izquierda contiene los grafemas y
+    > la columna de la izquierda contiene los fonemas Si la
+    > correspondencia es exclusiva, quiere decir que el grafema o
+    > dígrafo de la izquierda sólo tiene un fonema correspondiente a la
+    > derecha
+    >
+    > En otras palabras, el grafema “a” (entre comillas) siempre suena
+    > como \[a\] o sea el sonido que vemos representado por el fonema
+    > /a/ (entre barras) Lo mismo con dígrafo ce hache, que siempre
+    > suena como \[tS\] el sonido representado por el símbolo raro a la
+    > derecha que parece ser una t con una s grande al lado.
+    >
+    > Es importante reconocer que esta correspondencia entre letra y
+    > sonido no siempre es exclusiva O sea no siempre tenemos una
+    > relación de uno a uno Si sabemos que hay 27 grafemas y 3 dígrafos
+    > en español y sólo hay 9 casos de correspondencia exclusiva, eso
+    > significa que existen 21 casos de correspondencia no exclusiva y,
+    > como vamos a ver, este hecho puede crear algunos problemas a la
+    > hora de escribir Considerad, por ejemplo, la serie de tuits que
+    > tenemos a la derecha La primera persona dice “what do people do in
+    > the shower for 45 minutes?” “Qué hace la gente en la ducha durante
+    > 45 minutos?” Buena pregunta. Y responde Snoop dog: I just sat in
+    > the shower for an hour thinking about how Mercedes has 3 E’s all
+    > pronounced differently Acabo de pasar media sentado en la ducha
+    > pensando en cómo la palabra Mercedes tiene 3 “e”s, cada una
+    > pronunciada de manera diferente Y si lo pensamos, es verdad lo que
+    > dice… la palabra Mercedes en inglés se pronuncia \[mer.sei.dis\],
+    > la primera E es mer, la segunda sei y la tercera DEES iii. Esto
+    > ilustra muy bien lo que es una correspondencia no exclusiva
+    >
+    > Veamos ahora unos ejemplos en español: el grafema “c” puede
+    > pronunciarse \[k\] como en “casa” o \[s\] o \[th\] como en cien,
+    > según la variedad
+    >
+    > Es decir, es una correspondencia de un grafema a varios fonemas
+    >
+    > Considerad también el caso de los grafemas “b” y “v” (también
+    > conocidos como b larga, b de burro versus v chica o v de vaca). En
+    > este caso ambos grafemas se pronuncian como \[b\]
+    >
+    > Entonces en principio sin contexto es imposible distinguir entre
+    > cabe del verbo caber (con b) y el presente del subjuntivo cave del
+    > verbo caver (con uve) Aquí tenemos una correspondencia de varios
+    > grafemas a un sólo fonema
+    >
+    > Resumiendo, podemos destacar 3 tipos de correspondencia: puede ser
+    > una correspondencia de 1 a 1, como es caso de la “a”, de 1 a
+    > varios, como el caso de la “c”, o de varios a 1 como ocurre con la
+    > “b” y la “v”.
+
+2.  Semivocales y vocales, \[j\] y \[w\]
+
+    > Como vimos en el módulo anterior, en español hay vocales y
+    > semivocales.
+    >
+    > Primero, no os asusteis por la terminología, aquí semivocal es
+    > sinónimo de deslizada Habíamos destacado que las deslizadas son
+    > más breves que las vocales y, como indica el nombre, se deslizan
+    > hacia otro sonido vocálico Como sugiere este hecho, también es
+    > verdad que las deslizadas nunca aparecen solas, siempre se
+    > encuentran con otra vocal Además, no pueden inciciar una sílaba y
+    > nunca llevan acento, o estrés Comentaremos estos dos últimos
+    > hechos en breve
+    >
+    > En cambio, las vocales \[i\] y \[u\] son más largas, sí pueden
+    > aparecer solas y pueden llevar el acento o estrés sin problemas
+    >
+    > En cuanto a la ortografía, vemos que ambas deslizadas están en una
+    > relación de correspondencia no exclusiva, pues tanto el grafema
+    > “i” como el grafema “y” pueden representar la deslizada anterior,
+    > como vemos en el caso “adiós” y “hay” Lo mismo ocurre con la
+    > deslizada posterior donde la u–con y sin dierisis– puede
+    > representar este sonido. Recordad que destacamos las deslizadas en
+    > la transcripción fonética usando la diacrítica que aparece debajo
+    > del símbolo
+    >
+    > Ahora vamos a fijar nuestra atención en las consonantes \[j\] y
+    > \[w\]
+    >
+    > Vamos a ver que estas dos consonantes tienen mucho en común, pues
+    > ambas se caracterizan por la fricación y también reciben el nombre
+    > de “semiconsontes” por las semejanzas que tienen con las
+    > deslizadas o semivocales Asimismo, siempre aparecen en posición de
+    > ataque, este hecho es una de las características que distingue la
+    > consonantes j y w de las deslizadas, porque estas últimas nunca
+    > aparecen en posición de ataque. Tomemmos como ejemplo la tabla de
+    > abajo donde podemos ver las palabras hielo y huerta. Como la “h”
+    > es muda, el primer sonido de estas palabras es i y u,
+    > respectivamente, pero al pronunciar estas palabras se refuerzan,
+    > tanto que ya no cuentan con las mismas características acústicas
+    > que las deslizadas “normales” en otros contextos fonéticos. Hay
+    > que tener mucho cuidado con casos como estos a la hora de hacer
+    > una transcripción. Es imprescindible recordar que si vemos una
+    > secuenca de dos vocales al principio de una sílaba y la primera
+    > vocal es débil o cerrada, se realiza con más fricción, es decir
+    > como j o w, como en hielo y werta, y no como las transcripciones
+    > que aparecen en rojo que llevan asteriscos para señalar que son
+    > incorrectas
+    >
+    > Estas consonantes j y w también pueden surgir cuando tenemos la
+    > doble ele, la i griega y la uve doble, como vemos en los casos de
+    > llamar, payaso y whisky
+    >
+    > Además, se relacionan con las vocales /i/ y /u/ Y con sus
+    > variantes semivocales (o deslizadas) La tabla de en medio resume
+    > las diferencias entre las consonantes j y w, las deslizadas y las
+    > vocales i y u. Vemos que las consonantes tienen fricción y algo de
+    > deslizamiento, pero no pueden ser el núcleo de una sílaba Las
+    > deslizadas, en cambio, no tienen fricción, pero sí tienen
+    > deslizamiento y NO pueden ser el núcleo de una sílaba Por último,
+    > las vocales plenas no tienen fricción ni deslizamiento y siempre
+    > representan el núcleo de una sílaba Una nota aparte, hay
+    > lingüistas que transcriben las deslizadas de diptongos crecientes
+    > (o sea cuando la vocal débil aparece primero y después la vocal
+    > fuerte) usando las semiconsonantes j y w en lugar una i o una u
+    > con la diacrítica debajo. En este caso debemos entender que son
+    > iguales… personalmente yo siempre uso la vocal con la diacrítica,
+    > pero podéis hacer lo que os resulte más fácil.
+    >
+    > Resumiendo, es importante recordar que las deslizadas o
+    > semivocales son más breves que las vocales plenas, y que las
+    > consonantes j y w tienen fricción. Esta última tabla aporta más
+    > ejemplos de palabras que contienen los sonido j y w y cómo se
+    > transcriben fonémicamente
+
+3.  el acento
+
+    > Este es el último vídeo de este módulo y vamos a hablar del acento
+    >
+    > Antes que nada, es necesario dejar claro que cuando digo acento,
+    > no me refiero a una variedad lingüística, como el acento mexicano,
+    > o el acento argentino, me refiero más bien al acento prosódico y
+    > al acento ortográfico El acento prosódico se refiere a la sílaba
+    > más prominente de una palabra El acento ortográfico, en cambio, es
+    > la tilde que ponemos sobre las vocales en español para señalar
+    > dónde recae el acento prosódico Como sabemos, no todas las
+    > palabras llevan tilde, no obstante, siempre podemos indentificar
+    > una sílaba más prominente que las demás en una palabra Por
+    > ejemplo, las palabras “casa” y “móvil” llevan el acento prosódico
+    > en en la primera sílaba, pero sólo “móvil” cuenta con un acento
+    > ortográfico. En una transcripción marcamos el acento prosódico con
+    > una pequeña barra vertical al inicio de la sílaba
+    >
+    > Tenemos términos distintos para describir las palabras dependiendo
+    > de la sílaba en la que caiga el acento prosódico
+    >
+    > Si la última sílaba de la palabra lleva el acento prosódico
+    > decimos que es una palabra aguda, como fatal o capaz Si es la
+    > penúltima, decimos que la palabra es llana, como casa o hermano
+    > Cuando el acento prosódico lo lleva la antepenúltima sílaba la
+    > palabra es esdrújula, como esta misma palabra… esdrújula y si es
+    > antes de la antepenúltima sílaba decimos que es una palabra
+    > sobreesdrújula, esta última categoría es muchísimo menos común y
+    > siempre se trata de una palabra compuesta por un gerundio más uno
+    > o varios pronombres enclíticos
+    >
+    > Podemos destacar algunas generalizaciones acerca de los patrones
+    > de acentuación en español Por ejemplo, todas las palabras
+    > esdrújulas y sobreesdrújulas llevan el acento ortográfico sobre la
+    > vocal de la sílaba tónica, sin excepciones Los otros dos grupos de
+    > palabras, las palabras agudas y las palabras llanas, requieren un
+    > poco de conocimiento de la estructura silábica en español para
+    > explicar cuándo llevan o no llevan el acento ortográfico Para
+    > empezar debemos tener en cuenta que la mayoría de las palabras en
+    > español son llanas y recordad que la estructura silábica más común
+    > en español es CV.CV
+    >
+    > Podemos servirnos de dos tendencias generales para poder
+    > determinar si una palabra lleva tilde o no Primero, las palabras
+    > que terminan en vocal, “n” o “s” suelen ser llanas Segundo, las
+    > palabras que terminan en cualquier consonante que no sea ni “n” ni
+    > “s” suelen ser agudas
+    >
+    > Si una palabra dada respeta la tendencia que le corresponde no
+    > lleva acento ortográfico Dicho de otra manera, solo marcamos con
+    > una tilda las palabras excepcionales, las que no siguen los
+    > patrones comunes del español En este sentido podemos pensar que
+    > las tildes son excepcionales porque se usan para denotar las
+    > palabras que son excepciones
+    >
+    > Para puntualizar más, podemos establecer una regla específica: Las
+    > palabras llanas y agudas que no siguen la tendencia general llevan
+    > una tilde en la vocal tónica de la palabra Fijaos que para que
+    > esta regla nos sirva, hay que recordar las tendencias generales
+    >
+    > Como todo en la vida, siempre hay excepciones, considerad las
+    > palabras de la siguiente lista. En cada caso la palabra en
+    > cuestión lleva un acento ortográfico. También es verdad que en
+    > cada caso tenemos secuencias de dos vocales, una de las cuales es
+    > una vocal débil o cerrada Bajo circunstancias normales, podríamos
+    > pensar que estas palabras deberían contener diptongos, pero no es
+    > así en ninguno de los casos ¿Qué pasa? Pues se trata del
+    > antidiptongo, uno de los casos excepcionales en el que tenemos un
+    > hiato donde no se espera Fijaos que todas estas palabras llevan el
+    > acento ortográfico sobre la vocal débil Entonces, hemos de
+    > recordar que si una vocal débil se halla al lado de otra vocal y
+    > también lleva el acento prosódico, siempre va a llevar una tilde
+    > para señalar que NO se trata de un diptongo… es por eso que
+    > podemos distinguir entre el adjetivo “continua” (palabra llana con
+    > diptongo en la última sílaba) y el verbo continúa (palabra llana
+    > con hiato al final)
+    >
+    > Otro caso de palabras excepcionales (y con este paro ya con las
+    > excepciones) son las palabras monosilábicas que tienen homófonos…
+    > Aquí la tilde nos sirve para diferenciar entre palabras que en
+    > teoría se escriben de la misma forma y suenan igual Por ejemplo,
+    > la preposición “de” versus el verbo dar en la tercera persona
+    > singular del presente de subjuntivo O el adjetivo posesivo “tu”,
+    > como “tu tarea” versus el pronombre personal “tú” como tú tienes
+    >
+    > En fin, ahora sabéis usar vuestro conocimiento del lexicon y de la
+    > estructura silábica del español no sólo para ayudaros a saber
+    > cúando y por qué hay que poner las tildes… sino también para saber
+    > cuando y por qué NO hay que ponerlas

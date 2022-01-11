@@ -1,0 +1,120 @@
+---
+title: "Fonemas, alófonos y la transcripción fonética"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview 
+
+- This lesson focuses on the distinction between phoneme and allophone and 
+begins practice on phonetic transcription
+- The exercises have been moved to "index_ex.Rmd" and can be used in 
+class
+
+## Reading
+
+- Lord (2019)
+
+## Videos
+
+- For asynchronous teaching there are videos available here: 
+- The lecture is divided into 1 video using the following outline: 
+
+1. Fonemas, alófonos y la transcripción fonética  
+
+    > En este módulo vamos a diferenciar entre fonema y alófono y hablar de 
+    la transcripción fonética
+    >
+    > La metáfora que voy a usar para distinguir entre fonema y alófono viene 
+    de la postelería. 
+    En algún momento todos habremos hecho galletas en casa o haber visto a 
+    alguien hacerlas. 
+    Entonces sabemos que es normal usar un molde para determinar la forma de 
+    la galleta. 
+    Hay moldes que tienen la forma de un corazón, por ejemplo, y se usa para 
+    producir galletas que tienen la forma de corazón. 
+    Bien. Volveremos a considerar esta idea. 
+    >
+    > Para empezar vamos usar ejemplos de sonidos que existen en inglés y 
+    español. 
+    Por ejemplo, los sonidos [d] y [th]
+    En inglés, tenemos el sonido [d] en palabras como "dump" o "rude" o "down" 
+    y tenemos [th] en palabras como "leather" o "wither"
+    Estos dos sonidos también existen en español. 
+    Por ejemplos tenemos [d] en "saldo" o "doy" o "cuando" y tenemos [th] en 
+    palabras como "hada" o "nada". 
+    > Notad que hay una diferencia ortográfica en inglés, pero en español 
+    tenemos ambos sonido representados por el grafema "d"
+    >
+    > Visto lo anterior, podemos deducir que los sonidos [d] y [th] se 
+    comportan de manera diferente en cada lengua. 
+    >
+    > Pongamos por caso estas dos frases en español: 
+    "No me den" (con el sonido [th] representado por el grafema en azul) 
+    y "Pon den" (con el sonido [d] representado por el grafema en rojo)
+    Ahora fijaos en estos palabras del inglés: "then" con [th] y "den" con [d]
+    Notareis que acústicamente tenemos dos realizaciones increiblemente 
+    parecidas en ambas lenguas. 
+    No obstante, su comportamiento es muy diferente. 
+    >
+    > En inglés, los sonidos [d] y [th] establecen diferencias de significado
+    "Then" significa una cosa y "den" significa otra. 
+    O sea, son dos sonido contrastivos. 
+    Pensamos en cosas diferentes porque activan representaciones mentales 
+    diferentes. 
+    Se trata de dos fonemas distintos. 
+    >
+    > En español, [th] y [d] no establecen diferencias de significado. 
+    De hecho, podemos decir que son variantes de un mismo sonido
+    Es decir, nosotros entendemos exactamente la misma cosa, una conjugación 
+    del verbo dar, cuando escuchamos [then] y [den]
+    Por lo tanto, podemos concluir que [th] y [d] son dos variantes, o 
+    alófonos, del mismo fonema
+    >
+    > Entonces, en inglés tenemos dos fonemas distintos y cada uno 
+    tiene una realización... es decir, cada uno tiene un alófono. 
+    Notad que los fonemas van entre barras y los alófonos entre corchetes
+    Esta representación destaca el hecho de que estos dos sonidos sean 
+    contrastivos... o sea que puedas establecer diferencias de significado
+    >
+    > En español, en cambio, se trata de un fonemas con dos realizaciones 
+    posibles... es decir, dos alófonos. 
+    Notad que los dos alófonos están entre corchetes y se asocian con un sólo 
+    fonema que aparece entre barras. 
+    Por tanto, en esta lengua, estos dos sonidos no pueden establecer 
+    diferencias de significado... no son contrastivos. 
+    >
+    > Habiendo dicho lo anterior, es un buen momento para poner definiciones.
+    El fonema es la unidad mínima que puede cambiar el significado de una 
+    palabra
+    Podemos pensar que es una representación mental, abstacta que tenemos 
+    acerca de los sonidos de las lenguas que conocemos
+    Si nos fijamos en la palabras "peso" y "beso" lo vamos a ver un poco más 
+    claro. 
+    En las trascripciones vemos que estas palabras son exactamente iguales en 
+    cuanto a 3 de los 4 sonidos. 
+    La única diferencia es el cambio de /p/ a /b/ y debido a este cambio 
+    entendemos dos cosas completamente diferentes. 
+    O sea un peso es una cosa y un beso es otra. 
+    >
+    > Ahora considerad las realizaciones de /b/ en "un beso" y "ese bese"
+    Notaréis que son distintas pero sabemos que no son fonemas diferentes 
+    porque el significado no ha cambiado... en ambos casos entendemos la 
+    misma cosa
+    Entonces, podemos decir que el alófono es la realización específica y 
+    concreta de un fonema
+    >
+    > Resumiendo, por una parte tenemos el fonema, que es una representación 
+    abstracta y generalizada de cómo es un sonido... lo escribimos entre barras 
+    Por otra parte tenemos el alófono, que representa cada realización 
+    concreta y específica de un fonema... lo escribimos entre corchetes
+    Volviendo a nuestra metáfora de antes, podemos pensar que los fonemas son 
+    como los moldes de las galletas y los alófonos son las galletas. 
+    El molde representa la idea abstracta y las galletas representan la 
+    realidad producida por el molde... como los sonidos, cada galleta 
+    producida por un mismo molde será parecida pero no exactamente igual, 
+    tal como ocurre con los sonidos que producimos con nuestro aparato 
+    fonador. 

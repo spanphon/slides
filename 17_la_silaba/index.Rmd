@@ -1,0 +1,625 @@
+---
+title: "SPAN 585"
+subtitle: "Estructura silábica"
+author: "Joseph V. Casillas, PhD"
+date: "Rutgers University | Spring 2020</br>Last update: `r format(Sys.time(), '%D')`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: FALSE
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+
+```{r setup, include=FALSE, cache=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "slide_tone", "animate", "tachyons")
+)
+```
+
+# La silabificación desde una perspectiva generativista
+
+- La teoría generativa tradicional propone una serie de reglas ordenadas para 
+dar cuenta de fenómenos fonológicos...  
+
+--
+
+- Desde esta perspectiva, podemos considerar que la división silábica es el 
+resultado de la aplicación de una serie de reglas ordenadas
+
+
+---
+
+## Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+
+---
+
+## Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+| R2: | (e)nt(rá)(da)s |
+
+---
+
+## Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+| R2: | (e)nt(rá)(da)s |
+| R3: | (e)n(trá)(da)s |
+
+---
+
+## Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda).
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+| R2: | (e)nt(rá)(da)s |
+| R3: | (e)n(trá)(da)s |
+| R4: | (en)(trá)(das) |
+
+---
+layout: false
+class: middle, center
+
+# Problema... 
+
+### las secuencias VV
+
+---
+class: middle
+
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+
+---
+layout: true
+
+# Extras
+
+### Reglas de silabificación 
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+| R2: | (mié)nt(ra)s   | k(láu)st(ro)   |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+| R2: | (mié)nt(ra)s   | k(láu)st(ro)   |
+| R3: | (mié)n(tra)s   | (kláu)s(tro)   |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+| R2: | (mié)nt(ra)s   | k(láu)st(ro)   |
+| R3: | (mié)n(tra)s   | (kláu)s(tro)   |
+| R4: | (mién)(tras)   | (kláus)(tro)   |
+
+---
+layout: false
+
+# Práctica. 
+
+### Indica cómo se silabificarían las siguientes palabras en el modelo de reglas que acabamos de ver.  
+
+1. loco
+2. cuaderno 
+3. atrapado
+4. aplastar
+
+--
+
+.footnote[
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda).
+]
+
+---
+
+# Excepciones
+
+### Hiatos excepcionales
+
+| Diptongo    | Hiato     |
+| :---------- | :-------- |
+| dien.te     | cli.en.te |
+| a.siá.ti.co | pi.a.no   |
+| miel        | ri.el     |
+| pre.cio.so  | bi.om.bo  |
+| due.lo      | du.e.to   |
+| San.tia.go  | di.a.blo  |
+
+### Prefijos
+
+| Separados      |                        |   Juntos    |                 |
+| :------------- | :--------------------- | :---------- | :-------------- |
+| su**bl**ingual | /su**b**.**l**in.gual/ | su**bl**ime | /su.**bl**i.me/ |
+| su**br**egión  | /su**b**.**r**e.gion/  | so**br**ino | /so.**br**i.no/ |
+
+
+
+
+
+---
+
+class: inverse, middle, center
+background-image: url("./img/talanda.jpg")
+background-position: 90% 50%
+background-size: 300px
+
+# OT
+
+---
+
+# La teoría de la optimidad: Modelo no derivacional<sup>1</sub>
+
+- El ‘output’ (educto) se obtiene de modo paralelo, sin pasos. 
+
+- La representación subyacente de una secuencia de sonidos admite varios análisis. 
+
+- En un modelo no derivacional el ‘output’, la representación superficial, es el mejor de estos análisis. 
+
+- En otras palabras, el ‘output’ no es resultado de una transformación realizada a la representación subyacente, sino que se encuentra contenido en la misma y es el resultado de evaluar y comparar todos los candidatos (análisis) para escoger el mejor
+
+.footnote[
+<sup>1</sup>Handout sobre la sílaba disponible [aquí](https://www.jvcasillas.com/ru_teaching/ru_spanish_585/585_02_s2020/slides/03_la_silaba/silaba_ho.pdf)
+]
+
+---
+
+# ¿Cómo se decide cuál es el mejor candidato?
+
+Tenemos dos componentes importantes.
+
+1. Un conjunto de restricciones universales (constraints)  
+ONSET: todas las sílabas deben tener arranque  
+DEP-IO (FILL): todo elemento presente en el ‘output’ debe tener un elemento que le corresponda en el ‘input’ (no epéntesis)  
+MAX-IO (PARSE): todo elemento presente en el ‘input debe tener un elemento que le corresponda en el ‘ouput’ (no elisión)
+
+2. Una jerarquía propia de cada lengua. ONSET >> DEP-IO, MAX-IO
+
+---
+
+# Las restricciones pueden ser contradictorias. 
+
+Solución:
+
+- Las restricciones se pueden violar de forma mínima (para resolver un conflicto)
+
+- Las restricciones están jerarquizadas; se viola la de prioridad menor, de menor rango en la jerarquía para satisfacer la más importante. 
+
+- Este orden varía según las lenguas y explica la variación lingüística.
+
+---
+background-image: url(./img/ot1.png)
+background-position: 13% 50%
+background-size: 500px
+
+# Ejemplo: /ala/ 
+
+- Posibles análisis (uno de ellos, el óptimo en base a la jerarquía de restricciones, será el output)
+
+--
+
+.pull-right[
+- ONSET: las sílabas deben tener arranque  
+- DEP-IO: no epéntesis
+- MAX-IO: no elisión
+
+</br>
+
+\* = violación de una restricción  
+\*! = violación fatal (no hay que ver más, queda eliminado)  
+casillas oscuras = no hace falta considerar más
+]
+
+---
+
+# La silabificación: modelo derivacional
+
+Explicación: 
+
+- la regla de CV tiene una aplicación léxica y otra postléxica; 
+
+- la regla de los arranques complejos, sin embargo, sólo se aplica al nivel léxico (no al postléxico). 
+
+- Esta explicación es, sin embargo, una estipulación. 
+
+- ¿Qué motivo existe para que esta regla de arranques complejos no se aplique al nivel postléxico? 
+
+- La explicación dada no dice nada sobre esto.
+
+---
+
+# Explicación en OT
+
+Restricciones importantes: 
+
+- ONSET
+- ALIGN’: "every initial stem-edge matches to an initial syllable edge (Colina 1997: 8)."
+- NO CODA: las sílabas son abiertas (no hay coda).
+
+Jerarquía:
+
+- ONSET >> ALIGN’ >> NO CODA
+
+---
+background-image: url(./img/ot2.png)
+background-size: contain
+
+---
+background-image: url(./img/ot2.png)
+background-size: 500px
+background-position: 92% 50%
+
+# Explicación
+
+.pull-left[
+- El requisito de tener arranque es suficientemente importante como para hacer 
+que los límites de palabra y de sílaba no coincidan (que no estén alineados); 
+
+- cuando este requisito ya se ha cumplido (lindo), no hay nada que nos obligue 
+a no alinear sílaba y palabra (No coda no es tan importante) y por lo tanto se 
+debe respetar el alineamiento (no tiene sentido resilabificar una segunda consonante).
+
+- Otra ventaja del modelo de OT: las restricciones son universales, mientras 
+que las reglas del modelo anterior no lo son.
+]
+
+---
+class: inverse, middle, center
+
+# Invisible structure
+
+.bottom[
+From presentation by Mike Hammond (U of A)
+]
+---
+
+# Two language systems that tell us about that “invisible” structure:
+
+- the “Name Game” 
+- Expletive Infixation
+
+---
+
+# The “Name Game”
+
+Ernie  
+
+--
+
+Ernie, Ernie, bo-Bernie,  
+Banana, fana, fo-Fernie,  
+Me, my, mo-Mernie,  
+Er-nie.
+
+--
+
+Jonah
+
+--
+
+Jonah, Jonah, bo-bonah,  
+Banana, fana, fo-Fonah,  
+Me, my, mo-Monah, Jo-nah.
+
+---
+
+# How to play
+
+- Replace any word-initial consonants with [b], [f], and [m].
+
+- If there’s no word-initial consonant:  
+	- Ernie/Anna bernie/banna
+
+- If there’s just one consonant, replace it:  
+	- Todd/Bonnie bodd/bonnie
+
+---
+
+#  More than one consonant
+
+If there’s more than one consonant, replace them all:
+
+|               |     |            |
+| :------------ | --- | ---------- |
+| Steve/Stella  | ->  | beve/bella |
+| Brad/Brenda   | ->  | bad/benda  |
+| Dwight/Gwen   | ->  | bight/ben  |
+| Strom/Sprague | ->  | bom/bag    |
+
+--
+
+But:
+Beula/Buford -> b[y]eula/b[y]uford
+
+---
+
+# Names that work fine
+
+| one syllable |   | two syllable |   | three syllables |
+| :----------- |   | :----------- |   | :-------------- |
+| Bob          |   | Joseph       |   | Chrıstopher     |
+| Anne         |   | Robert       |   | Madeline        |
+| Strom        |   | Jonah        |   | Catherine       |
+| Ed           |   | Mıchael      |   | Sergio          |
+| | &nbsp; &nbsp;  | | &nbsp; &nbsp;  |                 |
+
+
+---
+
+# Stress matters
+
+| one syllable |   | two syllable |   | three syllables |
+| :----------- |   | :----------- |   | :-------------- |
+| B**ó**b      |   | J**ós**eph   |   | Chr**í**stopher |
+| **Á**nne     |   | R**ó**bert   |   | M**á**deline    |
+| Str**ó**m    |   | J**ó**nah    |   | C**á**therine   |
+| **É**d       |   | M**í**chael  |   | S**é**rgio      |
+| | &nbsp; &nbsp;  | | &nbsp; &nbsp;  |                 |
+
+---
+
+# Names that don’t work!
+
+- Two syllables (final stress): Daniélle 
+
+- Three syllables (second syllable stress): Amánda
+
+- Three syllables (third syllable stress): Adriénne
+
+- Four syllables+ (any stress): Agamémnon, ábernathy
+
+---
+
+# Names that don’t work!
+
+- Two syllables (final stress): Daniélle (cf. Dániel )
+
+- Three syllables (second syllable stress): Amánda (cf. ágatha)
+
+- Three syllables (third syllable stress): Adriénne (cf. ádrian)
+
+- Four syllables+ (any stress): Agamémnon, ábernathy
+
+---
+
+# The generalization
+
+The game can be played with names that are composed of a “stressed” 
+syllable followed by at most two (unstressed) syllables.
+
+| yes          |  | no         |
+| :----------- |  | :--------- |
+| Bób          |  | Daniélle   |
+| Jóseph       |  | Amánda     |
+| Chrístopher  |  | Adriénne   |
+|              |  | Agamémnon  |
+|              |  | ábernathy  |
+| | &nbsp; &nbsp; |            |
+
+
+
+---
+class: inverse, middle, center
+
+# F*#$ insertion
+
+---
+
+## Minne–f*–sota
+
+## Not: *Mi(n)–f*–nesota 
+
+## Not: *Minneso–f*–ta
+
+---
+
+# Some more
+
+## Tennessee 
+
+## Tenne–f*–ssee
+
+## Not: *Te(n)–f*–nessee
+
+--
+
+## Montana 
+
+## Mon–f*–tana
+
+## Not: *Monta–f*–na
+
+---
+
+# Multiple options
+
+## Timbuktu
+## Tim–f*–buktu and Timbuk–f*–tu
+
+## Apalachicola
+## Apa–f*–lachicola and Apalachi–f*–cola
+
+## Alamagordo
+## Ala–f*–magordo and Alama–f*–gordo
+
+---
+
+# Some words don’t work at all...
+
+|   These work   | But these don't |
+| :------------- | :-------------- |
+| Minne-sota     | Missouri        |
+| Tenne-ssee     | Florida         |
+| Mon-tana       | Georgia         |
+| Tim-buk-tu     | Connecticut     |
+| Apa-lachi-cola |                 |
+| Ala-ma-gordo   |                 |
+
+---
+
+# Stress patterns
+
+|         These work         | But these don't |
+| :------------------------- | :-------------- |
+| M**ì**nne-s**ó**ta         | Miss**ó**uri    |
+| T**è**nne-ss**é**e         | Fl**ó**rida     |
+| M**ò**n-t**á**na           | Ge**ó**rgia     |
+| T**ì**m-b**ù**k-t**ú**     | Conn**é**cticut |
+| **À**pa-l**à**chi-c**ó**la |                 |
+| **À**la-ma-g**ó**rdo       |                 |
+
+---
+
+# What’s the pattern?
+
+- The expletive must have at least one stressed syllable 
+on either side.
+
+- If there’s one or more stressless syllables in between, 
+at least one of those must be to the left of the infix.
+
+---
+
+# The trochaic foot
+
+- There is an invisible grouping of syllables that controls 
+the “Name Game” and Expletive Infixation.
+
+- This invisible grouping includes a single stressed syllable
+ and up to two following stressless syllables.
+
+- This is called the trochaic foot.
+
+---
+
+# Confirmation
+
+- Nicknames tend to be of this form as well, e.g. Bóbbie, 
+Cáthy, Jóey, etc.
+
+- Children tend to reduce longer words to just this pattern 
+as well, e.g. banána ’nána (Gerken, Carter).
+
+---
+
+# Conclusions
+
+- There are hidden structures in language. 
+
+- These can only be detected by looking at how language works 
+in various contexts. 
+
+- Here a language game and dirty words converge on the same 
+hidden structure. 
+
+- People don’t learn how to play this game or insert the 
+expletive in school.
+

@@ -1,0 +1,142 @@
+---
+title: "Las onstruyentes sonoras"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview 
+
+- This lesson focuses on the nasal and lateral consonants
+- The exercises have been moved to "index_ex.Rmd" and can be used in 
+class
+
+## Reading
+
+- NA
+
+## Videos
+
+- For asynchronous teaching there are videos available here: 
+- The lecture is divided into 1 video using the following outline: 
+
+1. Las nasales y laterales
+
+    > En este módulo vamos a hablar de las nasales y las laterales. 
+    >
+    > Específicamente vamos a ver más procesos de asimilación. 
+    >
+    > Empezamos entonces con las nasales. 
+    >
+    > En español hay 3 fonemas nasales que podemos diferenciar según su punto 
+    de articulación, el cual puede ser bilabial, alveolar o palatal.
+    >
+    > Sabemos que son fonemas porque podemos establecer pares mínimos, tanto 
+    al principio de palabra como en el interior, como vemos aquí. 
+    >
+    > Lo que es interesante de las nasales es que hay 7 u 8 alófonos, según 
+    la variedad. 
+    > Como podemos ver, hay uno para cada punto de articulación. 
+    Al principio esto puede resultar un poco extraño, pero como veremos en 
+    breve, se puede explicar fácilmente. 
+    >
+    > Como he sugerido al princpio de este vídeo, las nasales se someten a 
+    un proceso de asimilación. 
+    Es otro tipo de asimilación regresiva, como la que vimos con la fricativa 
+    alveolar sorda, [s]. 
+    En este caso, lo que se asimila es el punto de articulación. 
+    En pocas palabras, una nasal en posición de coda, asimila el punto de 
+    articulación de la consonante siguiente. 
+    Considera, por ejemplo, el enunciado "Un barco"
+    >
+    > En este ejemplo, la nasal del artículo indefinido asimila el punto de 
+    articulación del segmento oclusivo bilabial viene después. 
+    Entonces, esta nasal se realiza con un punto de articulación bilabial y 
+    damos cuenta de este hecho en la transcripción fonética. 
+    > 
+    > En esta tabla, contamos con ejemplos de todos los alófonos posibles para 
+    una nasal en posición de coda. 
+    Como os podéis imaginar, el reto principal aquí es memorizar los distintos 
+    símbolos que necesitamos para diferenciar entre las distintas realizaciones. 
+    Recomiendo que estudiéis esta tabla con detenimiento. 
+    >
+    > También vale la pena recordaros que suele haber resilabificación si 
+    tenemos una nasal que va seguida de una vocal
+    Asimismo, como hemos visto con otros segmentos, si tenemos una secuencia 
+    de dos nasales, suele haber algún tipo de reducción, por lo que una palabra 
+    como gimnasio, puede realizarse como "ginasio"
+    >
+    > Si consideramos las posibles dificultades que la asimilación de nasales 
+    puede presentar para los angloparlantes, veremos que en general, no son 
+    para tanto. 
+    Pues, el inglés también tiene un proceso de asimilación nasal. 
+    La diferencia fundamental es que en inglés este proceso no se aplica entre 
+    palabras, pero en español sí. 
+    Entonces, como hemos visto en módulos anteriores cuando tratamos la 
+    resilabificación (tb conocida como el encadenamiento), que el angloparlante 
+    tiene que trabajar para producir las secuencias de palabras en español 
+    sin pausas
+    >
+    > A modo de resumir, en posición de ataque, tenemos tres fonemas nasales 
+    que se diferencian según su punto de artculación: bilabial, alveolar o 
+    palatal. 
+    Bien. 
+    En posición de coda, se neutraliza este contraste mediante un proceso de 
+    asimilación y tenemos un fonema con 7 u 8 alófonos. 
+    Es imprescindible resaltar que este proceso sólo se aplica en posición 
+    de coda y que tenemos que tener en cuenta siempre la resilabificación. 
+    >
+    > A la hora de hacer una transcripción, las implicaciones son importantes. 
+    A saber: si tenemos una nasal en posición de ataque, sólo hay tres fonemas 
+    nasales y cada uno tiene un alófono. 
+    Si tenemos una nasal en posición de coda, solemos destacar la neutralización 
+    del contraste en una trascripción fonológica usando el ARCHIFONEMA. 
+    El archifonema señala que en este nivel de representación, la forma 
+    subyacente del fonema no tiene un punto de articulación especificado. 
+    Luego, en la transcripción fonética, damos cuenta del proceso de asimilación 
+    empleando el símbolo de AFI que corresponda según el contexto fonético. 
+    >
+    > Ahora vamos a mirar las laterales. 
+    > 
+    > En la gran mayoría de las variedades sólo hay un fonema que se describe 
+    como lateral alveolar sonoro
+    > 
+    > Sabemo que es fonemas porque podemos formar pares mínimos en distintas 
+    posiciones. 
+    >
+    > Cabe agregar que hay variedades que cuentan con una lateral palatal. 
+    > 
+    > En estas variedades es posible establecer pares mínimos como véis 
+    aquí. 
+    Yo no tengo esta distinción pero suena más o menos como lama llama. 
+    > 
+    > Ahora, lo divertido de las nasales en español es que se someten a un 
+    proceso de asimilación muy parecido al que acabamos de ver con las nasales. 
+    Es decir, en posición de coda, la lateral asimila el punto de articulación 
+    de la consonante siguiente en algunos casos. 
+    Al ver esta tabla notaréis que sólo hay 4 o 5 alófonos. ¿Qué pasa? 
+    Dónde están los otros?
+    >
+    > Pues buena pregunta. 
+    Resulta que no hay laterales bilabiales, labiodentales ni velares. 
+    Por qué? 
+    Considera por ejemplo un caso como "el beso" en el que tenemos una lateral 
+    en posición de coda que se realiza con un punto de articulación alveolar. 
+    Por qué? Qué ha pasado? Reflexionad sobre esto y lo comentaremos en clase. 
+    > 
+    > Resumiendo, hemos estudiado tres procesos fonológicos en esta clase. 
+    En los tres casos se trata de algún tipo de asimilación. 
+    Por ejemplo, hemos visto la fricativización de las oclusivas sonoras donde 
+    el modo de articulación cambia de oclusivo a fricativo.
+    En este módulo hemos visto la asimilación de nasales y laterales. 
+    Un proceso por el cual el punto de articulación se ve afectado. 
+    También hemos visto la asimilación de la fricativa aleveolar sorda. 
+    En este caso es la sonoridad lo que se ve afectada. 
+    Entonces, podemos destacar que en los tres procesos fonológicos uno de los 
+    parámetros que usamos para describir las consonantes, punto modo sonoridad, 
+    se ve afectado.
+    Esta generalización nos ayuda a entender y recordar los procesos fonológicos 
+    del español. 
+

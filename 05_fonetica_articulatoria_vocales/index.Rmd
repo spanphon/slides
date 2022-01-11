@@ -1,0 +1,348 @@
+---
+title       : "Fonética y fonología españolas"
+subtitle    : "Fonética articulatoria - las vocales"
+author      : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "webcam", "animate", "tachyons")
+)
+```
+
+exclude: true
+class: title-slide-section-grey, middle
+
+# Precalentamiento
+
+---
+exclude: true
+background-image: url(./assets/img/fonema.png)
+background-size: 400px
+background-position: 90% 50%
+
+# Recordad...
+
+### **Grafema**/**dígrafo** (letras): Entre comillas
+
+- "a" 
+- "ch"
+- "ll"
+
+### .blue[Fonema] (sonidos): Entre barras
+
+- /a/
+- /ʧ/
+- /ʝ/
+
+---
+class: title-slide-section-grey, middle
+
+# El aparato fonador
+
+---
+layout: true
+
+# El aparato fonador
+
+---
+background-image: url(./assets/img/aparatofonador.png)
+background-size: 800px
+background-position: 50% 50%
+
+--
+
+.footnote[**Aparato fonador**: las partes del cuerpo humano donde producimos los sonidos]
+
+---
+
+### Articulamos los sonidos con *los articuladores pasivos* y *los articuladores activos*
+
+<ru-blockquote>
+**los articuladores pasivos**: los articuladores que *reciben* el contacto  
+.lightgrey[h]  
+**los articuladores activos**: los articuladores que *producen* el contacto
+</ru-blockquote>
+
+---
+
+</br></br></br>
+
+| Articuladores pasivos |            Articuladores activos             |
+| :-------------------- | :------------------------------------------- |
+| **Dientes**           | **Labios**: se abren/cierran/redondean       |
+| **Zona alveolar**     | **Lengua**: se retrae/adelanta/baja/sube     |
+| **Zona palatal**      | **Mandíbula inferior**: se abre              |
+|                       | **Úvula**: se extiende hacia atrás o se baja |
+
+---
+background-image: url(./assets/img/dientes.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores pasivos
+
+---
+background-image: url(./assets/img/zonaalveolar.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores pasivos
+
+---
+background-image: url(./assets/img/zonapalatal.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores pasivos
+
+---
+background-image: url(./assets/img/labios.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+background-image: url(./assets/img/lengua.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+background-image: url(./assets/img/mandibula.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+background-image: url(./assets/img/uvula.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+exclude: true
+
+### Los articuladores en acción
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZquuC1Nju3w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+### ¿En qué se diferencian?
+
+<ru-blockquote>
+**Las vocales**: ningún obstáculo a la salida del aire  
+.lightgrey[h]  
+**Las consonantes**: algún tipo de obstáculo a la salida del aire
+</ru-blockquote>
+
+---
+layout: false
+class: title-slide-section-grey, middle
+
+# Los fonemas vocálicos
+
+---
+layout: true
+
+# Las vocales
+
+---
+
+### Las vocales monoptongales /a, e, i, o, u/:
+
+### Clasificación:
+
+- Posición de la lengua en dos ejes
+    - horizontal
+    - vertical
+
+### .RUred[¿Podemos decir que las vocales tienen un punto de articulación?]
+
+---
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bOni5SLHmsI" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Las vocales monoptongales /a, e, i, o, u/:
+  
+### Clasificación:
+
+- Posición de la lengua en dos ejes 
+  - horizontal 
+  - vertical
+- El redondeamiento de los labios
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  |                 |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** |                 |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |                |                  |
+]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** |                 |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |                |                  |
+]
+
+.footnote[\*.blue[estirada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |                |                  |
+]
+
+.footnote[\* .blue[estirada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |      /a/       |                  |
+]
+
+.footnote[\* .blue[estirada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                | /o/<sup>º</sup>  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |      /a/       |                  |
+]
+
+.footnote[\* .blue[estirada]  
+º .blue[redondeada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                | /u/<sup>º</sup>  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                | /o/<sup>º</sup>  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |      /a/       |                  |
+]
+
+.footnote[\* .blue[estirada]  
+º .blue[redondeada]]
+
+---
+
+### Diferencias con respecto a las vocales del inglés (otra vez)
+
+- Son cortas y tensas
+
+- Nunca llegan a ser diptongos *por accidente*
+
+- No se reducen
+
+---
+layout: false
+exclude: true
+
+# Actividad
+
+### Con un compañero, describid articulatoriamente las 5 vocales del español
+
+- /i/
+
+- /e/
+
+- /a/
+
+- /o/
+
+- /u/
+
+---
+exclude: true
+
+# Actividad
+
+### Con un compañero, describid articulatoriamente las 5 vocales del español
+
+- /i/: alta, anterior, estirada
+
+- /e/: media, anterior, estirada
+
+- /a/: baja, central
+
+- /o/: media, posterior, redondeada
+
+- /u/: alta, posterior, redondeada
+
+
+---
+layout: false
+class: title-slide-final, left
+
+# References
+
+- Barrutia, Richard & Armin Schwegler (eds.) 1994. Fonética y fonología españolas: teoría y práctica.  New York: Wiley. [2nd edition] 
+
+- Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
+
+- Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+

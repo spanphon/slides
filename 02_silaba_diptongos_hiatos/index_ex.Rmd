@@ -1,0 +1,664 @@
+---
+title       : "Fonética y fonología españolas"
+subtitle    : "La sílaba, los diptongos y los hiatos - Ejercicios"
+author      : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "animate", "tachyons")
+)
+```
+
+class: title-slide-section-grey, middle
+
+# .white[Introducción]
+
+---
+background-image: url(../assets/img/pensar.png)
+background-size: 300px
+background-position: 90% 50%
+
+# La lingüística
+
+### Pensad...
+
+.pull-left[
+
+- ¿Qué es la lingüística? ¿Puedes dar una definición?
+
+- ¿Cuáles son las ramas de la lingüística?
+
+- ¿Cuál es la diferencia entre un análisis descriptivo y un análisis prescriptivo? 
+
+- ¿De qué tipo de análisis se ocupa la lingüística?
+
+- ¿Qué es más importante para los lingüistas: la escritura o el habla? ¿Por qué?
+
+]
+
+---
+background-image: url(./assets/img/ling.png)
+background-position: 50% 50%
+background-size: 800px
+
+# Las ramas de la lingüística
+
+---
+class: middle
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fSut6LvwrnU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+.footnote[[https://youtu.be/fSut6LvwrnU](https://youtu.be/fSut6LvwrnU) ]
+
+---
+layout: true
+
+# Los grafemas, los dígrafos y los fonemas
+
+---
+background-image: url(../assets/img/pensar.png)
+background-size: 300px
+background-position: 90% 50%
+
+### Considerad las siguientes preguntas...
+
+.pull-left[
+
+1. ¿Por qué a veces se considera la "y" una vocal? ¿Puedes pensar en otros ejemplos de vocales/consonantes que "cambian"?
+
+2. ¿En inglés hay más o menos vocales de lo que pensabas antes de ver el vídeo?
+
+3. ¿Cuál es la diferencia entre un sonido del habla y una "letra"?
+
+4. ¿Cuáles son más interesantes para la lingüística: las letras o los sonidos? ¿Por qué?
+
+]
+
+
+
+
+
+
+
+
+
+
+---
+layout: false
+class: title-slide-section-grey, middle
+
+# .white[La sílaba y el silabeo]
+
+---
+layout: true
+
+# El silabeo
+
+---
+
+### Lo básico...
+
+<ru-blockquote>
+El silabeo es cómo separamos las palabras por sílabas (silabificación)
+</ru-blockquote>
+
+</br>
+
+- Cada sílaba debe tener un **núcleo**
+
+- El núcleo puede ser o bien una **vocal** o bien un **diptongo**
+
+- Agrupamos las consonantes alrededor del núcleo
+
+---
+layout: false
+background-image: url(./assets/img/gc.png)
+background-position: 100% 10%
+background-size: 300px
+
+# A practicar...
+
+.pull-left[
+
+- buscar
+
+- trabajado
+
+- arreglado
+
+- ministro
+
+- potaje
+
+- manchar
+
+- adquirir
+
+- influyente
+
+]
+
+--
+
+.pull-right[
+
+- bus.car
+
+- tra.ba.ja.do
+
+- a.rre.gla.do
+
+- mi.nis.tro
+
+- po.ta.je
+
+- man.char
+
+- ad.qui.rir
+
+- in.flu.yen.te
+
+]
+
+---
+
+
+
+
+
+
+
+
+
+
+class: title-slide-section-grey, middle
+
+# .white[Los monoptongos y los diptongos]
+
+---
+background-image: url(./assets/img/fuertes.png)
+background-position: 50% 80%
+background-size: 700px
+
+---
+background-image: url(./assets/img/apertura.png)
+background-position: 50% 70%
+background-size: 700px
+
+---
+background-image: url(./assets/img/cerrada-abierta.png)
+background-position: 50% 60%
+background-size: 700px
+
+.footnote[**Cuanto más abierta, más energía**]
+
+---
+layout: false
+
+# ¿Monoptongo o diptongo?
+
+### Silabificad las siguientes palabras y determinad si contienen un diptongo:
+
+.pull-left[
+
+1. aprueba
+1. belleza
+1. cubierto
+1. gobernante
+1. devuelto
+1. volver
+1. averiguar
+1. cueva
+1. soberbio
+1. cual
+
+]
+
+--
+
+.pull-right[
+
+1. a.prue.ba
+1. be.lle.za
+1. cu.bier.to
+1. go.ber.nan.te
+1. de.vuel.to
+1. vol.ver
+1. a.ve.ri.guar
+1. cue.va
+1. so.ber.bio
+1. cual
+
+]
+
+---
+
+# ¿Monoptongo o diptongo?
+
+### Transcribid los  diptongos:
+
+.pull-left[
+
+1. a.prue.ba
+1. be.lle.za
+1. cu.bier.to
+1. go.ber.nan.te
+1. de.vuel.to
+1. vol.ver
+1. a.ve.ri.guar
+1. cue.va
+1. so.ber.bio
+1. cual
+
+]
+
+--
+
+.pull-right[
+
+1. a.pr\[**u̯e**\].ba
+1. be.lle.sa
+1. cu.b\[**i̯e**\]ɾ.to
+1. go.ber.nan.te
+1. de.b\[**u̯e**\]l.to
+1. vol.ver
+1. a.ve.ri.g\[**u̯a**\]ɾ
+1. c\[**u̯e**\].va
+1. so.ber.b\[**i̯o**\]
+1. c\[**u̯a**\]l
+
+]
+
+---
+
+# Vocal vs. deslizada
+
+<ru-blockquote>
+**Las vocales**: /i/ /e/ /a/ /o/ /u/  
+.lightgrey[h]  
+**Las deslizadas**: \[i̯\] \[u̯\] 
+</ru-blockquote>
+
+</br>
+
+- Las deslizadas cuentan con una duración más corta. 
+
+---
+class: title-slide-section-grey, middle
+
+# .white[Los hiatos]
+
+---
+background-image: url(./assets/img/fuertes.png)
+background-position: 90% 70%
+background-size: 350px
+
+# Los hiatos
+
+<ru-blockquote>
+**Hiato**: La secuencia de dos vocales seguidas que se separan en dos sílabas
+</ru-blockquote>
+
+### Ejemplos 
+
+- área → á.re.a
+
+- héroe → hé.ro.e
+
+---
+
+
+
+
+
+
+
+
+
+class: title-slide-section-grey, middle
+
+# .white[Inglés vs. español]
+
+---
+background-image: url(./assets/img/vocales_ing1.gif)
+background-position: 90% 50%
+background-size: 350px
+
+# Las vocales del inglés
+
+- Hay más vocales en inglés que en español
+
+- Suele haber diptongación hacia el final
+
+- Con frecuencia se reducen a [ə] en posición átona
+
+---
+background-image: url(./assets/img/tension2.png), url(./assets/img/tension3.png)
+background-position: 20% 50%, 80% 50%
+background-size: 400px, 300px
+
+# ¿Tensión?
+
+---
+background-image: url(./assets/img/vocales_esp.png)
+background-position: 50% 70%
+background-size: 700px
+
+# Las vocales del español
+
+---
+background-image: url(./assets/img/vocal_i.png)
+background-position: 50% 75%
+background-size: 450px
+
+# Las vocales del español - /i/
+
+---
+background-image: url(./assets/img/vocal_e.png)
+background-position: 50% 75%
+background-size: 450px
+
+# Las vocales del español - /e/
+
+---
+background-image: url(./assets/img/vocal_a.png)
+background-position: 50% 75%
+background-size: 450px
+
+# Las vocales del español - /a/
+
+---
+background-image: url(./assets/img/vocal_o.png)
+background-position: 50% 75%
+background-size: 450px
+
+# Las vocales del español - /o/
+
+---
+background-image: url(./assets/img/vocal_u.png)
+background-position: 50% 75%
+background-size: 450px
+
+# Las vocales del español - /u/
+
+---
+class: title-slide-section-grey, middle
+
+# .white[Repaso]
+
+---
+
+# Lo que hemos visto...
+
+### Conceptos:
+
+- la lingüística y las distintas ramas
+- grafema/dígrafo vs. fonema
+- la sílaba
+	- composición (ataque, núcleo, coda)
+	- grupos consonánticos
+- monoptongos
+- diptongos (3 tipos)
+- hiatos 
+- diferencias entre el inglés y el español (vocales)
+
+---
+
+# Para la semana que viene...
+
+### Estudiad...
+
+- los resúmenes de esta semana
+
+---
+layout: true
+
+# Extra
+
+---
+
+### La silabificación desde una perspectiva generativista
+
+- La teoría generativa tradicional propone una serie de reglas ordenadas para 
+dar cuenta de fenómenos fonológicos...  
+
+--
+
+- Desde esta perspectiva, podemos considerar que la división silábica es el 
+resultado de la aplicación de una serie de reglas ordenadas
+
+
+---
+
+### Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+
+---
+
+### Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+| R2: | (e)nt(rá)(da)s |
+
+---
+
+### Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+| R2: | (e)nt(rá)(da)s |
+| R3: | (e)n(trá)(da)s |
+
+---
+
+### Reglas de silabificación 
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda).
+
+|     |  /entrádas/    |
+| :-- | :------------- |
+| R1: | (e)ntr(á)d(a)s |
+| R2: | (e)nt(rá)(da)s |
+| R3: | (e)n(trá)(da)s |
+| R4: | (en)(trá)(das) |
+
+---
+layout: false
+class: middle, center
+
+# Problema... 
+
+### las secuencias VV
+
+---
+class: middle
+
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+
+---
+layout: true
+
+# Extras
+
+### Reglas de silabificación 
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+| R2: | (mié)nt(ra)s   | k(láu)st(ro)   |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+| R2: | (mié)nt(ra)s   | k(láu)st(ro)   |
+| R3: | (mié)n(tra)s   | (kláu)s(tro)   |
+
+---
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda).
+
+|     | /miéntras/     | /kláustro/     |
+| :-- | :------------- | :------------- |
+| R1: | m(i)(é)ntr(a)s | kl(á)(u)str(o) |
+| R1’:| m(ié)ntr(a)s   | kl(áu)str(o)   |
+| R2: | (mié)nt(ra)s   | k(láu)st(ro)   |
+| R3: | (mié)n(tra)s   | (kláu)s(tro)   |
+| R4: | (mién)(tras)   | (kláus)(tro)   |
+
+---
+layout: false
+
+# Práctica. 
+
+### Indica cómo se silabificarían las siguientes palabras en el modelo de reglas que acabamos de ver.  
+
+1. loco
+2. cuaderno 
+3. atrapado
+4. aplastar
+
+--
+
+.footnote[
+
+- R1: Márquese toda vocal como núcleo silábico.
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal 
+distinta se produce como deslizante y se incorpora a la misma sílaba que la 
+otra vocal formando un núcleo complejo (Regla de diptongación).
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV).
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles (Maximización 
+de ataque).
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda).
+]
+
+---
+
+# Excepciones
+
+### Hiatos excepcionales
+
+| Diptongo    | Hiato     |
+| :---------- | :-------- |
+| dien.te     | cli.en.te |
+| a.siá.ti.co | pi.a.no   |
+| miel        | ri.el     |
+| pre.cio.so  | bi.om.bo  |
+| due.lo      | du.e.to   |
+| San.tia.go  | di.a.blo  |
+
+### Prefijos
+
+| Separados      |                        |   Juntos    |                 |
+| :------------- | :--------------------- | :---------- | :-------------- |
+| su**bl**ingual | /su**b**.**l**in.gual/ | su**bl**ime | /su.**bl**i.me/ |
+| su**br**egión  | /su**b**.**r**e.gion/  | so**br**ino | /so.**br**i.no/ |
+
+---
+class: title-slide-final, left
+
+# References
+
+- Barrutia, Richard & Armin Schwegler (eds.) 1994. Fonética y fonología españolas: teoría y práctica.  New York: Wiley. [2nd edition] 
+
+- Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
+
+- Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+
+

@@ -1,0 +1,405 @@
+---
+title: "La sílaba"
+output: pdf_document
+fontsize: 10pt
+bibliography   : ../../site_libs/assets/refs/bib/span585.bib
+csl            : ../../site_libs/assets/refs/bib/apa.csl
+header-includes:
+   - \usepackage{tipa}
+   - \usepackage{graphicx}
+   - \usepackage[utf8]{inputenc}
+---
+
+# Definición
+
+Un grupo de segmentos agrupados en torno a una cumbre de sonoridad 
+y cuya sonoridad aumenta hacia el núcleo y disminuye a partir del mismo.
+
+
+# Escala de sonoridad:
+
+vocales, deslizadas, líquidas, nasales, obstruyentes
+
+Es un concepto fonológico y no necesariamente fonético (no se han 
+encontrado correlatos fonéticos de la división silábica).
+
+
+Los hablantes de una lengua suelen estar de acuerdo en cuanto al 
+número de sílabas que tiene una palabra y, en español, también lo 
+están en relación a dónde se dividen las sílabas.
+
+
+# Constituyentes 
+
+## Arranque:
+
+- oclusiva o /f/ + /l/ o /r/: blanco, broma, principio, plataforma
+- /tl/ en algunos dialectos no es aceptable y /dl/ no es aceptable en ninguno.  
+razón: son muy similares, los dos miembros del grupo son coronales, sonoros (dl) y [–continuantes].
+
+## Coda:
+
+- Final de palabra
+	- /l, r, n, s, d/: hotel, amar, camión, virtud  
+	raras /x/ y /t/: reloj, cénit
+- Interior de palabra:
+	- /l, r, n, s/: campo, palco, parco, pasta
+	- obstruyentes neutralizadas: obsesión, digno, étnico
+
+
+### Codas de dos segmentos:
+
+- deslizada + cons: auxilio [awk.si.lio], veinte 
+- consonante + s: abstracto, biceps, vals
+
+### Deslizadas en posición prevocálica: ¿parte del arranque o del núcleo? 
+
+- Núcleo. Evidencia:
+	- en español tres segmentos como máximo en la rima, si las deslizadas fuesen parte del arranque formas como muenstra serían aceptables (\*muenstra)
+	- armonía vocálica: las deslizadas prevocálicas causan armonía vocálica igual que las vocales nucleares:  
+	me lu djó, pero me lo compró
+	- hipocorísticos: Daniel, Dani; Petronio, *Petr
+	- juego de niños: proclama -> pro-ko-cla-ka-ma-ka; puente -> pu-ku-e-ken-te-ke
+
+## Diptongos e hiatos
+
+Dos vocoides pueden ser parte de la misma sílaba (diptongo) o de sílabas diferentes (hiato).
+
+- A nivel de palabra, la presencia de una vocal alta normalmente indica la existencia de un diptongo:
+
+
+\begin{tabular}{lll}
+& ia & Santiago \\
+& ie & pierna   \\
+& io & idioma   \\
+& iu & viuda    \\
+& ua & cuando   \\
+& ue & puedo    \\
+& uo & monstruo \\
+& ui & cuida    \\
+\end{tabular}
+
+\begin{tabular}{lll}
+& ai   & aire \\
+& ei   & peine \\
+& oi   & boina\\
+& ui* &  \\
+& au   & jaula \\
+& eu   & deuda \\
+& ou   & Sousa\\
+& iu*  & \\
+\end{tabular}
+
+- Si la vocal alta lleva acento, tenemos un hiato: Ma.rí.a, pú.a, rí.e, na.ví.o
+- Cuando ninguna de las dos vocales es alta, a nivel léxico y en pronunciación 
+cuidada hay hiato, pero entre palabras y con pronunciación no cuidada suele 
+haber diptongo.
+
+\begin{center}
+\begin{tabular}{lll}
+& ma.es.tro   & maes.tro  \\
+& la.es.pe.ra & laes.pe.ra \\
+\end{tabular}
+\end{center}
+
+- Existen hiatos a veces en situaciones donde normalmente se esperaría un diptongo. 
+En muchos casos la explicación es morfológica, dado que la palabra está relacionada 
+morfológicamente con una que tiene hiato.
+
+\begin{center}
+\begin{tabular}{lll}
+& ri.a.da  & rí.o \\
+& vi.a.ble & ví.a \\
+\end{tabular}
+\end{center}
+
+- Sin embargo, hay algunas palabras a las que no se les puede dar esta explicación
+
+\begin{center}
+\begin{tabular}{lll}
+& dien.te     & cli.en.te  \\
+& a.siá.ti.co & pi.a.no \\
+& miel        & ri.el  \\
+& pre.cio.so  & bi.om.bo  \\
+& due.lo      & du.e.to  \\
+& San.tia.go  & di.a.blo \\
+\end{tabular}
+\end{center}
+
+- Esto ha llevado a algunos autores a decir que hay un contraste subyacente entre 
+deslizadas y vocales en español.
+
+¿Cuál es la argumentación a favor de esta postura?
+
+
+
+
+Sin embargo, estos casos son excepcionales, lo normal es un diptongo y muchos dicen 
+simplemente que son excepciones. Hay también mucha variación dialectal.
+
+### Resilabificación de grupos vocálicos
+
+\begin{center}
+\begin{tabular}{lll}
+(a) & mia.mi.go           & tua.mi.go \\
+(b) & bi.ciu.sa.da        & es.pi.ri.tuin.sa.cia.ble \\
+(c) & es.ta.baha.blan.do  & o.tro o.si.to\\
+\end{tabular}
+\end{center}
+
+Entre palabras y en habla no enfática tenemos deslizadas altas y medias (a). 
+Si las dos vocales tienen la misma altura, se desliza la primera (b). 
+Si son idénticas se reducen a una vocal (c).
+
+### Triptongos
+
+Cuando hay tres vocales, se pronuncian en una sóla sílaba, si 
+hay una única cima de sonoridad; se dividen en dos sílabas las secuencias 
+con más de una cima
+
+Una sílaba (triptongo)  
+
+\begin{center}
+\begin{tabular}{lll}
+& cul.ta eu.ropa   & au.rea es.pada  \\
+& muer.te ai.rada  & fren.te au.gusta \\
+\end{tabular}
+\end{center}
+
+Dos sílabas (sin triptongo)
+
+\begin{center}
+\begin{tabular}{lll}
+& esta o aquella    & ya he hablado \\
+& apaga y enciende  & siete u ocho \\
+\end{tabular}
+\end{center}
+
+En español no hay consonantes idénticas (geminadas) dentro del dominio de 
+silabificación.
+
+
+
+### Procesos de silabificación. Generalizaciones.
+
+Una generalización importante es la siguiente:  
+Una consonante intervocálica se silabifica con la segunda vocal tanto en el 
+interior de una palabra como entre palabras (postléxicamente); si hay dos 
+consonantes, lo preferible es silabificarlas juntas como arranque complejo 
+de la segunda sílaba (maximización del arranque). Esto sin embargo sólo 
+ocurre en el interior de palabra, no entre palabras.  
+Todo modelo de silabificación debe ser capaz de explicar esta generalización
+
+\vspace{.2in}
+Reglas de silabificación  
+Identificación de núcleos  
+Regla de CV  
+Formación de ataques complejos  
+Regla de adjunción de codas  
+Nivel postléxico:  
+Regla de CV  
+
+
+### Hualde (1991):
+
+\underline{Regla de diptongación}
+
+/i/, /u/ → [\textsubarch{i}], [\textsubarch{u}] si no recibe el acento y es adyacente a otra V  
+Ejemplos: \textipa{/péine/ [pé\textsubarch{i}ne]} (diptongo decreciente), \textipa{/piénsa/ [p\textsubarch{i}énsa]} (diptongo creciente)
+
+La sílaba se considera una proyección máxima (N”) del núcleo (N), con los segmentos de la coda bajo un nodo intermedio (N’) y los del arranque directamente bajo N” (Hualde 1991)
+
+- R1: Márquese toda vocal como núcleo silábico. 
+- R2: Adjúntese una consonante que precede al núcleo como ataque (Regla CV). 
+- R3: Adjúntese al ataque una segunda consonante a la izquierda solo si el 
+resultado es uno de los grupos consonánticos de ataque permisibles 
+(Maximización de ataque). 
+- R4: Adjúntense las consonantes sin silabificar como coda (Regla de coda). 
+
+\begin{center}
+\begin{tabular}{lll}
+&     & /entrádas/  \\
+& R1: & (e)ntr(á)d(a)s  \\
+& R2: & (e)nt(rá)(da)s  \\
+& R3: & (e)n(trá)(da)s  \\
+& R4: & (en)(trá)(das)  \\
+\end{tabular}
+\end{center}
+
+- R1’: En una secuencia VV, una vocal alta no acentuada adyacente a otra vocal distinta se produce como deslizante y se incorpora a la misma sílaba que la otra vocal formando un núcleo complejo (Regla de diptongación).  
+(Es necesario estipular que para que se aplique la regla del núcleo complejo debe haber una consonante a la izquierda de la deslizada; si no hay una C las deslizadas se consonantizan y se convierten en el arranque: hielo [\textsubarch{i}elo] -> [\textipa{\textctj}elo])
+
+\begin{center}
+\begin{tabular}{llll}
+&      & /miéntras/                 & /kláustro/  \\
+& R1:  & m(i)(é)ntr(a)s             & kl(á)(u)str(o)  \\
+& R1’: & m(\textsubarch{i}é)ntr(a)s & kl(á\textsubarch{u})str(o)  \\
+& R2:  & (m\textsubarch{i}é)nt(ra)s & k(lá\textsubarch{u})st(ro)  \\
+& R3:  & (m\textsubarch{i}é)n(tra)s & (klá\textsubarch{u})s(tro)  \\
+& R4:  & (m\textsubarch{i}én)(tras) & (klá\textsubarch{u}s)(tro) \\
+\end{tabular}
+\end{center}
+
+Para dar cuenta de la resilabificación (a través de frontera de palabra y de prefijo) es necesario reaplicar en el nivel de la frase la regla R2, pero no la regla R3.
+
+<!-- \underline{Node projection}: Mark vowels as syllable-heads, i.e., create N nodes and project N’ y N” nodes -->
+<!-- \includegraphics[width=0.75\textwidth]{./img/silaba1.png} -->
+
+<!-- \underline{Complex nucleus}: Adjoin a prevocalic glide under the N node -->
+<!-- \includegraphics[width=0.5\textwidth]{img/silaba2.png} -->
+
+
+<!-- \underline{CV rule}: Adjoin a consonant to the left of the nucleus under the N” node -->
+<!-- \includegraphics[width=0.65\textwidth]{img/silaba3.png} -->
+
+
+<!-- \underline{Complex Onset}: Adjoin a second consonant under the N” node if the result would be a permissible onset cluster (stop or /f/, except dl and tl) -->
+<!-- \includegraphics[width=0.4\textwidth]{img/silaba4.png} -->
+
+<!-- \underline{Coda rule}: Adjoin a segment to the right of the nucleus under N’ -->
+<!-- \includegraphics[width=0.4\textwidth]{img/silaba5.png} -->
+
+<!-- \underline{Complex coda}: Adjoin a consonant to the right of a glide under N’ -->
+<!-- \includegraphics[width=0.4\textwidth]{img/silaba6.png} -->
+
+<!-- \underline{/s/-adjunction}: adjoin /s/ under N’ -->
+<!-- \includegraphics[width=0.5\textwidth]{img/silaba7.png} -->
+
+
+\underline{Ejercicios}
+
+1. Práctica. Indica cómo se silabificarían las siguientes palabras en el modelo de reglas que acabamos de ver.  
+Loco, cuaderno, atrapado, aplastar
+2. ¿Se te ocurren algunos incovenientes de la explicación ofrecida por el modelo 
+de reglas anterior? ¿Algunos aspectos en los que la explicación de cómo se forman 
+las sílabas en español no es completamente satisfactoria?
+
+
+\clearpage
+
+## Estructura moraica
+
+Mora = unidad de peso silábico  
+El modelo anterior se puede traducir a una representación moraica. El núcleo es el primer o único elemento moraico de la sílaba. La coda son los elementos que comparte la mora del núcleo o que tienen su propia mora. El arranque son los elementos que se asocian directamente al nodo silábico a la izquierda del núcleo; no van asociados a una mora.
+
+Ejemplo  
+
+\includegraphics[width=0.2\textwidth]{img/mora1.png}
+
+
+\underline{Dominio de silabificación}
+
+- ¿A qué nivel morfológico se aplican las reglas de silabificación?
+Hualde propone que es un dominio más pequeño que la palabra (antes de la adjunción 
+de prefijos)
+
+
+Demostración
+
+|                |       [sublime]       |     [[sub] [alterno]]     |     [[sub][lunar]]     |
+| :------------- | :-------------------- | :------------------------ | :--------------------- |
+| silabificación | [su.bli.me]           | [[sub] [al.ter.no]]       | [[sub][lu.nar]]        |
+| prefijos       | ------------          | [sub.al.ter.no]           | [sub.lu.nar]           |
+| regla CV       | ------------          | [su.bal.ter.no]           | ------------           |
+| otras reglas   | [su.\textipa{B}li.me] | [su.\textipa{B}al.ter.no] | [su\textipa{B}.lu.nar] |
+
+\clearpage
+
+Más evidencia: 
+Hay procesos que hacen referencia a la estructura silábica y que corroboran los 
+dominios propuestos.
+
+- La regla que selecciona una /r/ múltiple en posición incial de palabra 
+debe aplicarse antes de la adjunción de prefijos, ya que si no, tendríamos  
+
+\begin{center}
+*pre \textipa{[\textfishhookr]}ománico, *sub\textipa{[\textfishhookr]}egión, *mata\textipa{[\textfishhookr]}atas  
+\end{center}
+
+
+En la descripción/requisitos de aplicación de esta regla hay información de 
+silabificación (posición de arranque, inicial de palabra), lo que indica que 
+la silabificación ha debido de aplicarse antes de la adjunción de prefijos, 
+por lo tanto en un dominio más pequeño que la palabra (palabra menos prefijos).
+
+
+
+- Consonantización de deslizadas
+
+La regla que convierte una deslizada en una consonante fricativa en posición 
+de arranque también debe aplicarse antes de la adjunción de prefijos y por lo 
+tanto sabemos que la silabificación se aplica antes de la prefijación 
+(unidad menor que la palabra)
+
+\begin{center}
+\begin{tabular}{lll}
+& desierto & [de.s\textsubarch{i}er.to] \\
+& deshielo & [des.\textctj elo] *[de.s\textsubarch{i}elo] \\
+\end{tabular}
+\end{center}
+
+Por lo tanto, La morfofonología del español tiene la estructura siguiente:
+
+|                  |       Morfosintaxis       |             Fonología             |
+| :--------------- | :------------------------ | :-------------------------------- |
+| Nivel 1          | Sufijación                | 1. Silabeo                        |
+|                  |                           |                                   |
+|                  |                           | 2. Reforzamiento de /r/           |
+|                  |                           | Fricativización de semiconsonates |
+|                  |                           | Velarización de nasales           |
+|                  |                           | Aspiración                        |
+|                  |                           |                                   |
+| Nivel 2          | Prefijación y composición | Resilabeo de C-final              |
+|                  |                           |                                   |
+| Nivel Postléxico | Concatenación sintáctica  | Resilabeo de C-final              |
+|                  |                           | Resilabeo de grupos vocálicos     |
+
+
+\underline{Ejercicio}:
+
+1. Sirviéndote de Hualde (1989), indica cómo se aplican las reglas de silabificación y 
+consonantización de fricativas a las formas subyacentes para obtener las formas 
+superficiales correctas:
+2. Sirviéndote de Hualde (1989), indica cómo se aplican las reglas de silabificación y 
+reforzamiento de /r/ a las formas subyacentes para obtener las formas superficiales 
+correctas:
+3. Sirviéndote de Hualde (1989), indica cómo se aplican las reglas de silabificación y 
+aspiración a las formas subyacentes para obtener las formas superficiales correctas:
+4. Sirviéndote de Hualde (1989), indica cómo se aplican las reglas de silabificación y 
+velarización a las formas subyacentes para obtener las formas superficiales correctas:
+
+
+\clearpage
+
+# Referencias
+
+```{r, eval=TRUE, echo=FALSE, cache=FALSE}
+library(RefManageR)
+bib <- ReadBib("../../site_libs/assets/refs/bib/span585.bib", check = FALSE)
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+ui <- "-"
+writeLines(ui); print(bib[key = "hualde2014silaba"], .opts = list(check.entries = FALSE, 
+                      style = "latex", bib.style = "authoryear"))
+writeLines(ui); print(bib[key = "colinaHB2012"], .opts = list(check.entries = FALSE, 
+                      style = "latex", bib.style = "authoryear"))
+writeLines(ui); print(bib[key = "Hualde:1989ve"], .opts = list(check.entries = FALSE, 
+                      style = "latex", bib.style = "authoryear"))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,710 @@
+---
+title       : "Fonética y fonología españolas"
+subtitle    : "Consonantes [ʝ] y [w]. Diptongos, semivocales y acento."
+author      : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "animate", "tachyons")
+)
+```
+
+
+```{r, 'helpers', echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+```
+
+# Contesta las siguientes preguntas...
+
+1. En tus propias palabras, ¿qué es la lingüística? ¿Y la fonética?
+
+2. ¿Qué es un grafema? Da un ejemplo. ¿Cómo es diferente de un fonema?
+
+3. ¿Cuántos *dígrafos* hay en el español?
+
+4. ¿Qué le recomendarías a un amigo para que mejorase su pronunciación de las 
+vocales en español?
+
+5. ¿Cuál es la parte obligatoria de una sílaba?
+
+<!--
+Questions added to canvas... remove from slides for next iteration of course
+5. La palabra "estado" se silabifica **es**.**ta**.**do** y no 
+**e**.**sta**.**do**. Explica por qué.
+-->
+
+---
+class: title-slide-section-grey, middle
+
+# Repaso
+
+---
+layout: true
+
+# Repaso
+
+---
+
+### Las sílabas
+
+- ¿Qué es una sílaba? ¿De qué está compuesta?
+
+- ¿Qué es un diptongo? ¿De qué está compuesto?
+
+- ¿Qué es un hiato? ¿De qué está compuesto?
+
+--
+
+### Las vocales
+
+- ¿Cuáles son algunas de las características de las vocales del inglés? ¿Del 
+español?
+
+- ¿Qué le recomendarías a un amigo para que mejorase su pronunciación?
+
+---
+
+### Dividir por sílabas las siguientes palabras...
+
+.pull-left[
+
+- casa     
+
+- calle    
+
+- hacha    
+
+- alto     
+
+- limpio   
+
+- anécdota 
+
+- España   
+
+- aplauso  
+
+]
+
+--
+
+.pull-right[
+
+- ca.sa
+
+- ca.lle
+
+- ha.cha
+
+- al.to 
+
+- lim.pio
+
+- a.néc.do.ta
+
+- Es.pa.ña
+
+- a.plau.so
+
+]
+
+--
+
+### Ahora **transcribidlas**. 
+
+---
+
+### Dividir por sílabas las siguientes palabras...
+
+| Palabra  | Silabificación | Transcripción  |
+| :------- | :------------- | :--------------------- |
+| casa     | ca.sa          | /ˈka.sa/               |
+| calle    | ca.lle         | /ˈka.ʝe/               |
+| hacha    | ha.cha         | /ˈa.ʧa/                |
+| alto     | al.to          | /ˈal.to/               |
+| limpio   | lim.pio        | /ˈlim.pio/             |
+| anécdota | a.néc.do.ta    | /a.ˈnek.do.ta/         |
+| España   | Es.pa.ña       | /es.ˈpa.ɲa/            |
+| aplauso  | a.plau.so      | /a.ˈplau.so/           |
+
+---
+
+
+
+
+
+
+
+
+
+layout:false
+class: title-slide-section-grey, middle
+
+# Correspondencia exclusiva
+
+---
+
+class: title-slide-section-grey, middle
+
+# Correspondencia NO exclusiva
+
+---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/memes/phonetics_grapheme_phoneme_correspondence.png)
+background-size: 400px
+class: inverse, center, middle
+layout: false
+
+---
+layout: false
+background-image: url(./assets/img/resumen.png)
+background-size: 600px
+background-position: 50% 65%
+
+# Resumen - Tipos de correspondencia
+
+---
+
+# Tipos de correspondencia
+
+- En grupos de dos o tres pensad en otros ejemplos de correspondencia NO exclusiva. 
+
+- Puede ser de un grafema/dígrafo a varios fonemas o de varios grafemas a un fonema.
+
+--
+
+### Ej. 
+
+- /k/ ⟶ "c", "k", "qu"
+
+- "**c**asa", "**k**ilo", "**qu**e"
+
+---
+
+
+
+
+
+
+
+
+
+
+
+class: title-slide-section-grey, middle
+
+# El grafema "x"
+
+---
+layout: true
+
+# El grafema "x"
+
+---
+
+### Decid las siguientes palabras
+
+.pull-left[
+
+- examen
+
+- éxito
+
+- texto
+
+- extra
+
+]
+
+--
+
+.pull-right[
+
+- ¿Cuántos sonidos escucháis para la letra "x"?
+
+- ¿Cuántos fonemas hay?
+
+]
+
+---
+
+### "x" ⟶ /ks/
+
+- Son dos sonidos distintos
+
+- Según el contexto fónico, hay dos posibilidades:
+
+--
+  1. o bien los dos sonidos pueden formar una coda compleja (/ks/) 
+
+--
+  2. o bien el sonido fricativo (/s/) puede ir en el arranque de la siguiente 
+  sílaba (/k.s/)
+
+--
+
+### Transcribid las siguientes palabras...
+
+| Otrografía | Transcripción |
+| :--------- | :------------ |
+| examen     |               |
+| éxito      |               |
+| texto      |               |
+| extra      |               |
+
+---
+
+### "x" ⟶ /ks/
+
+- Son dos sonidos distintos
+
+- Según el contexto fónico, hay dos posibilidades:
+  1. o bien los dos sonidos pueden formar una coda compleja (/ks/) 
+  2. o bien el sonido fricativo (/s/) puede ir en el arranque de la siguiente 
+  sílaba (/k.s/)
+
+### Transcribid las siguientes palabras...
+
+| Otrografía | Transcripción  |
+| :--------- | :------------- |
+| examen     | /ek.ˈsa.men/   |
+| éxito      | /ˈek.si.to/    |
+| texto      | /ˈteks.to/     |
+| extra      | /ˈeks.tɾa/     |
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+layout: false
+class: title-slide-section-red, middle
+
+<!-- dia 2 -->
+
+# Transcripción fonética (práctica)
+
+---
+
+# Transcripción a la inversa
+
+| Transcripción fonémica | Palabra |
+| :--------------------- | :------ |
+| /ˈpa.xi.na/            |         |
+| /re.ko.ˈxeɾ/           |         |
+| /u.ˈma.no/             |         |
+| /xen.ˈtil/             |         |
+| /ˈθin.ko/              |         |
+| /ˈle.ʧe/               |         |
+| /ra.ˈton/              |         |
+| /xa.po.ˈne.sa/         |         |
+| /ˈge.ra/               |         |
+
+---
+
+# Transcripción a la inversa
+
+| Transcripción fonémica |    Palabra    |
+| :--------------------- | :------------ |
+| /ˈpa.xi.na/            | "página"      |
+| /re.ko.ˈxeɾ/           | "recoger"     |
+| /u.ˈma.no/             | "humano"      |
+| /xen.ˈtil/             | "gentil"      |
+| /ˈθin.ko/              | "cinco"       |
+| /ˈle.ʧe/               | "leche"       |
+| /ra.ˈton/              | "ratón"       |
+| /xa.po.ˈne.sa/         | "japonesa"    |
+| /ˈge.ra/               | "guerra"      |
+
+---
+
+
+
+
+
+
+
+
+
+
+
+class: title-slide-section-grey, middle
+
+# .white[Semivocales y vocales]
+
+???
+
+# Las semivocales (deslizadas)
+
+### [ i̯ ] - [ u̯ ]
+
+- más breves que las vocales; se 'deslizan' hacia el sonido vocálico
+
+- no pueden ir solas (sin una vocal que las acompañe)
+p
+- no pueden comenzar una sílaba
+
+- no pueden llevar acento
+
+### [ i ] - [ u ]... (y las demás)
+
+- más largas que las semivocales (deslizadas)
+
+- pueden ir solas
+
+- pueden comenzar una sílaba 
+
+- pueden llevar acento
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+class: title-slide-section-grey, middle
+
+# .white[[ʝ] y [w]]
+
+---
+layout: true
+
+# [ʝ] y [w]
+
+???
+
+- Son consonantes fricativas
+
+- También se denominan "semiconsonantes"
+
+- Están íntimamente relacionadas con las semivocales ([i̯ u̯])
+
+- Siempre van en el arranque 
+    - Las semivocales ([i̯ u̯]) no pueden ir en el arranque
+    - Lo que tenemos en su lugar es [ʝ] y [w]
+
+</br>
+
+| Ortografía | Transcripción |     ¡MAL!      |
+| :--------: | :-----------: | :------------: |
+|   hielo    |    [ʝé.lo]    | \***[i̯elo]**  |
+|   huerta   |    [wér.ta]   | \***[u̯erta]** |
+
+
+### También corresponden a las letras 'll', 'y' y 'w'
+
+</br>
+
+| Ortografía | Transcripción |
+| :--------- | :------------ |
+| llamar     | /ʝa.ˈmar/     |
+| payaso     | /pa.ˈʝa.so/   |
+| whisky     | /ˈwis.ki/     |
+
+### Se relacionan con las vocales /i/ y /u/ y con las semivocales [ i̯ ] y [ u̯ ]
+
+- Semejanzas: articulación
+- Diferencias:
+
+</br>
+
+|              |            |                 |             |
+| :----------- | :--------- | --------------- | ----------- |
+| [ʝ] - [w]:   | + fricción | + deslizamiento | - nucleares |
+| [i̯] - [u̯]:   | - fricción | + deslizamiento | - nucleares |
+| [i] - [u]:   | - fricción | - deslizamiento | + nucleares |
+
+---
+
+- Hay lingüistas que transcriben todos los diptongos con semiconsonantes
+  - "suave" ⟶ [ˈswa].be o [ˈsu̯a].be
+  - "lingüista" ⟶ lin.[ˈgwis].ta o lin.[ˈgu̯is].ta
+
+---
+
+### Recuerda: las semivocales son más breves que las vocales; las consonantes tienen fricción
+
+</br>
+
+| Sonido | Letra | Ejemplo | Transcripción fonémica |
+| :----- | :---- | :------ | :--------------------- |
+| [ʝ]    | "y"   | yo      | /ʝo]                   |
+|        | "ll"  | calle   | /ˈka.ʝe/               |
+|        | "i"   | hielo   | /ˈʝe.lo/               |
+| [w]    | "w'"  | whisky  | /ˈwis.ki/              |
+|        | "u'"  | huerta  | /ˈweɾ.ta/              |
+
+---
+
+
+
+
+
+
+
+
+layout: false
+class: title-slide-section-grey, middle
+
+# El acento
+
+???
+
+# Acento prosódico vs. acento ortográfico
+
+<ru-blockquote>
+**Acento prosódico**: La sílaba más fuerte (más pronunciada) de la palabra  
+.lightgrey[h]  
+**Acento ortográfico**: La tilde escrita sobre una vocal para denotar el acento prosódico
+</ru_blockquote>
+
+### No todas las palabras cuentan con un acento ortográfico (la tilde), pero sí **TODAS** tienen acento prosódico.
+
+| Palabra | Transcripción fonémica |
+| :------ | :--------------------- |
+| "casa"  | /ˈka.sa/               |
+| "móvil" | /ˈmo.bil/              |
+
+
+---
+background-image: url(./assets/img/acentuacion.png)
+background-size: 450px
+background-position: 90% 40%
+
+# Información general
+
+.pull-left[
+
+- Todas las palabras esdrújulas y sobreesdrújulas llevan tilde  
+(acento ortográfico) en la sílaba  
+tónica... **todas**.
+
+- Hay que aprender cuándo se tildan las agudas y las llanas
+
+- La gran mayoría de las palabras en español son llanas
+
+- La estructura silábica más común es CV.CV
+
+]
+
+---
+
+# Dos tendencias generales
+
+### Las palabras que terminan en vocal, "n" o "s" suelen ser llanas
+
+- Ej. comen, casas, boca, hacen, buscamos...
+
+### Las palabras que terminan en consonante (excepto “n” o “s”) suelen ser agudas
+
+- Ej. fatal, total, hacer, feliz, perfil...
+
+--
+
+</br>
+
+.center[
+
+<ru-blockquote>
+Las palabras que respetan estas tendencias del español **NO** llevan acento 
+gráfico/escrito.
+</ru-blockquote>
+
+]
+
+---
+
+# Regla para la acentuación
+
+### REGLA 
+
+<ru-blockquote>
+Las palabras llanas y agudas que no siguen la tendencia general llevan una tilde en la vocal tónica de la palabra.
+</ru-blockquote>
+
+---
+
+# A practicar
+
+### Explicad por qué las siguientes palabras requieren o no una tilde...
+
+| Transcripción fonémica | Palabra | Explicación |
+| :--------------------- | :------ | :---------- |
+| /a.ˈo.ɾa/              |         |             |
+| /ˈbes.tia/             |         |             |
+| /es.ˈdɾu.xu.la/        |         |             |
+| /ˈpɾue.ba/             |         |             |
+| /ka.ˈfe/               |         |             |
+
+---
+
+# A practicar
+
+### Explicad por qué las siguientes palabras requieren o no una tilde...
+
+| Transcripción fonémica |   Palabra   |              Explicación               |
+| :--------------------- | :---------- | :------------------------------------- |
+| /a.ˈo.ɾa/              | "ahora"     | No, porque es llana y termina en vocal |
+| /ˈbes.tia/             | "bestia"    | No, porque es llana y termina en vocal |
+| /es.ˈdɾu.xu.la/        | "esdrújula" | Sí, porque es esdrújula                |
+| /ˈpɾue.ba/             | "prueba"    | No, porque es llana y termina en vocal |
+| /ka.ˈfe/               | "café"      | Sí, porque es aguda y termina en vocal |
+
+---
+
+# El antidiptongo
+
+### Considerad las siguientes palabras
+
+- prohíbo
+- día
+- oír
+- Raúl
+- continúa
+- leíste
+- tenía
+
+---
+
+# Las palabras monosilábicas
+
+???
+
+- Las palabras monosilábicas en español no llevan tilde, excepto en los casos de homonimia
+
+- La tilde sirve para diferenciar entre homónimos, palabras ortográficamente idénticas pero con significado diferente
+
+### Ej. 
+
+- de/dé
+- mi/mí
+- si/sí
+- tu/tú
+- mas/más...
+
+---
+background-image: url(../assets/img/ole.gif)
+background-size: 500px
+background-position: 50% 50%
+
+# ¡Ya está! Ahora sabes poner bien las tildes
+
+---
+
+
+
+
+
+
+class: title-slide-section-grey, middle
+
+# Repaso
+
+---
+
+# Lo que hemos visto...
+
+.pull-left[
+
+- la lingüística y las distintas ramas
+
+- grafema/dígrafo vs. fonema
+
+- la sílaba
+  - composición (ataque, núcleo, coda)
+  - grupos consonánticos
+
+- monoptongos
+
+- diptongos (3 tipos)
+
+- hiatos 
+
+- diferencias entre el inglés y el español (vocales)
+
+]
+
+.pull-right[
+
+- correspondencia absoluta/exclusiva
+
+- semivocales/semiconsonantes
+
+- el grafema "x"
+
+- los fonemas /ʝ/ y /w/
+
+- el acento ortográfico
+
+- el acento prosódico
+
+]
+
+---
+
+# Para la semana que viene
+
+.panelset[
+.panel[.panel-name[362]
+
+- Para entregar "Tarea: acentos, transcripciones, correspondencia"
+
+- Se encuentra en canvas bajo el módulo de la semana 3
+
+- Entregar por canvas
+
+]
+
+.panel[.panel-name[580]
+
+- tarea1_acentos_transcripciones_correspondencia.pdf (optional)
+- R2: de la Mota (2019)
+  - Focus
+    - Las secciones **8.1 y 8.2** (pp 164-5) aportan una buena introducción al tema
+    - No es necesario dedicarle mucho tiempo a los distintos contornos entonativos (pp 166-172), aunque sí es interesante
+    - La sección **8.5** es la más importante para nuestra clase
+
+]
+]

@@ -1,0 +1,1003 @@
+---
+title       : "Fonética y fonología españolas"
+subtitle    : "Las sílabas, las vocales y el ritmo."
+author      : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "webcam", "animate", "tachyons")
+)
+```
+
+exclude: true
+class: title-slide-section-grey, middle
+
+# .white[Precalentamiento]
+
+---
+
+# En grupos de tres discutid las siguientes preguntas
+
+1. ¿Qué lenguas hablas?
+
+1. ¿Cómo y dónde has aprendido a hablar el español?
+
+1. ¿Qué significa ser bilingüe?
+
+1. ¿Cuál es la relación que tienes con los dos idiomas? ¿Eres bilingüe? ¿Cómo 
+caracterizarías tu bilingüismo? 
+
+1. ¿Cuál es tu actitud y/o sentimientos hacia el español?
+
+1. ¿Qué es lo que más te gusta del idioma español?
+
+1. Si pudieras cambiar algo sobre la lengua, ¿qué sería?
+
+1. ¿Qué planes tienes para tu futuro con las lenguas que hablas o la lingüística?
+
+---
+class: title-slide-section-grey, middle
+
+# .white[Sílabas, vocales y ritmo]
+
+---
+exclude: true
+
+# El encadenamiento
+
+### Tenemos una estructura sílabica preferida (CV.CV)
+### Se mantiene tanto en el interior de la palabra como **entre palabras**
+
+.pull-left[
+
+- amigo      
+
+- coche      
+
+- el otro
+
+- en el coche
+
+- al amigo   
+
+- buen año   
+
+]
+
+--
+exclude: true
+
+.pull-right[
+
+- a.mi.go       
+
+- co.che        
+
+- e.**l**o.tro
+
+- e.**n**el.co.che 
+
+- a.**l**a.mi.go    
+
+- bue.**n**a.ño     
+
+]
+
+---
+
+# El encadenamiento
+
+- Un fenómento característico del inglés es *el golpe de glotis* como 
+sonido consonántico (/ʔ/) [katy perry](https://youtu.be/Q-zh7IKCciQ)  
+
+<audio controls>
+  <source src="./assets/img/perry_glotis.ogg" type="audio/ogg">
+  <source src="./assets/img/perry_glotis.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+- Este sonido no existe en español 
+- Debéis evitarlo para mejorar la pronunciación
+- Escencialmente lo que hay que hacer es pronunciar cada enunciado como 
+si fuese **una** palabra
+
+### ¿Cómo se hace?
+
+--
+
+- maximizando el arranque
+- manteniendo la estructura silábica preferida **entre palabras**
+
+---
+
+# Ejemplos
+
+.pull-left[
+
+- un amigo
+
+- el amigo
+
+- tus amigos
+
+- sus amigos
+
+- los amigos
+
+- dos hermanos
+
+- los ángeles
+
+- en este
+
+]
+
+--
+
+.pull-right[
+
+- u.na.mi.go
+
+- e.la.mi.go
+
+- tu.sa.mi.gos
+
+- su.sa.mi.gos
+
+- lo.sa.mi.gos
+
+- do.ser.ma.nos
+
+- lo.sán.ge.les
+
+- e.nes.te
+
+]
+
+---
+
+# Más ejemplos
+
+.pull-left[
+
+- Es una lástima
+
+- ¿Piensas así?
+
+- ¡Ven y báñate!
+
+- Las instrucciones están aquí.
+
+- Los amigos están en Oslo.
+
+- Los abuelos viven ahí.
+
+- En estos años es algo difícil ir.
+
+]
+
+--
+
+.pull-right[
+
+- e.su.na.lás.ti.ma
+
+- ¿pien.sa.sa.sí?
+
+- ¡ve.ny.bá.ña.te!
+
+- la.sins.truc.cio.ne.ses.tá.na.quí
+
+- lo.sa.mi.go.ses.tá.ne.nos.lo
+
+- lo.sa.bue.los.vi.ve.na.í.
+
+- e.nes.to.sa.ño.se.sal.go.di.fí.ci.lir
+
+]
+
+---
+
+# El encadenamiento
+
+### Secuencias de vocales entre palabras
+
+- Una secuencia de 'u, i' y otra vocal (el orden no importa) se convierte en un diptongo en el habla rápida
+
+| Habla lenta | Habla rápida |  Transcripción  |
+| :---------- | :----------- | :-------------- |
+| su. amigo   | sua.mi.go    | [su̯a].mi.go    |
+| mi. amigo   | mia.mi.go    | [mi̯a].mi.go    |
+| su. enemigo | su enemigo   | [su̯e].ne.mi.go |
+| mi. enemigo | mi enemigo   | [mi̯e].ne.mi.go |
+| su. oso     | suo.so       | [su̯o].so       |
+| mi. oso     | mio.so       | [mi̯o].so       |
+
+---
+exclude: true
+# El encadenamiento
+
+### Mi amigo y yo fuimos a ver a un amigo 
+
+-  Habla lenta y cuidada:  
+mi.a.mi.go.y.yo.fui.mos.a.ver.a.un.a.mi.go
+
+- Habla rápida:  
+mia.mi.goy.yo. fui.mo.sa.ve.rau.na.mi.go  
+[mi̯a].mi.[goi̯].yo.fui.mo.sa.ve.[rau̯].na.mi.go
+
+---
+
+# El acento
+
+### El acento prosódico
+
+- ¿Qué es una sílaba tónica? 
+
+- ¿Qué es una sílaba átona?
+
+- ¿Cómo se identifica la sílaba tónica?
+
+- ¿Cómo marcamos la sílaba tónica en una trascripción?
+
+---
+
+# La duración
+
+.pull-left[
+
+### En español...
+
+- Las sílabas átonas y tónicas tienen la misma duración.<sup>1</sup>  
+    - Con.si.de.ra.ción
+    - Ca.sa
+
+### En inglés... 
+
+- Las sílabas tónicas son más largas
+- Las átonas se reducen en duración y calidad
+  - **A**tom (rojo = sílaba tónica)
+  - .blue[a]**to**mic (azul = schwa)
+
+]
+
+--
+
+.pull-right[
+
+### Para mejorar la pronunciación: 
+
+- No reducir vocales en español
+- Mantener la calidad de las vocales átonas
+- Es decir, ¡evitar la scwha!
+
+]
+
+.footnote[<sup>1</sup> Esto es mentira.]
+
+---
+background-image: url(./assets/img/schwa4.png)
+background-size: 400px
+background-position: 95% 0%
+class: title-slide-section-grey, middle
+
+# Más sobre la schwa
+
+---
+background-image: url(./assets/img/schwa3.jpeg)
+background-size: 400px
+background-position: 95% 50%
+
+# ¿Qué es una scwha?
+
+.pull-left[
+
+- Es una vocal (/ə/) típica del inglés
+
+- Representa un sonido *inacentuado* (aparece en sílabas átonas)
+
+- Es el sonido más común del inglés americano
+
+- Existe en la gran mayoría de las palabras
+
+- Es vuestro <BLUE>ENEMIGO</BLUE>
+
+]
+
+---
+background-image: url(./assets/img/schwa_homer.jpg)
+background-size: 400px
+background-position: 95% 50%
+
+# ¿Cómo de común? Identificad la schwa...
+
+- animal, family
+- the 
+- open 
+- travel
+- item
+- banana 
+- about
+- was
+- above
+- gallon
+- dinosaur
+- particular
+
+---
+background-image: url(./assets/img/schwa_beavis.png)
+background-size: 400px
+background-position: 95% 50%
+
+# ¿Cómo de común? Identificad la schwa...
+
+- an**i**mal, fam**i**ly
+- th**e** 
+- op**e**n 
+- trav**e**l
+- it**e**m
+- b**a**nan**a** 
+- **a**bout
+- w**a**s
+- **a**b**o**ve
+- gall**o**n
+- din**o**saur
+- partic**u**lar
+
+---
+background-image: url(./assets/img/schwa_anti.jpg)
+background-size: 400px
+background-position: 95% 50%
+
+# Práctica
+
+</br>
+</br>
+
+### Español
+
+# .blue[ANITA]
+
+### Inglés
+
+</br>
+</br>
+
+- Recordad: Queremos vocales **cortas** y **tensas**
+
+---
+background-image: url(./assets/img/anita.png)
+background-size: 800px
+background-position: 50% 50%
+
+# Práctica
+
+---
+background-image: url(./assets/img/schwa_homer.jpg)
+background-size: 400px
+background-position: 95% 50%
+
+# Práctica
+
+- fam**a** 
+- mus**a**
+- tin**a** 
+- mir**a**
+- chup**a**
+- Mayr**a** 
+- mis**a**
+- bes**a** 
+- dig**a** 
+- tuy**a** 
+- habl**a**
+
+---
+background-image: url(./assets/img/schwa_happens.jpg)
+background-size: 400px
+background-position: 95% 50%
+
+# Práctica
+
+- síl**a**b**a**
+- p**ú**blico
+- termin**a**
+- s**u**plico 
+- tercer**a**
+- d**i**recto
+- comid**a**
+- c**a**torce
+- describ**a**
+- méd**i**co
+- c**a**min**a**
+- lágrim**a**
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exclude: true
+class: title-slide-section-red, middle
+
+<!-- dia 2 -->
+
+# Precalentamiento
+
+---
+
+# A pensar
+
+### Proporcionad ejemplos de:
+
+- Un sonido que se represente con diferentes letras
+
+- Letras que se pronuncien de diferentes maneras
+
+- Letras que no se pronuncien
+
+- Una letra que se pronuncie con dos sonidos juntos
+
+- Un sonido que se represente con dos letras juntas
+
+---
+background-image: url(./assets/img/toyoda.jpg)
+background-size: 400px
+background-position: 95% 50%
+
+# Mini repaso
+
+.pull-left[
+
+Jodee Berry of Panama City, Fla., sits with her toy Yoda at her lawyer's 
+office Wednesday. Berry, a former Hooters waitress, has sued the restaurant 
+where she worked saying she was promised a new Toyota for winning a beer 
+sales contest in April. Berry, 26, believed that she had won a new car, but 
+she was blindfolded, led to the parking lot and presented a toy Yoda, the 
+little green guy from Star Wars.
+
+]
+
+---
+exclude: true
+background-image: url(./assets/img/superbowl.jpg)
+background-size: 400px
+background-position: 95% 50%
+
+# Mini repaso
+
+- El encadenamiento
+
+- El acento
+
+- La duración
+
+---
+exclude: true
+# El ritmo
+
+### Español: Ritmo silábico 
+
+- Depende del número de sílabas
+
+- Tienen (aproximadamente) la misma duración
+
+</br>
+
+### Inglés: Ritmo acentual 
+
+- Depende del número de sílabas tónicas
+
+---
+class: title-slide-section-grey, middle
+
+# La transcripción
+
+---
+
+# La transcripción
+
+- Transcribir es representar la cadena hablada mediante el alfabeto fonético internacional. 
+
+- En nuestro ámbito de estudio, la transcripción puede ser fonológica o 
+fonética.
+
+---
+
+# La transcripción: fonológica vs. fonética
+
+<ru-blockquote>
+**La transcripción fonológica**: refleja la expresión en el plano de *la lengua*, 
+es decir, la constitución fonológica de la emisión lingüística. Se ocupa, por 
+tanto, sólo de lo distintivo.
+</ru-blockquote>
+
+
+--
+
+</br>
+
+| Ej. |            |     |               |
+| :-  | :--------- | :-: | :------------ |
+|     | “brevedad” |  =  | /bɾe.be.ˈdad/ |
+
+---
+
+# La transcripción: fonológica vs. fonética
+
+<ru-blockquote>
+**La transcripción fonética**: refleja la expresión en el plano del *habla*, es 
+decir, las variantes utilizadas por el hablante, independientemente de su valor distintivo.
+</ru-blockquote>
+
+--
+
+- Dicho de otra manera, es una representación escrita de los sonidos que 
+pronunciamos.
+
+| Ej. |            |     |               |
+| :-- | :--------- | :-: | :------------ |
+|     | “brevedad” |  =  | [bɾe.βe.ˈðað] |
+|     | “brevedad” |  =  | [bɾe.βe.ˈðaθ] |
+|     | “brevedad” |  =  | [bɾe.βe.ˈða]  |
+
+---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/memes/phonetics_phonology.png)
+background-size: contain
+
+---
+exclude: true
+# La transcripción fonética
+
+### La transcripción fonética puede ser **estrecha** o **ancha**: 
+
+- **transcripción estrecha**: intenta recoger la mayor cantidad posible de información fonética.
+
+- **transcripción ancha**: anota sólo los rasgos que contribuyen a la significación.
+
+</br>
+
+La transcripción ancha será suficiente para los propósitos de nuestra clase.
+
+---
+exclude: true
+# La transcripción
+
+### Recordad
+
+- Separamos todas las sílabas
+
+- Siempre marcamos el acento prosódico de cada palabra (aunque no lleve tilde normalmente)
+    - "casa" = /ˈka.sa/
+
+---
+class: title-slide-section-grey, middle
+
+# /ɾ/ vs. /r/
+
+---
+exclude: true
+# Las vibrantes
+
+### En español tenemos dos tipos de vibrantes
+
+1. La vibrante **simple**: /ɾ/
+2. La vibrante <BLUE>múltiple</BLUE>: /r/
+
+### /ɾ/ vs. /r/
+
+--
+exclude: true
+- /ɾ/ ⟶ "r" (siempre)
+- /r/ ⟶ "r" o "rr"
+
+--
+exclude: true
+### ¿Cómo sabemos cuándo?
+
+---
+exclude: true
+# Las vibrantes
+
+### "r" = /r/ en los siguientes contextos...
+
+- Al principio de palabra 
+    - "rico": /ˈri.ko/
+    - "romántico": /ro.ˈman.ti.ko/
+
+</br>
+
+- Tras los grafemas "l", "n", "s"
+    - alrededor: /al.re.de.ˈdoɾ/
+    - Enrique: /en.ˈri.ke/
+    - Israel: /is.ra.ˈel/
+
+</br>
+
+### En cualquier otro contexto, "r" es /ɾ/
+
+---
+class: title-slide-section-grey, middle
+
+# Los fonemas
+
+---
+background-image: url(./assets/img/fonemas_edit.png)
+background-size: 650px
+background-position: 90% 50%
+
+# Fonemas</br>consonánticos
+
+---
+
+# Más práctica
+
+-  Con un compañero, transcribe las siguientes palabras
+-  Usad vuestros apuntes para ayudaros
+
+---
+
+# Más práctica
+
+|   Palabra    | Transcripción fonémica | ¿Tiene diptongo? |
+| :----------- | :--------------------- | :--------------- |
+| Genocidio    |                        |                  |
+| Bendición    |                        |                  |
+| Vibración    |                        |                  |
+| Cacería      |                        |                  |
+| Guitarra     |                        |                  |
+| Enredado     |                        |                  |
+| Recital      |                        |                  |
+| Zoológico    |                        |                  |
+| Quitamanchas |                        |                  |
+| Chorizo      |                        |                  |
+
+---
+
+# Más práctica
+
+|   Palabra    | Transcripción fonémica | ¿Tiene diptongo? |
+| :----------- | :--------------------- | :--------------- |
+| Genocidio    | /xe.no.ˈθi.dio/        | Sí, creciente    |
+| Bendición    | /ben.di.ˈθion/         | Sí, creciente    |
+| Vibración    | /bi.bɾa.ˈθion/         | Sí, creciente    |
+| Cacería      | /ka.θe.ˈɾi.a/          | No               |
+| Guitarra     | /gi.ˈta.ra/            | No               |
+| Enredado     | /en.re.ˈda.do/         | No               |
+| Recital      | /re.θi.ˈtal/           | No               |
+| Zoológico    | /θo.o.ˈlo.xi.ko/       | No               |
+| Quitamanchas | /ki.ta.ˈman.ʧas/       | No               |
+| Chorizo      | /ʧo.ˈɾi.θo/            | No               |
+
+
+---
+class: title-slide-section-red, middle
+
+# Más sobre la estructura silábica
+
+---
+
+# La estructura silábica preferida
+
+- En español la estructura silábica preferida es **CV.CV**
+
+- Se prefieren las silábas abiertas
+
+- Si es posible, es preferible que haya un ataque (en lugar de una coda)
+
+.center[
+
+### CVC.V = 😞
+
+### CV.CV = 😀
+
+]
+
+---
+
+# El encadenamiento
+
+- Es un actor muy bueno. 
+
+--
+
+- Esunactormuybueno.
+
+--
+
+- E.su.nac.tor.muy.bue.no
+
+--
+
+- /e.**s**u.**n**ak.ˈtoɾ.mui.ˈbue.no/
+
+---
+
+# Vale, pero...
+
+--
+
+- ¿Qué evidencia tenemos de que se prefieren los ataques? 
+    - Un actor → /u.nak.ˈtoɾ/
+    - Un actor → /un.ak.ˈtoɾ/
+
+- ¿Lo podemos demostrar acústica, física o psicológicamente?
+
+---
+
+# Un pequeño experimento de percepción
+
+- Escuchad el siguiente fragmento de una oración. 
+
+- En un papel escribid lo que habéis escuchado y la traducción correspondiente 
+en inglés 
+
+--
+
+- Después, en español, agregad unas palabras más a lo que hayáis escrito para 
+hacer una oración completa.
+
+</br>
+
+<audio controls>
+  <source src="./assets/img/lo_secos_word.ogg" type="audio/ogg">
+  <source src="./assets/img/lo_secos_word.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+---
+
+# ¿Qué habéis escuchado?
+
+--
+
+- ¿Habéis escuchado "los ecos"?
+
+- ¿Cómo habéis terminado la frase?
+
+- ¿Podría haber sido otra cosa?
+
+---
+background-image: url(./assets/img/lo_secos.png)
+background-size: 700px
+background-position: 50% 50%
+
+# Frase 1
+
+.footnote[
+
+<audio controls>
+  <source src="./assets/img/lo_secos.ogg" type="audio/ogg">
+  <source src="./assets/img/lo_secos.wav" type="audio/mpeg">
+</audio>
+
+]
+
+---
+background-image: url(./assets/img/los_ecos.png)
+background-size: 700px
+background-position: 50% 50%
+
+# Frase 2
+
+.footnote[
+
+<audio controls>
+  <source src="./assets/img/los_ecos.ogg" type="audio/ogg">
+  <source src="./assets/img/los_ecos.wav" type="audio/mpeg">
+</audio>
+
+]
+
+---
+
+# ¿Cómo?
+
+- ¿Habéis interpretado algo distinto? ¿Por qué?
+
+- ¿Cómo lo transcribiríais?
+
+- Sería posible vuestra interpretación si la estructura silábica no fuese 
+**CV.CV**?
+
+---
+
+# Comparad...
+
+.pull-left[
+
+<div align="center">
+  Lo secos
+  </br>
+  <img width="450" src="./assets/img/lo_secos.png">
+  </br>
+  [lo.ˈse.kos]
+  </br>
+  </br>
+  <audio controls>
+    <source src="./assets/img/lo_secos.ogg" type="audio/ogg">
+    <source src="./assets/img/lo_secos.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+]
+
+.pull-right[
+
+<div align="center">
+  Los ecos
+  </br>
+  <img width="450" src="./assets/img/los_ecos.png">
+  </br>
+  [lo.ˈse.kos]
+  </br>
+  </br>
+  <audio controls>
+    <source src="./assets/img/los_ecos.ogg" type="audio/ogg">
+    <source src="./assets/img/los_ecos.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+]
+
+---
+background-image: url(../assets/img/happy.jpg)
+background-size: 250px
+background-position: 50% 80%
+
+# Sí, ¿y qué?
+
+- Si no hubiese una estrucura silábica preferida, lo más lógico sería que 
+pronunciásemos los dos enunciados de distintas maneras y que los percibiésemos 
+como estructuras diferentes sin variabilidad entre nosotros.
+
+<!--
+- Como éste no parece ser el caso, suponemos que hay una estructura silábica 
+preferida que fuerza la resilabificación entre palabras (el encadenamiento) y 
+por tanto no percibimos una diferencia entre 'lo secos' y 'los ecos'.
+
+-->
+
+---
+
+# ¿Más ejemplos?
+
+- Eras ancho, era Sancho
+
+- los osos, lo sosos
+
+- las alas, la salas
+
+- las obras, las sobras
+
+- la sabes, las aves
+
+- eso es, es soez
+
+- nos huelen, no suelen
+
+- Etc.
+
+---
+class: title-slide-section-grey, middle
+
+# .white[Repaso]
+
+---
+
+# Hasta ahora hemos visto...
+
+.pull-left[
+
+- la lingüística y las distintas ramas
+- grafema/dígrafo vs. fonema
+- la sílaba
+  - composición (ataque, núcleo, coda)
+  - grupos consonánticos
+- monoptongos
+- diptongos (3 tipos)
+- hiatos 
+- diferencias entre el inglés y el español (vocales)
+
+]
+
+.pull-right[
+
+- correspondencia absoluta/exclusiva
+- semivocales/semiconsonantes
+- el grafema "x"
+- los fonemas [ʝ] y [w]
+- el acento ortográfico
+- el acento prosódico
+
+]
+
+---
+
+# Esta semana hemos visto...
+
+### La sílaba
+
+.pull-left[
+
+- El encadenamiento
+    - consonantes
+    - vocales
+- El acento
+    - prosódico
+    - ortográfico
+- La duración
+    - español vs. inglés
+- El ritmo
+    - español vs. inglés
+
+]
+
+.pull-right[
+
+- La schwa
+    - ¿qué es?
+    - ¿cómo se identifica?
+    - ¿cómo se evita?
+- Cómo mejorar la pronunciación
+- La transcripción
+    - fonológica vs. fonética
+    - estrecha vs. ancha
+- Los fonemas del español
+- /ɾ/ vs. /r/
+
+]
+
+---
+
+# Prueba para la semana que viene
+
+- Repasad las presentaciones
+- Estudiad los resúmenes
+- ¡Haced preguntas!
+
+

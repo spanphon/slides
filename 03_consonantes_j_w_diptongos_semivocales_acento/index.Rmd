@@ -1,0 +1,601 @@
+---
+title       : "Fonética y fonología españolas"
+subtitle    : "Consonantes [ʝ] y [w]. Diptongos, semivocales y acento."
+author      : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "animate", "tachyons", "webcam")
+)
+```
+
+
+```{r, 'helpers', echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+```
+
+class: title-slide-section-grey, middle
+
+# Correspondencia exclusiva
+
+---
+layout: true
+
+# Correspondencia exclusiva
+
+---
+
+<ru-blockquote>
+**Correspondencia exclusiva**: La relación entre el grafema y el fonema es 1:1.
+</ru_blockquote>
+
+--
+
+### En otras palabras
+
+- El grafema es representado por un sólo fonema y el fonema es respresentado 
+por un sólo grafema.
+
+- Hay 9 casos de correspondencia exclusiva en español.
+
+---
+
+|     | Grafema/Dígrafo | Fonema |
+| :-- | :-------------- | :----- |
+|     | "a"             | /a/    |
+|     | "e"             | /e/    |
+|     | "o"             | /o/    |
+|     | "ch"            | /ʧ/    |
+|     | "d"             | /d/    |
+|     | "f"             | /f/    |
+|     | "l"             | /l/    |
+|     | "p"             | /p/    |
+|     | "t"             | /t/    |
+
+---
+
+| Grafema/</br>Dígrafo |            | Fonema |
+| -------------------: | :--------: | :----- |
+| "a"                  |  **⇦⇦⇨⇨**  | /a/    |
+| "e"                  |  **⇦⇦⇨⇨**  | /e/    |
+| "o"                  |  **⇦⇦⇨⇨**  | /o/    |
+| "ch"                 |  **⇦⇦⇨⇨**  | /ʧ/    |
+| "d"                  |  **⇦⇦⇨⇨**  | /d/    |
+| "f"                  |  **⇦⇦⇨⇨**  | /f/    |
+| "l"                  |  **⇦⇦⇨⇨**  | /l/    |
+| "p"                  |  **⇦⇦⇨⇨**  | /p/    |
+| "t"                  |  **⇦⇦⇨⇨**  | /t/    |
+
+---
+layout: true
+
+# Correspondencia NO exclusiva
+
+---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/memes/phonetics_grapheme_phoneme_correspondence.png)
+background-size: 400px
+background-position: 90% 50%
+
+.pull-left[
+
+- La correspondencia entre grafema/dígrafo y fonema no es exclusiva en todos los casos.
+
+- Dicho de otra manera, no siempre es una relación de 1:1  
+	- Ej. las 21 letras que quedan...
+
+- ¿Qué problemas puede crear este hecho?
+
+]
+
+---
+background-image: url(./assets/img/noexclusivaC.png)
+background-size: 600px
+background-position: 50% 50%
+
+---
+background-image: url(./assets/img/noexclusivaC2.png)
+background-size: 600px
+background-position: 50% 50%
+
+.footnote[
+
+### Ej. 
+
+- /k/: casa
+- /s/ o /θ/: cien
+
+]
+
+---
+background-image: url(./assets/img/noexclusiva.png)
+background-size: 600px
+background-position: 50% 50%
+
+---
+background-image: url(./assets/img/noexclusiva2.png)
+background-size: 600px
+background-position: 50% 50%
+
+.footnote[
+
+### Ej.
+
+- cabe (inf. *caber*): /ˈka.be/
+- cave (inf. *cavar*): /ˈka.be/
+
+]
+
+---
+layout: false
+background-image: url(./assets/img/resumen.png)
+background-size: 600px
+background-position: 50% 65%
+
+# Resumen - Tipos de correspondencia
+
+---
+exclude: true
+class: title-slide-section-grey, middle
+
+# El grafema "x"
+
+---
+exclude: true
+
+# El grafema "x"
+
+---
+exclude: true
+
+### Decid las siguientes palabras
+
+.pull-left[
+
+- examen
+
+- éxito
+
+- texto
+
+- extra
+
+]
+
+--
+exclude: true
+
+.pull-right[
+
+- ¿Cuántos sonidos escucháis para la letra "x"?
+
+- ¿Cuántos fonemas hay?
+
+]
+
+---
+exclude: true
+
+### "x" ⟶ /ks/
+
+- Son dos sonidos distintos
+
+- Según el contexto fónico, hay dos posibilidades:
+
+--
+exclude: true
+
+  1. o bien los dos sonidos pueden formar una coda compleja (/ks/) 
+
+--
+exclude: true
+
+  2. o bien el sonido fricativo (/s/) puede ir en el arranque de la siguiente 
+  sílaba (/k.s/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+layout: false
+class: title-slide-section-grey, middle
+
+# .white[Semivocales y vocales]
+
+---
+
+# Las semivocales (deslizadas)
+
+### [ i̯ ] - [ u̯ ]
+
+- más breves que las vocales; se 'deslizan' hacia el sonido vocálico
+
+- no pueden ir solas (sin una vocal que las acompañe)
+
+- no pueden comenzar una sílaba
+
+- no pueden llevar acento
+
+---
+
+# Las vocales
+
+### [ i ] - [ u ]... (y las demás)
+
+- más largas que las semivocales (deslizadas)
+
+- pueden ir solas
+
+- pueden comenzar una sílaba 
+
+- pueden llevar acento
+
+---
+
+# Semivocales y vocales
+
+### Representación ortográfica de las semivocales (letras)
+
+### [ i̯ ]
+
+.pull-left[
+
+|     |         |     |          |
+| :-- | :------ | :-: | :------- |
+| "i" | "adiós" | ⟶  | ad[i̯o]s  |
+| "y" | "hay"   | ⟶  | [ai̯]     |
+
+### [ u̯ ]
+
+|     |           |     |              |
+| :-- | :-------- | :-: | :----------- |
+| "u" | suave     | ⟶  | [su̯a]ve      |
+| "ü" | lingüista | ⟶  | lin[ˈgu̯is]ta |
+
+]
+
+---
+class: title-slide-section-grey, middle
+
+# .white[[ʝ] y [w]]
+
+---
+layout: true
+
+# [ʝ] y [w]
+
+---
+
+- Son consonantes fricativas
+
+- También se denominan "semiconsonantes"
+
+- Están íntimamente relacionadas con las semivocales ([i̯ u̯])
+
+- Siempre van en el arranque 
+    - Las semivocales ([i̯ u̯]) no pueden ir en el arranque
+    - Lo que tenemos en su lugar es [ʝ] y [w]
+
+</br>
+
+| Ortografía | Transcripción |     ¡MAL!      |
+| :--------: | :-----------: | :------------: |
+|   hielo    |    [ʝé.lo]    | \***[i̯elo]**  |
+|   huerta   |    [wér.ta]   | \***[u̯erta]** |
+
+---
+
+### También corresponden a las letras 'll', 'y' y 'w'
+
+</br>
+
+| Ortografía | Transcripción |
+| :--------- | :------------ |
+| llamar     | /ʝa.ˈmar/     |
+| payaso     | /pa.ˈʝa.so/   |
+| whisky     | /ˈwis.ki/     |
+
+---
+
+### Se relacionan con las vocales /i/ y /u/ y con las semivocales [ i̯ ] y [ u̯ ]
+
+- Semejanzas: articulación
+- Diferencias:
+
+</br>
+
+|              |            |                 |             |
+| :----------- | :--------- | --------------- | ----------- |
+| [ʝ] - [w]:   | + fricción | + deslizamiento | - nucleares |
+| [i̯] - [u̯]:   | - fricción | + deslizamiento | - nucleares |
+| [i] - [u]:   | - fricción | - deslizamiento | + nucleares |
+
+</br>
+
+- Hay lingüistas que transcriben todos los diptongos con semiconsonantes
+  - "suave" ⟶ [ˈswa].be o [ˈsu̯a].be
+  - "lingüista" ⟶ lin.[ˈgwis].ta o lin.[ˈgu̯is].ta
+
+---
+
+### Recuerda: las semivocales son más breves que las vocales; las consonantes tienen fricción
+
+</br>
+
+| Sonido | Letra | Ejemplo | Transcripción fonémica |
+| :----- | :---- | :------ | :--------------------- |
+| [ʝ]    | "y"   | yo      | /ʝo]                   |
+|        | "ll"  | calle   | /ˈka.ʝe/               |
+|        | "i"   | hielo   | /ˈʝe.lo/               |
+| [w]    | "w'"  | whisky  | /ˈwis.ki/              |
+|        | "u'"  | huerta  | /ˈweɾ.ta/              |
+
+---
+
+
+
+
+
+
+
+
+
+layout: false
+class: title-slide-section-grey, middle
+
+# El acento
+
+---
+
+# Acento prosódico vs. acento ortográfico
+
+<ru-blockquote>
+**Acento prosódico**: La sílaba más fuerte (más pronunciada) de la palabra  
+.lightgrey[h]  
+**Acento ortográfico**: La tilde escrita sobre una vocal para denotar el acento prosódico
+</ru_blockquote>
+
+### No todas las palabras cuentan con un acento ortográfico (la tilde), pero sí **TODAS** tienen acento prosódico.
+
+| Palabra | Transcripción fonémica |
+| :------ | :--------------------- |
+| "casa"  | /ˈka.sa/               |
+| "móvil" | /ˈmo.bil/              |
+
+---
+background-image: url(../assets/img/huh.gif)
+background-size: 200px
+background-position: 90% 50%
+
+# El acento ortográfico
+
+.pull-left[
+
+### Las palabras en español se denominan de manera diferente dependiendo de la sílaba en la que cae el acento primario de la palabra. 
+
+> - agudas
+> - llanas
+> - esdrújulas
+> - sobreesdrújulas
+
+]
+
+---
+background-image: url(./assets/img/acentuacion.png)
+background-size: 500px
+background-position: 50% 80%
+
+# El acento ortográfico
+
+```{r, echo=FALSE, results='asis'}
+`Tipo de palabra` <- c("Agudas", "Llanas", "Esdrújulas", "Sobreesdrújulas")
+`Descripción` <- c(
+  "Llevan el acento prosódico en la última sílaba",
+  "Llevan el acento prosódico en la penúltima sílaba",
+  "Llevan el acento prosódico en la antepenúlima sílaba",
+  "Llevan el acento prosódico antes de la antepenúltima sílaba")
+`Ejemplos` <- c("'fatal', 'capaz'",
+                "'casa', 'hermano'",
+                "'sábana', 'esdrújula'",
+                "'dándoselo', 'escríbemelo'")
+
+tibble(`Tipo de palabra`, `Descripción`, `Ejemplos`) %>% 
+  kable(., format = "html", escape = F)  %>% 
+  column_spec(1, width = "1.8in", color = "#cc0033") %>% 
+  column_spec(2, width = "7in") %>%
+  column_spec(3, width = "2.8in") %>% 
+  row_spec(1:4, font_size = 18)
+```
+
+---
+background-image: url(./assets/img/acentuacion.png)
+background-size: 450px
+background-position: 90% 40%
+
+# Información general
+
+.pull-left[
+
+- Todas las palabras esdrújulas y sobreesdrújulas llevan tilde  
+(acento ortográfico) en la sílaba  
+tónica... **todas**.
+
+- Hay que aprender cuándo se tildan las agudas y las llanas
+
+- La gran mayoría de las palabras en español son llanas
+
+- La estructura silábica más común es CV.CV
+
+]
+
+---
+
+# Dos tendencias generales
+
+### Las palabras que terminan en vocal, "n" o "s" suelen ser llanas
+
+- Ej. comen, casas, boca, hacen, buscamos...
+
+### Las palabras que terminan en consonante (excepto “n” o “s”) suelen ser agudas
+
+- Ej. fatal, total, hacer, feliz, perfil...
+
+--
+
+</br>
+
+.center[
+
+<ru-blockquote>
+Las palabras que respetan estas tendencias del español **NO** llevan acento 
+gráfico/escrito.
+</ru-blockquote>
+
+]
+
+---
+
+# Regla para la acentuación
+
+### REGLA 
+
+<ru-blockquote>
+Las palabras llanas y agudas que no siguen la tendencia general llevan una tilde en la vocal tónica de la palabra.
+</ru-blockquote>
+
+---
+
+# El antidiptongo
+
+### Considerad las siguientes palabras
+
+- prohíbo
+- día
+- oír
+- Raúl
+- continúa
+- leíste
+- tenía
+
+---
+
+# Las palabras monosilábicas
+
+- Las palabras monosilábicas en español no llevan tilde, excepto en los casos de homonimia
+
+- La tilde sirve para diferenciar entre homónimos, palabras ortográficamente idénticas pero con significado diferente
+
+### Ej. 
+
+- de/dé
+- mi/mí
+- si/sí
+- tu/tú
+- mas/más...
+
+---
+background-image: url(../assets/img/ole.gif)
+background-size: 500px
+background-position: 50% 50%
+
+# ¡Ya está! Ahora sabes poner bien las tildes
+
+---
+class: title-slide-section-grey, middle
+
+# Repaso
+
+---
+
+# Lo que hemos visto...
+
+.pull-left[
+
+- la lingüística y las distintas ramas
+
+- grafema/dígrafo vs. fonema
+
+<p></p>
+
+- la sílaba
+  - composición (ataque, núcleo, coda)
+  - grupos consonánticos
+
+<p></p>
+
+- monoptongos
+
+- diptongos (3 tipos)
+
+- hiatos 
+
+- diferencias entre el inglés y el español (vocales)
+
+]
+
+.pull-right[
+
+- correspondencia absoluta/exclusiva
+
+- semivocales/semiconsonantes
+
+- el grafema "x"
+
+- los fonemas /ʝ/ y /w/
+
+- el acento ortográfico
+
+- el acento prosódico
+
+]
+
+---
+class: title-slide-final, left
+
+# References
+
+- Barrutia, Richard & Armin Schwegler (eds.) 1994. Fonética y fonología españolas: teoría y práctica.  New York: Wiley. [2nd edition] 
+
+- Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
+
+- Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+
+
+

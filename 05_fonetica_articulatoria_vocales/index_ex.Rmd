@@ -1,0 +1,440 @@
+---
+title       : "Fonética y fonología españolas"
+subtitle    : "Fonética articulatoria - las vocales"
+author      : "Joseph V. Casillas, PhD"
+date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    lib_dir: assets
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    nature:
+      beforeInit: ["https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "webcam", "animate", "tachyons")
+)
+```
+
+class: title-slide-section-grey, middle
+
+# Precalentamiento
+
+---
+background-image: url(./assets/img/fonema.png)
+background-size: 400px
+background-position: 90% 50%
+
+# Recordad...
+
+### **Grafema**/**dígrafo** (letras): Entre comillas
+
+- "a" 
+- "ch"
+- "ll"
+
+### .blue[Fonema] (sonidos): Entre barras
+
+- /a/
+- /ʧ/
+- /ʝ/
+
+---
+class: title-slide-section-grey, middle
+
+# El aparato fonador
+
+---
+layout: true
+
+# El aparato fonador
+
+---
+background-image: url(./assets/img/aparatofonador.png)
+background-size: 800px
+background-position: 50% 50%
+
+--
+
+.footnote[**Aparato fonador**: las partes del cuerpo humano donde producimos los sonidos]
+
+---
+
+### Articulamos los sonidos con *los articuladores pasivos* y *los articuladores activos*
+
+<ru-blockquote>
+**los articuladores pasivos**: los articuladores que *reciben* el contacto  
+.lightgrey[h]  
+**los articuladores activos**: los articuladores que *producen* el contacto
+</ru-blockquote>
+
+---
+
+</br></br></br>
+
+| Articuladores pasivos |            Articuladores activos             |
+| :-------------------- | :------------------------------------------- |
+| **Dientes**           | **Labios**: se abren/cierran/redondean       |
+| **Zona alveolar**     | **Lengua**: se retrae/adelanta/baja/sube     |
+| **Zona palatal**      | **Mandíbula inferior**: se abre              |
+|                       | **Úvula**: se extiende hacia atrás o se baja |
+
+---
+background-image: url(./assets/img/dientes.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores pasivos
+
+---
+background-image: url(./assets/img/zonaalveolar.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores pasivos
+
+---
+background-image: url(./assets/img/zonapalatal.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores pasivos
+
+---
+background-image: url(./assets/img/labios.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+background-image: url(./assets/img/lengua.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+background-image: url(./assets/img/mandibula.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+background-image: url(./assets/img/uvula.png)
+background-size: 800px
+background-position: 100% 80%
+
+### Los articuladores activos
+
+---
+
+### Los articuladores en acción
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZquuC1Nju3w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+### ¿En qué se diferencian?
+
+<ru-blockquote>
+**Las vocales**: ningún obstáculo a la salida del aire  
+.lightgrey[h]  
+**Las consonantes**: algún tipo de obstáculo a la salida del aire
+</ru-blockquote>
+
+---
+layout: false
+class: title-slide-section-grey, middle
+
+# Los fonemas vocálicos
+
+---
+layout: true
+
+# Las vocales
+
+---
+
+### Las vocales monoptongales /a, e, i, o, u/:
+
+### Clasificación:
+
+- Posición de la lengua en dos ejes
+    - horizontal
+    - vertical
+
+### .RUred[¿Podemos decir que las vocales tienen un punto de articulación?]
+
+---
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bOni5SLHmsI" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Las vocales monoptongales /a, e, i, o, u/:
+  
+### Clasificación:
+
+- Posición de la lengua en dos ejes 
+  - horizontal 
+  - vertical
+- El redondeamiento de los labios
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  |                 |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** |                 |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |                |                  |
+]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** |                 |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |                |                  |
+]
+
+.footnote[\*.blue[estirada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |                |                  |
+]
+
+.footnote[\* .blue[estirada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |      /a/       |                  |
+]
+
+.footnote[\* .blue[estirada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                |                  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                | /o/<sup>º</sup>  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |      /a/       |                  |
+]
+
+.footnote[\* .blue[estirada]  
+º .blue[redondeada]]
+
+---
+
+.big[
+|           | .blue[Anterior] | .blue[Central] | .blue[Posterior] |
+| :-------- | :-------------: | :------------: | :--------------: |
+|           |                 |     &nbsp;     |                  |
+| **Alta**  | /i/<sup>*</sup> |                | /u/<sup>º</sup>  |
+|           |                 |     &nbsp;     |                  |
+| **Media** | /e/<sup>*</sup> |                | /o/<sup>º</sup>  |
+|           |                 |     &nbsp;     |                  |
+| **Baja**  |                 |      /a/       |                  |
+]
+
+.footnote[\* .blue[estirada]  
+º .blue[redondeada]]
+
+---
+
+### Diferencias con respecto a las vocales del inglés (otra vez)
+
+- Son cortas y tensas
+
+- Nunca llegan a ser diptongos *por accidente*
+
+- No se reducen
+
+---
+layout: false
+
+# Actividad
+
+### Con un compañero, describid articulatoriamente las 5 vocales del español
+
+- /i/
+
+- /e/
+
+- /a/
+
+- /o/
+
+- /u/
+
+---
+
+# Actividad
+
+### Con un compañero, describid articulatoriamente las 5 vocales del español
+
+- /i/: alta, anterior, estirada
+
+- /e/: media, anterior, estirada
+
+- /a/: baja, central
+
+- /o/: media, posterior, redondeada
+
+- /u/: alta, posterior, redondeada
+
+
+---
+layout: false
+class: title-slide-final, left
+
+# References
+
+- Barrutia, Richard & Armin Schwegler (eds.) 1994. Fonética y fonología españolas: teoría y práctica.  New York: Wiley. [2nd edition] 
+
+- Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
+
+- Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+
+---
+
+.footnote[Valores formánticos (F1, F2) de las vocales cardinales]
+
+```{r, echo=F, warning=F, message=F, out.width="95%", fig.height=4, fig.retina=2, fig.align='left'}
+library("tidyverse")
+
+nuestras_vocales <- tribble(
+  ~'id',      ~'gen_bio', ~'vocal', ~'f1', ~'f2', 
+  'Joseph',    'h',        'i',       324,  2401, 
+  'Joseph',    'h',        'a',       870,  1305, 
+  'Joseph',    'h',        'u',       561,  790, 
+  'amanda',    'm',        'i',       412,  2316, 
+  'amanda',    'm',        'a',       841,  1615, 
+  'amanda',    'm',        'u',       527,   892, 
+  'karin',     'm',        'i',       334,  2702, 
+  'karin',     'm',        'a',       901,  1576, 
+  'karin',     'm',        'u',       481,   831, 
+  'gabriela',  'm',        'i',       345,  2947, 
+  'gabriela',  'm',        'a',       836,  1623, 
+  'gabriela',  'm',        'u',       378,   877, 
+  'jason',     'h',        'i',       407,  2255, 
+  'jason',     'h',        'a',       800,  1382, 
+  'jason',     'h',        'u',       451,   775, 
+  'jillian',   'm',        'i',       294,  2916, 
+  'jillian',   'm',        'a',       887,  1414, 
+  'jillian',   'm',        'u',       352,   862, 
+  'andrea',    'm',        'i',       296,  2900, 
+  'andrea',    'm',        'a',       877,  1420, 
+  'andrea',    'm',        'u',       375,   888, 
+  'alexandra', 'm',        'i',       268,  2576, 
+  'alexandra', 'm',        'a',       886,  1609, 
+  'alexandra', 'm',        'u',       321,   407, 
+  'maya',      'm',        'i',       269,  2706, 
+  'maya',      'm',        'a',       698,  1377, 
+  'maya',      'm',        'u',       329,   895, 
+  'courtney',  'm',        'i',       430,  2437, 
+  'courtney',  'm',        'a',       1060, 1614, 
+  'courtney',  'm',        'u',       419,   853, 
+  'alyson',    'm',        'i',       544,  2211, 
+  'alyson',    'm',        'a',       645,  1665, 
+  'alyson',    'm',        'u',       486,  1620, 
+  'briana',    'm',        'i',       343, 2773, 
+  'briana',    'm',        'a',       979, 1522, 
+  'briana',    'm',        'u',       396, 1046, 
+  'robert',    'h',        'i',       309, 2531, 
+  'robert',    'h',        'a',       836, 1310, 
+  'robert',    'h',        'u',       368, 858, 
+  'gabrielle', 'm',        'i',       289, 3231, 
+  'gabrielle', 'm',        'a',       1002, 1413, 
+  'gabrielle', 'm',        'u',       390, 464, 
+  'kelsey',    'm',        'i',       591, 2366, 
+  'kelsey',    'm',        'a',       914, 1778, 
+  'kelsey',    'm',        'u',       480, 1337, 
+  'ashley',    'm',        'i',       392, 2317, 
+  'ashley',    'm',        'a',       1039, 1668, 
+  'ashley',    'm',        'u',       457, 1275, 
+  'jarol',     'h',        'i',       328, 2196, 
+  'jarol',     'h',        'a',       727, 1148, 
+  'jarol',     'h',        'u',       379, 763, 
+  'enriqueta', 'm',        'i',       1172, 1730, 
+  'enriqueta', 'm',        'a',       997, 1623, 
+  'enriqueta', 'm',        'u',       1024, 1802, 
+  'mariel',    'm',        'i',       381, 1448, 
+  'mariel',    'm',        'a',       830, 1527, 
+  'mariel',    'm',        'u',       430,  790) 
+
+
+
+promedios <- nuestras_vocales %>% 
+  group_by(vocal) %>% 
+  summarize(f1_m = mean(f1), 
+            f1_se_lo = mean(f1) - 1.96 * sqrt(stats::var(f1)/length(f1)), 
+            f1_se_hi = mean(f1) + 1.96 * sqrt(stats::var(f1)/length(f1)), 
+            f2_m = mean(f2), 
+            f2_se_lo = mean(f2) - 1.96 * sqrt(stats::var(f2)/length(f2)), 
+            f2_se_hi = mean(f2) + 1.96 * sqrt(stats::var(f2)/length(f2)), 
+            .groups = "drop") 
+
+nuestras_vocales %>% 
+  filter(!(id %in% c("enriqueta", "mariel"))) %>% 
+  ggplot(., aes(x = f2, y = f1, color = vocal, label = id)) + 
+    facet_grid(. ~ gen_bio) + 
+    geom_text(size = 2, alpha = 0.4, show.legend = F, aes(shape = gen_bio)) + 
+    geom_text(data = promedios, aes(x = f2_m, y = f1_m, label = vocal), 
+              size = 6, color = "black", show.legend = F) + 
+    stat_ellipse(type = "norm", show.legend = FALSE, geom = "polygon", 
+                 alpha = 0.05) + 
+    #coord_cartesian(ylim = c(1100, 0), xlim = c(3500, 300)) + 
+    scale_x_reverse(position = "top") + 
+    scale_y_reverse() + 
+    scale_color_brewer(palette = "Set2") + 
+    labs(x = "F2 (Hz)", y = "F1 (Hz)") + 
+    theme_classic(base_family = "sans", base_size = 13)
+
+
+```

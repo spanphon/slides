@@ -1,0 +1,582 @@
+---
+title: "SPAN 585"
+subtitle: "La percepción del habla"
+author: "Joseph V. Casillas, PhD"
+date: "Rutgers University | Spring 2020</br>Last update: `r format(Sys.time(), '%D')`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: FALSE
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+
+```{r setup, include=FALSE, cache=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "slide_tone", "animate", "tachyons")
+)
+```
+
+
+# La percepción del habla
+
+### Problemas
+
+- ¿Cómo diferenciamos entre el habla y el ruido?
+- ¿Cómo extraemos información relevante de una señal pobre?
+
+--
+
+### Teorías
+
+- Motor theory
+- Direct realist theory
+- General auditory and learning approaches
+
+--
+
+### Hallazgos/temas de interés
+
+- Percepción categórica
+- McGurk effect
+- Coarticulación
+- Interfaz producción/percepción
+
+---
+
+# Problemas
+
+### ¿Cómo diferenciamos entre el habla y el ruido?
+
+### ¿Cómo extraemos información relevante de una señal pobre?
+
+### El input es importante en la adquisición de L1/L2
+
+### ¿Cómo asociamos las unidades lingüísticas con la parte correspondiente de la señal pese a la ausencia de la invarianza?
+
+---
+
+# MT
+
+- Primera teoría importante, surge en los 60 (Haskins)
+- Investigador principal: Liberman
+- 2 hallazgos fundamentales
+	- Coarticulación
+	- Percepción categórica
+	- Idea principal: "linguistic units are coarticulated in production and yet perceived categorically"
+- 3 aserciones
+	- "primatives" son articulatorios ("intended gestures")
+	- "Speech is special"
+		- la señal codifica la estructura del lenguaje
+		- los seres humanos tenemos "algo" (speech module) para descodificar la señal
+		- ese "algo" se ocupa de la percepción y la producción
+- Evidencia
+	- percepción "duplex"
+	- se procesa el habla en base a cómo se produjo (McGurk effect, comunicación háptica)
+
+---
+
+# DRT
+
+- Nace de Naïve Realism, basada en MT (Haskins)
+- Direct realism (Aristóteles) vs. Indirect realism (Descartes)
+- Investigadora principal: Fowler
+- Similar a MT: "primatives" son articulatorios
+- Diferente de MT: 
+	- la unidades de percepción son los gestos ("intended gesture" vs. "gesture")
+	- el habla no es especial (ningún decoder)
+- algo de parsimonia con otros tipos de percepción (e.g., visual)
+- Evidencia: véase MT
+
+---
+
+# GA
+
+- No es una teoría sino  
+"general framework within which particular theoretical claims may be formulated and tested"
+- Investigador principal: ?
+- Surge como alternativa a MT, DRT
+- Evidencia en contra de MT, DRT se tiene como evidencia a favor de GA
+- Rechaza la idea de que "el habla es especial"
+- Las unidades lingüísticas se asocian a la parte corresondiente de la señal mediante el sistema auditivo básico y procesos cognitivos (mecanismos de aprendizaje) 
+  - "...listeners are able to recover linguistic units via the
+acoustic signal by utilizing the ‘multiple imperfect acoustic cues’ coupled with sensitivity to the statistical properties present in speech" (Diehl et al., 2004, p. 154).
+
+---
+
+### Evidencia en contra de MT
+
+- El efecto de la percepción "duplex" puede recrearse usando sonidos que no tienen nada que ver con el habla (e.g. con un portazo)
+
+- Ciertos efectos se recrean en los animales (pájaros, monos, chinchillas)
+
+--
+
+### Evidencia en contra de DRT
+
+- Podemos manipular el tracto vocálico de muchas maneras para generar señales acústicas parecidas 
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+---
+class: inverse, middle, center
+
+# La percepción categórica
+
+---
+
+# La percepción del habla
+
+- ¿Cómo diferenciamos entre el habla y el ruido?
+
+- ¿Cómo extraemos la información relevante de una señal pobre?
+
+---
+
+# La ausencia de invarianza
+
+- Los sonidos del habla nunca se pronuncian de la misma forma
+
+- Si digo **taco** [ˈta.ko] 10 veces, nunca es acústicamente igual 
+
+- ¿Cómo somos capaces de relacionar el sonido con el concepto de un fonema?
+
+---
+
+# La percepción categórica
+
+- "Equal sized physical differences are not equal sized psychologically."
+
+- No percibimos los continuos como continuos...
+
+- Las diferencias dentro de la misma categoría se disminuyen 
+
+- Las diferencias entre categorías se aumentan
+
+---
+background-image: url("./libs/img/colors.png")
+background-size: contain 
+
+---
+background-image: url("./libs/img/pc1.png")
+background-size: contain 
+
+---
+background-image: url("./libs/img/pc2.png")
+background-size: contain 
+
+---
+
+# La percepción categórica
+
+### ¿Cómo estudiamos la percepción categórica?
+
+- 2AFC (identificación)
+
+- AX (discriminación)
+
+---
+background-image: url("./libs/img/bapa1.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/bapa2.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/bapa3.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/bapa4.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/bapa5.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/bapa6.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/bapa7.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/pc3.png")
+background-size: contain
+
+---
+
+# La percepción categórica
+
+
+- "Equal sized physical differences are not equal sized psychologically."
+
+- No percibimos los continuos como continuos...
+
+- Las diferencias dentro de la misma categoría se disminuyen 
+
+- Las diferencias entre categorías se aumentan
+
+.footnote[AX [download](http://www.jvcasillas.com/585_01_s2017/slides/07_percepcion/libs/4_discriminationAX.zip)]
+
+
+
+
+
+
+
+
+
+---
+class: inverse, middle, center
+
+# La percepción categórica y el bilingüismo
+
+### **Pallier et al. (1997)**
+
+---
+
+# La percepción categórica
+
+### Pallier et al. (1997)
+
+- Bilingües secuenciales tempranos: español/catalán, catalán/español
+
+- El catalán cuenta con un contraste vocálico que no existe en español (/e/-/ɛ/)
+
+---
+
+# La percepción categórica
+
+### Pallier et al. (1997)
+
+<p></p>
+<div align="center">
+  <img width="400" src="./libs/img/spanish.png"> 
+  <img width="400" src="./libs/img/catalan.png">
+</div>
+
+---
+
+# La percepción categórica
+
+### Pallier et al. (1997)
+
+- Bilingües secuenciales tempranos: español/catalán, catalán/español
+
+- El catalán cuenta con un contraste vocálico que no existe en español (/e/-/ɛ/)
+
+
+### Identificación (2AFC)
+
+- "¿Escuchaste [ˈ**pe**.**ɾa**] (Peter) o [ˈ<BLUE>pɛ</BLUE>.<BLUE>ɾa</BLUE>] (pera)?"
+
+### Discriminación
+
+- "¿Son iguales o son diferentes?"
+
+---
+background-image: url("./libs/img/pallier1.png")
+background-size: contain
+
+---
+background-image: url("./libs/img/pallier2.png")
+background-size: contain
+
+---
+
+# La percepción categórica
+
+### Pallier et al. (1997)
+
+### Conclusión
+
+- Los bilingües tempranos español/catalán no perciben el contraste entre las vocales /e/-/ɛ/ de manera categórica
+
+- Estar expuesto a una edad temprana (durante el periodo sensible) no parece ser suficiente
+
+---
+class: inverse, middle, center
+
+# La percepción categórica y el bilingüismo
+
+###**Language-specific stop perception in highly proficient Heritage Speakers**
+
+---
+
+# La percepción categórica 
+
+### Bilingual Language Modes (Grosjean, 1998)
+
+>[...] state of activation of the bilingual's languages and language processing 
+>mechanisms at a given point in time (Grosjean, 2002)
+
+- Activation of languages increases/decreases as a function of communicative setting
+  - Bilingual mode: both languages activated
+  - Unilingual mode: one language activated
+- Some bilinguals can reduce cross-language interactions in a unilingual setting (Antoniou et al. 2010; Magloire and Green 1999)
+- **Do highly proficient HSs inhibit cross-language interaction effects a unilingual setting?**
+
+---
+background-image: url("./libs/img/sp_en_stops.png")
+background-size: contain
+
+---
+
+# Method
+
+### Participants
+
+- 9 highly proficient Spanish/English bilinguals
+  - 6 females
+  - 3 males
+- Young adults: ages 20-26 
+- Bilingual Language Profile (BLP) questionnaire (-10.16)
+
+---
+
+## Method
+
+### Materials
+
+- Female simultaneous bilingual speaker
+  - ba/pa productions
+  - 'fri' [fɾi] and [fɹi] productions
+  - append lead voicing for /ba/, aspiration for /pa/ (Gonzales & Lotto, 2013)
+- Two 13-step continua (-60ms to 60ms, 10ms increments)
+  - 'Spanish' ba[fɾi]-pa[fɾi]
+  - 'English' ba[fɹi]-pa[fɹi]
+
+---
+
+## Method 
+
+### Procedure
+
+<div style="float:right">
+  <img width="250px" src="./libs/img/2afc1.png"></img>  
+  </br></br>
+  <img width="250px" src="./libs/img/2afc3pa.png"></img>
+</div>
+
+- Participants completed two 2AFC identification tasks
+    - Session 1: Spanish - ba[fɾi]-pa[fɾi]
+        - All instructions, materials in Spanish
+        - All correspondence with investigator in Spanish
+    - Session 2: English (24 hrs later) - ba[fɹi]-pa[fɹi]
+        - All instructions, materials in English
+        - All correspondence with investigator in English
+
+---
+
+<div align="center">
+  <img width="100%" src="./libs/img/bafriTuc.png">
+</div>
+
+</br>
+>- Overall probability of selecting /pa/ decreases by 38% when hearing English stimuli
+
+---
+
+# Summary of findings
+
+- Higher proportion of 'pafri' responses in Spanish session
+
+- HSs shifted their perceptual boundary to accommodate English stimuli in session 2
+
+---
+
+# Discussion
+
+- HSs maintain separate phonetic systems, shift between them according to the language context
+- No (less) cross-language activation in unilingual settings
+
+---
+class: inverse, center, middle
+
+# Dealing with results
+
+---
+
+# Dealing with results
+
+- Specify the output format
+- Import results directly into stats program
+
+```{r echo=TRUE, eval=FALSE}
+library(knitr)
+read_chunk('./assets/scripts/analysis.R')
+```
+---
+
+# Create some data
+
+```{r}
+
+# Generate data
+var1  <- c(0, 0, 0, 0, 1, 1, 1)
+var2  <- c(0, 0, 0, 1, 1, 1, 1)
+var3  <- c(0, 0, 1, 0, 1, 1, 1)
+var4  <- c(0, 0, 0, 1, 0, 1, 1)
+var5  <- c(1, 0, 1, 0, 1, 1, 1)
+var6  <- c(0, 0, 0, 1, 1, 1, 1)
+var7  <- c(0, 0, 0, 0, 1, 1, 0)
+var8  <- c(0, 0, 0, 0, 0, 1, 1)
+var9  <- c(0, 1, 0, 1, 1, 0, 1)
+var10 <- c(0, 0, 0, 1, 1, 1, 1)
+resp <- rep(c(var1, var2, var3, var4, var5, var6, var7, var8, var9, var10), times = 10)
+
+partN  <- 1:100
+subjId <- rep(paste0('subj', partN), each = 7)
+my_df  <- data.frame(subjId, 
+                     stim = rep(1:7, times = 100), 
+                     response = resp)
+```
+
+---
+
+
+```{r}
+str(my_df)
+```
+
+.pull-left[
+
+```{r}
+head(my_df)
+```
+
+]
+
+.pull-right[
+
+```{r}
+tail(my_df)
+```
+
+]
+
+---
+
+```{r, fig.retina=2, fig.width=13, fig.height=6, warning=F, message=F}
+library(tidyverse)
+
+ggplot(my_df, aes(x = stim, y = response)) + 
+  geom_jitter(alpha = 0.1, height = 0.05, width = 0.5, color = 'red') + 
+  geom_smooth(method = "glm", method.args = list(family = "binomial")) + 
+  theme_minimal(base_size = 16, base_family = 'Times')
+```
+
+---
+
+```{r, fig.retina=2, fig.width=13, fig.height=6}
+my_glm <- glm(response ~ stim, data = my_df, family = "binomial")
+
+ggplot(my_df, aes(x = stim, y = response)) + 
+  stat_summary(fun.data = 'mean_cl_boot', geom = 'pointrange') + 
+  stat_summary(aes(y = fitted(my_glm)), fun = 'mean', geom = 'line') + 
+  theme_minimal(base_size = 16, base_family = 'Times')
+```
+
+---
+
+```{r, fig.retina=2, fig.width=13, fig.height=6, warning=F, message=F}
+library(lme4)
+my_glmer <- glmer(response ~ stim + (1|subjId), data = my_df, family = 'binomial')
+
+ggplot(my_df, aes(x = stim, y = response)) + 
+  stat_summary(fun.data = 'mean_cl_boot', geom = 'pointrange') + 
+  stat_summary(aes(y = fitted(my_glmer)), fun = 'mean', geom = 'line') + 
+  theme_minimal(base_size = 16, base_family = 'Times')
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# Conclusión
+
+<div style="float:right">
+  <img width="100" src="./libs/img/fill.png">
+  <img width="300" src="./libs/img/clap.gif">
+</div>
+
+- Ahora sabéis lo básico de psychopy2
+  - Podéis utilizarlo para crear experimentos psycolingüísticos
+  - Tenéis acceso a la plantillas que podéis modificar
+
+</br>
+
+- La percepción categórica
+  - "Equal sized physical differences are not equal sized psychologically."
+  - No percibimos los continuos como continuos...
+
+
+
+---
+
+## More resources
+
+- http://www.jvcasillas.com/teaching/psychopy/
+- http://www.psychopy.org/ 
+- http://code.google.com/p/psychopy/ 
+- http://www.youtube.com/watch?v=VV6qhuQgsiI
+
+---
+
+## References
+
+- <font size="5">Gray, J. & Pasmanter, N. (2013). [github][github]</font>
+- <font size="5">Lejuez, C. W., Aklin, W. M., Zvolensky, M. J., & Pedulla, C. M. (2003). Evaluation of the Balloon Analogue Risk Task (BART) as a predictor of adolescent real-world risk-taking behaviours. Journal of adolescence, 26(4), 475-479. </font>
+- <font size="5">McGuire, G. (2010, in progress) A Brief Primer on Experimental Designs in Speech Perception Research. http://people.ucsc.edu/~gmcguir1/ </font>
+- <font size="5">Simonet, M. (2012). El diseño de experimentos para el estudio de la percepción del habla. *Laboratory Approaches to Romance Phonology Conference*. El Colegio de México, México D.F.</font>
+
+
+[github]: https://github.com/psychopy/psychopy/tree/master/psychopy/demos/builder/mental_rotation
+
+
+

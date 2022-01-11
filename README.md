@@ -1,0 +1,30 @@
+Slides
+================
+
+This is where my slides live.
+
+  - [00\_praat](https://www.jvcasillas.com/slides/00_praat/index.html)
+  - [00\_programa](https://www.jvcasillas.com/slides/00_programa/index.html)
+  - [01\_introduccion](https://www.jvcasillas.com/slides/01_introduccion/index.html)
+  - [02\_silaba\_diptongos\_hiatos](https://www.jvcasillas.com/slides/02_silaba_diptongos_hiatos/index.html)
+  - [03\_consonantes\_j\_w\_diptongos\_semivocales\_acento](https://www.jvcasillas.com/slides/03_consonantes_j_w_diptongos_semivocales_acento/index.html)
+  - [04\_silabas\_vocales\_ritmo](https://www.jvcasillas.com/slides/04_silabas_vocales_ritmo/index.html)
+  - [05\_fonetica\_articulatoria\_vocales](https://www.jvcasillas.com/slides/05_fonetica_articulatoria_vocales/index.html)
+  - [06\_fonetica\_articulatoria\_consonantes](https://www.jvcasillas.com/slides/06_fonetica_articulatoria_consonantes/index.html)
+  - [07\_fonema\_alofonos\_transcripcion](https://www.jvcasillas.com/slides/07_fonema_alofonos_transcripcion/index.html)
+  - [08\_oclusivas\_sordas\_africadas](https://www.jvcasillas.com/slides/08_oclusivas_sordas_africadas/index.html)
+  - [09\_obstruyentes\_sonoras](https://www.jvcasillas.com/slides/09_obstruyentes_sonoras/index.html)
+  - [10\_fricativas](https://www.jvcasillas.com/slides/10_fricativas/index.html)
+  - [11\_nasales\_laterales](https://www.jvcasillas.com/slides/11_nasales_laterales/index.html)
+  - [12\_vibrantes\_entonacion](https://www.jvcasillas.com/slides/12_vibrantes_entonacion/index.html)
+  - [13\_esp\_peninsular\_americano](https://www.jvcasillas.com/slides/13_esp_peninsular_americano/index.html)
+  - [14\_repaso\_descriptivo](https://www.jvcasillas.com/slides/14_repaso_descriptivo/index.html)
+  - [15\_ug\_ot\_use](https://www.jvcasillas.com/slides/15_ug_ot_use/index.html)
+  - [16\_percepcion](https://www.jvcasillas.com/slides/16_percepcion/index.html)
+  - [17\_la\_silaba](https://www.jvcasillas.com/slides/17_la_silaba/index.html)
+  - [18\_fonetica\_acustica](https://www.jvcasillas.com/slides/18_fonetica_acustica/index.html)
+  - [19\_prosodia](https://www.jvcasillas.com/slides/19_prosodia/index.html)
+  - [20\_modelos\_l2](https://www.jvcasillas.com/slides/20_modelos_l2/index.html)
+  - [21\_vocoides](https://www.jvcasillas.com/slides/21_vocoides/index.html)
+  - [22\_obstruyentes](https://www.jvcasillas.com/slides/22_obstruyentes/index.html)
+  - [23\_sonorantes](https://www.jvcasillas.com/slides/23_sonorantes/index.html)

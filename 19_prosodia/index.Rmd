@@ -1,0 +1,467 @@
+---
+title: "SPAN 585"
+subtitle: "Prosodia"
+author: "Joseph V. Casillas, PhD"
+date: "Rutgers University | Spring 2020</br>Last update: `r format(Sys.time(), '%D')`"
+output:
+  xaringan::moon_reader:
+    chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
+    css: ["hygge", "rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: FALSE
+      ratio: "16:9"
+    includes:
+      in_header: "../assets/partials/header.html"
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-extra-all-the-things, echo=FALSE}
+xaringanExtra::use_xaringan_extra(
+  c("tile_view", "panelset", "editable", 
+    "webcam", "animate", "tachyons")
+)
+```
+
+class: inverse, center, middle
+
+# La prosodia
+
+---
+background-image: url("./libs/img/r2d2.png")
+background-size: 200px
+background-position: 90% 15%
+
+# La prosodia
+
+### ¿Qué es?
+
+- El estudio de los elementos relacionados con *la música* del habla 
+--
+
+- All of the variables of timing, phrasing, emphasis, and intonation  
+that speakers use to convey aspects of meaning
+--
+
+- Aquellos elementos relacionados con el habla que no son  
+segmentos, sino propiedades de las sílabas y unidades mayores
+
+--
+
+### Sabemos cuando no está bien
+
+.pull-left[
+
+<audio controls>
+  <source src="./libs/wav/r1d1_1.ogg" type="audio/ogg">
+  <source src="./libs/wav/r1d1_1.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="./libs/wav/r1d1_2.ogg" type="audio/ogg">
+  <source src="./libs/wav/r1d1_2.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+]
+
+.pull-right[
+
+<audio controls>
+  <source src="./libs/wav/r1p1_1.ogg" type="audio/ogg">
+  <source src="./libs/wav/r1p1_1.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="./libs/wav/r1p1_2.ogg" type="audio/ogg">
+  <source src="./libs/wav/r1p1_2.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+]
+
+<p>&nbsp;</p>
+
+<audio controls>
+  <source src="./libs/wav/r1p1.ogg" type="audio/ogg">
+  <source src="./libs/wav/r1p1.aiff" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+.footnote[Disponibles [aquí](http://kochanski.org/gpk/papers/2002/prosodies.org/section1/index.html) 
+o en terminal.app (```say "Hello my name is R 1 P 1"```)]
+
+---
+
+# La prosodia
+
+### En general, la separamos en tres partes...
+
+1. el acento
+
+2. el ritmo
+
+3. la entonación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+class: middle, center, inverse
+background-image: url("./libs/img/stress.png")
+background-position: 90% 15%
+background-size: 200px
+
+# El acento
+
+---
+
+# El acento
+
+### ¿Qué es?
+
+- Es una propiedad suprasegmental
+
+- Intuitivamente lo reconocemos como el énfasis que recibe 
+una sílaba, lo cual hace que sea más prominente con respecto 
+a las demás sílabas. 
+
+- Es decir, nuestra percepción del acento es relativa
+
+- Podemos distinguir entre el acento léxico (dominio de la palabra) 
+y el acento prosódico (dominio mayor que la palabra)
+
+- No todas las lenguas tienen acento
+
+---
+
+# El acento
+
+### El acento y el español
+
+- El español y el inglés son lenguas acentuales (acento léxico)
+- Dentro de la palabra *una* de las sílabas se percibe como más 
+prominente con respecto a las demás
+- Por ejemplo, en la palabra /mama/, el acento léxico puede recaer 
+sobre la primera o la segunda sílaba (pero no ambas<sup>1</sup>)
+  - /ˈma.ma/, /ma.ˈma/, */ˈma.ˈma/
+  - Una secuencia como [ˈdaˈmas] representaría dos palabras ('da más')
+- Hay una sílaba con acento en todas las palabras léxicas 
+  - nombres
+  - adjetivos
+  - adverbios
+  - verbos
+
+.footnote[<sup>1</sup>El acento se diferencia del tono. Una lengua con tono léxico permitiría 
+/ˈma.ma/, /ma.ˈma/, /ˈma.ˈma/ e incluso /ma.ma/.]
+
+---
+background-image: url("./libs/img/stress1.jpg")
+background-size: contain
+
+---
+background-image: url("./libs/img/stress2.jpeg")
+background-size: contain
+
+---
+
+# El acento
+
+### El acento y el español
+
+- El acento es fonológicamente contrastivo 
+
+--
+
+|     |                |     |                |     |                |
+| :-- | :------------- | :-- | :------------- | :-- | :------------- |
+|     | .blue[nú]mero  |     | nu.blue[me]ro  |     | nume.blue[ró]  |
+|     | .blue[tér]mino |     | ter.blue[mi]no |     | termi.blue[nó] |
+|     | .blue[cé]lebre |     | ce.blue[le]bre |     | cele.blue[bré] |
+|     | .blue[á]nimo   |     | a.blue[ni]mo   |     | ani.blue[mó]   |
+|     |                |     | .blue[pa]pa    |     | pa.blue[pá]    |
+|     |                |     | .blue[bus]co   |     | bus.blue[có]   |
+| &nbsp; &nbsp; &nbsp; &nbsp; | | &nbsp; &nbsp; | | &nbsp; &nbsp; | |
+
+--
+
+- En otras lenguas el acento es predecible
+  - Húngaro/checo/finés: el acento recae sobre la primera sílaba
+  - Francés: el acento recae sobre la última sílaba que contiene 
+  una vocal plena 
+- Se observa que siempre recae sobre una sílaba cerca del final de la palabra 
+
+---
+
+# El acento
+
+### La ventana de tres sílabas
+
+- El español es una lengua de acento "libre", pero con ciertas restricciones
+
+- La más importante, el acento tiene que caer sobre una de las tres últimas 
+sílabas
+
+.pull-left[
+
+#### Ejemplos
+
+|                  |        |      |           |            |             |
+| :--------------- | :----- | :--: | :-------: | :--------: | :---------: |
+| **Agudas**       |        | \_\_ |      \_\_ |       \_\_ |         X   |
+| (oxítonas)       |        |  re  |        vo |        lu  | .blue[ción] |
+|                  | &nbsp; |      |           |            |             |
+| **Llanas**       |        | \_\_ |      \_\_ |        X   |     \_\_    |
+| (paroxítonas)    |        |  e   |        le | .blue[fan] |     te      |
+|                  | &nbsp; |      |           |            |             |
+| **Esdrújulas**   |        | \_\_ |        X  |    \_\_    |     \_\_    |
+| (proparoxítonas) |        | sim  | .blue[pá] |      ti    |      co     |
+
+]
+
+--
+
+.pull-right[
+
+#### Excepciones - pronombres enclíticos
+
+- Palabras sobreesdrújulas
+  - can**tan**do
+  - can**tán**dome
+  - can**tán**domelo
+- El dominio de la asignación del acento es el verbo (palabra léxica)
+- Los clíticos son átonos, por lo que no forman parte de la 
+ventana de tres sílabas
+
+]
+
+---
+
+# El acento
+
+### El acento secundario
+
+En español las palabras tienen una única sílaba con acento léxico, 
+pero en ocasiones otras sílabas pueden recibir prominencia acentual
+
+--
+
+.pull-left[
+
+#### Acento retórico
+
+- característico del habla pública (i.e. en el telediario)
+- poco frecuente en el habla natural 
+- A veces aparece en la primera sílaba
+  - con s**e**gurid**a**d
+  - f**u**ndament**a**les
+- A veces aparece dos sílabas antes de la tónica
+  - con seg**u**rid**a**d
+  - fund**a**ment**a**les
+  - cl**a**ses part**i**cul**a**res
+
+]
+
+--
+
+.pull-right[
+
+#### Acento enclítico
+
+- Los clíticos son átonos, pero pueden recibir el acento secundario
+  - ¡V**á**monos!
+  - ¡V**á**mon**o**s!
+- El acento enclítico no puede recaer sobre la sílaba adyacente a la sílaba tónica
+  - d**i**me (nunca sobre 'me' también)
+- Si el verbo cuenta con varios clíticos, el acento secundario aparece en el último
+  - devu**é**lvemel**o**s
+  - devolvi**é**ndosel**o**s
+
+]
+
+---
+
+# El acento
+
+### Correlatos acústicos
+
+Hay al menos tres marcadores del acento en español 
+
+1. el tono
+
+2. la duración 
+
+3. la intensidad
+
+---
+
+# El acento
+
+### Indicadores físicos, acústicos y perceptivos del acento 
+
+|        Articulatorio        |     | Cambio acústico |     | Impresión perceptiva |
+| :-------------------------- | :-- | :-------------- | :-- | :------------------- |
+| Aumenta el flujo de aire,   |     | ↑ amplitud      |     | Se oye más fuerte    |
+| aumenta la intensidad de la |     |                 |     |                      |
+| vibración de las cuerdas    |     |                 |     |                      |
+| vocales                     |     |                 |     |                      |
+| &nbsp;                      |     |                 |     |                      |
+| Aumenta la duración de los  |     | ↑ duración      |     | Suena más largo      |
+| gestos articulatorios       |     |                 |     |                      |
+| &nbsp;                      |     |                 |     |                      |
+| Las cuerdas vocales vibran  |     | ↑ F0            |     | El tono sube         |
+| con más frecuencia          |     |                 |     |                      |
+| | &nbsp; &nbsp; &nbsp; &nbsp;     |   | &nbsp; &nbsp; &nbsp; &nbsp;     |        |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+class: middle, center, inverse
+
+# El ritmo
+
+---
+
+# El ritmo
+
+- El ritmo se refiere a los patrones del acento a lo largo del enunciado
+- Las lenguas suelen pertenecer a uno de tres grupos (nos centramos en 2)
+- Son clasificaciones basadas en la percepción (no todo el mundo está de acuerdo)
+
+--
+
+#### Lengua de ritmo acentual (inglés) 
+
+- *Stress-timed*
+- Se supone que los intervalos entre las sílabas tónicas cuentan con las misma duración
+- ¿Cómo? Mediante la menor o mayor reducción en la duración de las sílabas átonas 
+
+#### Lengua de ritmo silábico (español) 
+
+- *Syllable-timed*
+- Se supone que todas las sílabas tienen la misma duración 
+- Sabemos que no es del todo cierto 
+  - hay diferencias intrínsecas de duración
+  - el acento afecta la duración 
+  - proximidad al final de la frase también
+
+
+
+
+
+
+
+
+
+
+
+
+---
+class: middle, center, inverse
+
+# La entonación
+
+---
+
+# La entonación
+
+### ¿Qué es?
+
+- El uso del tono (F0) para propósitos lingüísticos (pragmáticos o discursivos)
+
+- Todas las lenguas usan el tono de alguna forma
+
+- Puede ser fonológicamente contrastivo (lengua tonal, i.e., el chino mandarín)
+
+- En otras lenguas F0 se usa para expresar significados pragmáticos 
+ (lengua entonativa, i.e., español, inglés)
+  - más, ¡más!, ¿más?
+  - Llegaron mis amigos. ¿Llegaron mis amigos?
+
+---
+background-image: url("./libs/img/ma.png")
+background-size: contain
+
+.bottom[
+
+<audio controls>
+  <source src="./libs/wav/ma_f0.ogg" type="audio/ogg">
+  <source src="./libs/wav/ma_f0.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+]
+
+---
+
+# La entonación
+
+### Los componentes
+
+- Nos referimos a eventos tonales asociados con determinadas sílabas
+
+- Hay puntos (*landmarks*) importantes:
+  - las sílabas tónicas
+  - el final de las frases
+
+- Un contorno tonal asociado con una sílaba tónica se denomina **acento tonal** (*pitch accent*)
+
+- Un contorno tonal relacionado con la frontera de la frase es un **tono de frontera** (*boundary tone*)
+
+.footnote[
+
+- [atlas interactivo](http://prosodia.upf.edu/atlasentonacion/presentacio/presentacio2.html)
+- [Sp_ToBI](http://prosodia.upf.edu/sp_tobi/en/labeling_system/labeling_system.html)
+
+]
+
+---
+
+# ToBI (tone and break indices)
+
+### Lo básico
+
+- Un sistema de transcripción (textgrid en praat)
+- Describe los tonos en términos de picos (H, high) y valles (L, low) con referencia a una meta hipotética
+- La meta puede ser simple, H\* (h star) o compleja si hay movimiento (L+H*) (¿Entonces?)
+- El asterisco implica que el tono se asocia con una sílaba tónica
+- El tono de frontera se llama *acento tonal nuclear* y se usa "%"" (i.e., H%, L%)
+- Para una frase intermedia (no final) se usa "-"" (i.e., H-, L-)
+
+--
+
+### Algunas generalizaciones
+
+- Las oraciones declarativas empiezan con un tono (relativamente) alto y terminan con un tono de frontera bajo (L%)
+- Las preguntas totales (la respuesta es sí/no) empiezan con un tono bajo y terminan con un tono de frontera alto (H%)
+- Las preguntas qu- (quién, qué, cómo, etc.) son como las declarativas
+

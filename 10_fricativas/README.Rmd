@@ -1,0 +1,27 @@
+---
+title: "Las onstruyentes sonoras"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview 
+
+- This lesson focuses on the fricative consonants /f, s, x/
+- The exercises have been moved to "index_ex.Rmd" and can be used in 
+class
+
+## Reading
+
+- Raymond Elliot (2019)
+
+## Videos
+
+- For asynchronous teaching there are videos available here: 
+- The lecture is divided into 1 video using the following outline: 
+
+1. Las fricativas /f, s, x/
+
+    > 
