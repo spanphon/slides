@@ -2,7 +2,7 @@
 title: "SPAN 585"
 subtitle: "Repaso descriptivo"
 author: "Joseph V. Casillas, PhD"
-date: "Rutgers University | Spring 2020</br>Last update: `r format(Sys.time(), '%D')`"
+date: "Rutgers University | Spring 2022</br>Last update: `r format(Sys.time(), '%D')`"
 output:
   xaringan::moon_reader:
     chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
@@ -25,7 +25,7 @@ options(htmltools.dir.version = FALSE)
 ```{r xaringan-extra-all-the-things, echo=FALSE}
 xaringanExtra::use_xaringan_extra(
   c("tile_view", "panelset", "editable", 
-    "slide_tone", "animate", "tachyons")
+    "webcam", "animate", "tachyons")
 )
 ```
 
