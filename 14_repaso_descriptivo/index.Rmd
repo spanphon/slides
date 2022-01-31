@@ -447,12 +447,12 @@ o**bs**.**tr**ucción, i**ns**.**tr**ucción
 
 ---
 class: inverse, center, middle
-exclude: true
+exclude: false
 
 # Resilabificación
 
 ---
-exclude: true
+exclude: false
 
 # Resilabificación
 
@@ -466,7 +466,7 @@ un
 a.bri.go
 
 --
-exclude: true
+exclude: false
 
 ## Silabificación de frase...
 
@@ -476,13 +476,13 @@ com.pra.**mo**.**su**.**na**.bri.go
 
 ---
 class: inverse, center, middle
-exclude: true
+exclude: false
 
 # Diptongos e hiatos  
 # Procesos vocálicos
 
 ---
-exclude: true
+exclude: false
 
 # Diptongos e hiatos. Procesos vocálicos
 
@@ -493,7 +493,7 @@ exclude: true
 
 
 --
-exclude: true
+exclude: false
 
 ### Componentes de un diptongo
 
@@ -502,21 +502,21 @@ t**ie**.ne [i̯e] = deslizada [i̯] + vocal [e]
 p**ei**.ne [ei̯] = vocal [e] + deslizada [i̯]
 
 --
-exclude: true
+exclude: false
 
 #### Diptongos crecientes
 
 Tiene, apiadarse, suave, puede, adiós, cuota
 
 --
-exclude: true
+exclude: false
 
 #### Diptongos decrecientes
 
 Peine, amainar, pausa, deuda, voy
 
 ---
-exclude: true
+exclude: false
 
 # Diptongos e hiatos. Procesos vocálicos
 
@@ -545,7 +545,7 @@ exclude: true
 </br>
 
 --
-exclude: true
+exclude: false
 
 **Triptongos**  
 buey [bu̯ei̯]  
@@ -554,7 +554,7 @@ deslizada [u̯] + vocal [e] + deslizada [i̯]
 </br>
 
 --
-exclude: true
+exclude: false
 
 **Hiatos**  
 CV.V (vocal + vocal)  
@@ -564,7 +564,7 @@ mare.o
 le.í  
 
 ---
-exclude: true
+exclude: false
 
 # Diptongos e hiatos. Procesos vocálicos
 
@@ -600,7 +600,7 @@ exclude: true
 class: inverse, middle, center
 background-image: url("./libs/img/moldesGalletas.jpg")
 background-size: contain
-exclude: true
+exclude: false
 
 # Fonemas y alófonos
 
@@ -608,7 +608,7 @@ exclude: true
 background-image: url("./libs/img/fonemasAlofonos2.png")
 background-size: 250px
 background-position: 92% 10%
-exclude: true
+exclude: false
 
 # Los fonemas como categorías abstractas
 
@@ -633,7 +633,7 @@ realizaciones concretas
 ]
 
 ---
-exclude: true
+exclude: false
 
 # El par mínimo
 
@@ -653,17 +653,17 @@ exclude: true
 
 ---
 class: inverse, center, middle
-exclude: true
+exclude: false
 
 # Las oclusivas
 
 ---
 background-image: url("./libs/img/ipo.png")
 background-size: contain
-exclude: true
+exclude: false
 
 ---
-exclude: true
+exclude: false
 
 # Los fonemas oclusivos sordos /p, t, k/
 
@@ -709,7 +709,7 @@ exclude: true
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Los fonemas oclusivos sonoros /b, d, g/
 
@@ -754,7 +754,7 @@ exclude: true
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Los fonemas oclusivos sonoros /b, d, g/
 
@@ -785,7 +785,7 @@ exclude: true
 ]
 
 --
-exclude: true
+exclude: false
 
 .pull-right[
 
@@ -807,7 +807,7 @@ exclude: true
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Las consonantes oclusivas del español
 
@@ -824,7 +824,7 @@ exclude: true
 
 ---
 class: inverse, middle, center
-exclude: true
+exclude: false
 
 # Los fonemas fricativos:  
 
@@ -833,13 +833,13 @@ exclude: true
 ---
 background-image: url("./libs/img/fricativos.png")
 background-size: 500px
-exclude: true
+exclude: false
 
 ---
 background-image: url("./libs/img/phteven1.jpg")
 background-size: 150px
 background-position: 95% 5%
-exclude: true
+exclude: false
 
 
 # El fonema fricativo: /f/
@@ -887,7 +887,7 @@ fricativa labiodental sonora
 ]
 
 ---
-exclude: true
+exclude: false
 
 # El fonema fricativo: /θ/
 
@@ -932,7 +932,7 @@ fricativa dental sonora
 ]
 
 ---
-exclude: true
+exclude: false
 
 # El fonema fricativo: /s/
 
@@ -973,7 +973,7 @@ Alófonos
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Distribución de alófonos
 
@@ -995,7 +995,7 @@ exclude: true
 [h]: fricativa glotal sorda         
 
 ---
-exclude: true
+exclude: false
 
 # Seseo, ceceo y distinción
 
@@ -1009,7 +1009,7 @@ ataque (ceceo)
 	- variación según formación, estilo
 
 ---
-exclude: true
+exclude: false
 
 # El fonema fricativo: /ʝ/
 
@@ -1051,7 +1051,7 @@ Alófonos
 ]
 
 ---
-exclude: true
+exclude: false
 
 # El fonema fricativo: /ʝ/
 
@@ -1069,7 +1069,7 @@ después de nasal, pausa y en posición enfática
 | que pedí yogur   | &nbsp; &nbsp; |      |
 
 ---
-exclude: true
+exclude: false
 
 # El fonema fricativo: /x/
 
@@ -1117,12 +1117,12 @@ Variantes regionales:
 
 ---
 class: inverse, middle, center
-exclude: true
+exclude: false
 
 # Los fonemas africados
 
 ---
-exclude: true
+exclude: false
 
 # Los fonemas africados
 
@@ -1162,7 +1162,7 @@ Alófonos
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Obstruyentes corono-dorsales
 
@@ -1179,7 +1179,7 @@ exclude: true
 class: inverse, middle, center
 background-image: url("./libs/img/nasales2.png")
 background-size: 500px
-exclude: true
+exclude: false
 
 </br></br></br></br></br></br>
 # Los fonemas nasales
@@ -1188,7 +1188,7 @@ exclude: true
 background-image: url("./libs/img/nasales1.jpg")
 background-size: 200px
 background-position: 95% 10%
-exclude: true
+exclude: false
 
 # Los fonemas nasales
 
@@ -1222,7 +1222,7 @@ Ortografía
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Alófonos nasales (resultado de asimilación)
 
@@ -1244,7 +1244,7 @@ exclude: true
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Las nasales
 
@@ -1266,7 +1266,7 @@ exclude: true
 
 ---
 class: inverse, middle, center
-exclude: true
+exclude: false
 
 # Los fonemas laterales
 
@@ -1274,7 +1274,7 @@ exclude: true
 background-image: url("./libs/img/laterals1.gif")
 background-size: 200px
 background-position: 95% 10%
-exclude: true
+exclude: false
 
 # Los fonemas laterales
 
@@ -1306,7 +1306,7 @@ Ortografía
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Alófonos laterales
 
@@ -1324,7 +1324,7 @@ exclude: true
 ]
 
 ---
-exclude: true
+exclude: false
 
 # Alófonos laterales
 
@@ -1344,7 +1344,7 @@ exclude: true
 
 ---
 class: inverse, middle, center
-exclude: true
+exclude: false
 
 # Los fonemas vibrantes
 
