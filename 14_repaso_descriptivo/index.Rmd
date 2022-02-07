@@ -1349,7 +1349,7 @@ exclude: false
 # Los fonemas vibrantes
 
 ---
-exclude: true
+exclude: false
 
 # Los fonemas vibrantes
 
@@ -1387,7 +1387,7 @@ Ortografía
 ]
 
 ---
-exclude: true
+exclude: false
 
 ## Alófonos vibrantes
 
@@ -1403,7 +1403,7 @@ múltiple
 | **r**otar  |
 
 --
-exclude: true
+exclude: false
 
 La vibrante múltiple aparece también en posición inicial de sílaba cuando va 
 precedida de otra consonante (marcamos la división silábica con puntos)
@@ -1415,7 +1415,7 @@ precedida de otra consonante (marcamos la división silábica con puntos)
 | hon.**r**a     |
 
 ---
-exclude: true
+exclude: false
 
 ## Alófonos vibrantes
 
@@ -1430,7 +1430,7 @@ el alófono correspondiente es el simple
 | p**r**i.mer |
 
 --
-exclude: true
+exclude: false
 
 En posición final de sílaba o de palabra existe variación libre. Esto quiere 
 decir que el hablante pronuncia a veces la simple y a veces la múltiple
@@ -1446,7 +1446,7 @@ La tendencia general; es a pronunciar [ɾ]; sin embargo, [r] es frecuente por
 motivos de énfasis: ¡Quiero come[r]!
 
 ---
-exclude: true
+exclude: false
 
 ## Las consonantes vibrantes del español </br> Fonemas, alófonos y su distribución
 
@@ -1472,12 +1472,12 @@ exclude: true
 
 ---
 class: inverse, middle, center
-exclude: true
+exclude: false
 
 # Procesos fonológicos
 
 ---
-exclude: true
+exclude: false
 
 # Procesos fonológicos
 
@@ -1490,25 +1490,25 @@ exclude: true
 
 ---
 class: inverse, middle, center
-exclude: true
+exclude: false
 
 # La acentuación
 
 ---
-exclude: true
+exclude: false
 
 # La acentuación (acento prosódico)
 
 - Diferencia entre acento ortográfico (tilde) y acento prosódico
 
 --
-exclude: true
+exclude: false
 
 - Todas las palabras léxicas (nombres, adjetivos, verbos, adverbios) llevan 
 acento prosódico en español
 
 --
-exclude: true
+exclude: false
 
 <p></p>
 
@@ -1520,32 +1520,32 @@ acento prosódico; se apoyan en otra palabra para obtenerlo (clíticos)
 <p></p>
 
 --
-exclude: true
+exclude: false
 
 - Las sílabas acentuadas se llaman <BLUE>tónicas</BLUE> y las no acentuadas <BLUE>átonas</BLUE>
 
 --
-exclude: true
+exclude: false
 
 - El acento prosódico en español no puede ir más a la izquierda de la 
 antepenúltima sílaba:  
 casa, salón, régimen, \*albáricoque, \*álbaricoque
 
 --
-exclude: true
+exclude: false
 
 - El acento prosódico es fonémico:  
 Número, numero, numeró
 
 --
-exclude: true
+exclude: false
 
 - El español es una lengua de ritmo silábico, no acentual como el inglés. 
 Esto quiere decir que todas las sílabas tienen la misma duración 
 independientemente de si son tónicas o átonas.
 
 ---
-exclude: true
+exclude: false
 
 # Práctica
 
@@ -1559,7 +1559,7 @@ exclude: true
 
 <p></p>
 --
-exclude: true
+exclude: false
 
 1. /a.ˈʝeɾ.poɾ.la.ˈtaɾ.de.ˈfui.mo.sa.la.ˈtieN.da.a.kom.ˈpɾa.ˈro.pa/  
 [a.ˈʝeɾ.poɾ.la.ˈtaɾ.ðe.ˈfu̯i.mo.sa.la.ˈti̯en̪.da.a.kom.ˈpɾa.ˈro.pa] 
