@@ -14,7 +14,7 @@
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x402a183155040768e7fc9d7fb94b86e","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x60eed005aae4caabd8f6a8c46455133","expires":14}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -30,7 +30,7 @@ class: center, middle, inverse, title-slide
 # SPAN 585
 ## La percepción del habla
 ### Joseph V. Casillas, PhD
-### Rutgers University | Spring 2022</br>Last update: 02/20/22
+### Rutgers University | Spring 2022</br>Last update: 02/21/22
 
 ---
 
@@ -231,7 +231,6 @@ background-size: contain
 
 # La percepción categórica
 
-
 - "Equal sized physical differences are not equal sized psychologically."
 
 - No percibimos los continuos como continuos...
@@ -241,6 +240,56 @@ background-size: contain
 - Las diferencias entre categorías se aumentan
 
 .footnote[AX [download](https://www.spanphon.jvcasillas.com/slides/16_percepcion/libs/discriminationAX.zip)]
+
+
+---
+background-color: black
+
+
+
+&lt;img src="index_files/figure-html/2afc-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-pair-type-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-hard-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-medium-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-easy-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-rt-pair-type-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-rt-hard-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-rt-medium-plot-1.png" width="100%" /&gt;
+
+---
+background-color: black
+
+&lt;img src="index_files/figure-html/ax-rteasy-plot-1.png" width="100%" /&gt;
+
+
 
 
 
@@ -455,34 +504,10 @@ exclude: true
 # Create some data
 
 
-```r
-# Generate data
-var1  &lt;- c(0, 0, 0, 0, 1, 1, 1)
-var2  &lt;- c(0, 0, 0, 1, 1, 1, 1)
-var3  &lt;- c(0, 0, 1, 0, 1, 1, 1)
-var4  &lt;- c(0, 0, 0, 1, 0, 1, 1)
-var5  &lt;- c(1, 0, 1, 0, 1, 1, 1)
-var6  &lt;- c(0, 0, 0, 1, 1, 1, 1)
-var7  &lt;- c(0, 0, 0, 0, 1, 1, 0)
-var8  &lt;- c(0, 0, 0, 0, 0, 1, 1)
-var9  &lt;- c(0, 1, 0, 1, 1, 0, 1)
-var10 &lt;- c(0, 0, 0, 1, 1, 1, 1)
-resp &lt;- rep(c(var1, var2, var3, var4, var5, var6, var7, var8, var9, var10), times = 10)
-
-partN  &lt;- 1:100
-subjId &lt;- rep(paste0('subj', partN), each = 7)
-my_df  &lt;- data.frame(subjId, 
-                     stim = rep(1:7, times = 100), 
-                     response = resp)
-```
 
 ---
 exclude: true
 
-
-```r
-str(my_df)
-```
 
 ```
 ## 'data.frame':	700 obs. of  3 variables:
@@ -493,10 +518,6 @@ str(my_df)
 
 .pull-left[
 
-
-```r
-head(my_df)
-```
 
 ```
 ##   subjId stim response
@@ -513,10 +534,6 @@ head(my_df)
 .pull-right[
 
 
-```r
-tail(my_df)
-```
-
 ```
 ##      subjId stim response
 ## 695 subj100    2        0
@@ -532,46 +549,15 @@ tail(my_df)
 ---
 exclude: true
 
-
-```r
-library(tidyverse)
-
-ggplot(my_df, aes(x = stim, y = response)) + 
-  geom_jitter(alpha = 0.1, height = 0.05, width = 0.5, color = 'red') + 
-  geom_smooth(method = "glm", method.args = list(family = "binomial")) + 
-  theme_minimal(base_size = 16, base_family = 'Times')
-```
-
 &lt;img src="index_files/figure-html/unnamed-chunk-6-1.png" width="936" /&gt;
 
 ---
 exclude: true
 
-
-```r
-my_glm &lt;- glm(response ~ stim, data = my_df, family = "binomial")
-
-ggplot(my_df, aes(x = stim, y = response)) + 
-  stat_summary(fun.data = 'mean_cl_boot', geom = 'pointrange') + 
-  stat_summary(aes(y = fitted(my_glm)), fun = 'mean', geom = 'line') + 
-  theme_minimal(base_size = 16, base_family = 'Times')
-```
-
 &lt;img src="index_files/figure-html/unnamed-chunk-7-1.png" width="936" /&gt;
 
 ---
 exclude: true
-
-
-```r
-library(lme4)
-my_glmer &lt;- glmer(response ~ stim + (1|subjId), data = my_df, family = 'binomial')
-
-ggplot(my_df, aes(x = stim, y = response)) + 
-  stat_summary(fun.data = 'mean_cl_boot', geom = 'pointrange') + 
-  stat_summary(aes(y = fitted(my_glmer)), fun = 'mean', geom = 'line') + 
-  theme_minimal(base_size = 16, base_family = 'Times')
-```
 
 &lt;img src="index_files/figure-html/unnamed-chunk-8-1.png" width="936" /&gt;
 
