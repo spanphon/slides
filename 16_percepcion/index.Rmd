@@ -37,6 +37,7 @@ xaringanExtra::use_xaringan_extra(
 
 - ¿Cómo diferenciamos entre el habla y el ruido?
 - ¿Cómo extraemos información relevante de una señal pobre?
+- La ausencia de la invarianza
 
 --
 
@@ -50,9 +51,8 @@ xaringanExtra::use_xaringan_extra(
 
 ### Hallazgos/temas de interés
 
-- Percepción categórica
-- McGurk effect
 - Coarticulación
+- Percepción categórica
 - Interfaz producción/percepción
 
 ---
@@ -68,52 +68,104 @@ xaringanExtra::use_xaringan_extra(
 ### ¿Cómo asociamos las unidades lingüísticas con la parte correspondiente de la señal pese a la ausencia de la invarianza?
 
 ---
+background-image: url(./libs/img/liberman.jpg)
+background-position: 105% 50%
+background-size: contain
 
 # MT
 
 - Primera teoría importante, surge en los 60 (Haskins)
 - Investigador principal: Liberman
+--
+
 - 2 hallazgos fundamentales
 	- Coarticulación
 	- Percepción categórica
-	- Idea principal: "linguistic units are coarticulated in production and yet perceived categorically"
+	- Idea principal: "linguistic units are coarticulated  
+	in production and yet perceived categorically"
+--
+
 - 3 aserciones
 	- "primatives" son articulatorios ("intended gestures")
 	- "Speech is special"
 		- la señal codifica la estructura del lenguaje
-		- los seres humanos tenemos "algo" (speech module) para descodificar la señal
-		- ese "algo" se ocupa de la percepción y la producción
+		- los seres humanos tenemos "algo" (speech  
+		module) para descodificar la señal
+		- ese "algo" se ocupa de la percepción y la  
+		producción
+--
+
 - Evidencia
 	- percepción "duplex"
-	- se procesa el habla en base a cómo se produjo (McGurk effect, comunicación háptica)
+	- se procesa el habla en base a cómo se produjo  
+	(McGurk effect, comunicación háptica)
 
 ---
+class: center, middle
+background-color: black
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2k8fHR9jKVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+class: center, middle
+background-color: black
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jtsfidRq2tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+background-image: url(https://haskinslabs.org/sites/default/files/pictures/picture-143-1462561734.jpg)
+background-position: 100% 50%
+background-size: contain
 
 # DRT
 
 - Nace de Naïve Realism, basada en MT (Haskins)
 - Direct realism (Aristóteles) vs. Indirect realism (Descartes)
+--
+
 - Investigadora principal: Fowler
 - Similar a MT: "primatives" son articulatorios
 - Diferente de MT: 
-	- la unidades de percepción son los gestos ("intended gesture" vs. "gesture")
+	- la unidades de percepción son los gestos  
+	("intended gesture" vs. "gesture")
 	- el habla no es especial (ningún decoder)
-- algo de parsimonia con otros tipos de percepción (e.g., visual)
+--
+
+- algo de parsimonia con otros tipos de percepción  
+(e.g., visual)
 - Evidencia: véase MT
 
 ---
+background-image: url(./libs/img/diehl.jpeg)
+background-position: 105% 50%
+background-size: contain
 
 # GA
 
-- No es una teoría sino  
-"general framework within which particular theoretical claims may be formulated and tested"
+- No es una teoría sino "general framework within  
+which particular theoretical claims may be  
+formulated and tested"
+--
+
 - Investigador principal: ?
+--
+
 - Surge como alternativa a MT, DRT
-- Evidencia en contra de MT, DRT se tiene como evidencia a favor de GA
+- Evidencia en contra de MT, DRT se tiene como  
+evidencia a favor de GA
 - Rechaza la idea de que "el habla es especial"
-- Las unidades lingüísticas se asocian a la parte corresondiente de la señal mediante el sistema auditivo básico y procesos cognitivos (mecanismos de aprendizaje) 
-  - "...listeners are able to recover linguistic units via the
-acoustic signal by utilizing the ‘multiple imperfect acoustic cues’ coupled with sensitivity to the statistical properties present in speech" (Diehl et al., 2004, p. 154).
+--
+
+- Las unidades lingüísticas se asocian a la parte  
+corresondiente de la señal mediante el sistema  
+auditivo básico y procesos cognitivos (mecanismos  
+de aprendizaje)
+
+.pull-left[
+.content-box-blue[
+"...listeners are able to recover linguistic units via the acoustic signal by utilizing the ‘multiple imperfect acoustic cues’ coupled with sensitivity to the statistical properties present in speech" (Diehl et al., 2004, p. 154).
+]
+]
 
 ---
 
@@ -311,7 +363,7 @@ data %>%
     scale_x_continuous(breaks = 0:6, 
       labels = c("0\nba", "1", "2", "3", "4", "5", "6\nda")) + 
     labs(y = "p(ba)", x = "Continuum step") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
   
 ```
 
@@ -329,7 +381,7 @@ data %>%
     scale_y_continuous(labels = scales::percent) + 
     scale_color_viridis_d(option = "B", begin = 0.4) + 
     labs(y = "% correct", x = "Pair type") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -345,7 +397,7 @@ data %>%
     scale_y_continuous(labels = scales::percent) + 
     scale_color_viridis_d(option = "B", begin = 0.6) + 
     labs(y = "% correct", x = "Continuum pair") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -361,7 +413,7 @@ data %>%
     scale_y_continuous(labels = scales::percent) + 
     scale_color_viridis_d(option = "B", begin = 0.4) + 
     labs(y = "% correct", x = "Continuum pair") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -377,7 +429,7 @@ data %>%
     scale_y_continuous(labels = scales::percent) + 
     scale_color_viridis_d(option = "B", begin = 0.8) + 
     labs(y = "% correct", x = "Continuum pair") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -392,7 +444,7 @@ data %>%
       fill = "white", size = 1.25, position = position_dodge(0.4)) +
     scale_color_viridis_d(option = "B", begin = 0.4) + 
     labs(y = "RT", x = "Pair type") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -406,7 +458,7 @@ data %>%
       pch = 21, fill = "white", size = 1.25) + 
     scale_color_viridis_d(option = "B", begin = 0.6) + 
     labs(y = "RT", x = "Continuum pair") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -420,7 +472,7 @@ data %>%
       pch = 21, fill = "white", size = 1.25) + 
     scale_color_viridis_d(option = "B", begin = 0.4) + 
     labs(y = "RT", x = "Continuum pair") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 ---
@@ -434,7 +486,7 @@ data %>%
       pch = 21, fill = "white", size = 1.25) + 
     scale_color_viridis_d(option = "B", begin = 0.8) + 
     labs(y = "RT", x = "Continuum pair") + 
-    dark_theme_bw()
+    dark_theme_bw(base_family = "Times")
 ```
 
 
