@@ -128,20 +128,6 @@ acoustic signal by utilizing the ‘multiple imperfect acoustic cues’ coupled 
 
 - Podemos manipular el tracto vocálico de muchas maneras para generar señales acústicas parecidas 
 
-
----
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 class: inverse, middle, center
 
@@ -244,7 +230,7 @@ background-size: contain
 
 - Las diferencias entre categorías se aumentan
 
-.footnote[AX [download](http://www.jvcasillas.com/585_01_s2017/slides/07_percepcion/libs/4_discriminationAX.zip)]
+.footnote[AX [download](https://www.spanphon.jvcasillas.com/slides/16_percepcion/libs/discriminationAX.zip)]
 
 
 
@@ -255,6 +241,7 @@ background-size: contain
 
 
 ---
+exclude: true
 class: inverse, middle, center
 
 # La percepción categórica y el bilingüismo
@@ -262,6 +249,7 @@ class: inverse, middle, center
 ### **Pallier et al. (1997)**
 
 ---
+exclude: true
 
 # La percepción categórica
 
@@ -272,6 +260,7 @@ class: inverse, middle, center
 - El catalán cuenta con un contraste vocálico que no existe en español (/e/-/ɛ/)
 
 ---
+exclude: true
 
 # La percepción categórica
 
@@ -284,6 +273,7 @@ class: inverse, middle, center
 </div>
 
 ---
+exclude: true
 
 # La percepción categórica
 
@@ -303,14 +293,17 @@ class: inverse, middle, center
 - "¿Son iguales o son diferentes?"
 
 ---
+exclude: true
 background-image: url("./libs/img/pallier1.png")
 background-size: contain
 
 ---
+exclude: true
 background-image: url("./libs/img/pallier2.png")
 background-size: contain
 
 ---
+exclude: true
 
 # La percepción categórica
 
@@ -323,6 +316,7 @@ background-size: contain
 - Estar expuesto a una edad temprana (durante el periodo sensible) no parece ser suficiente
 
 ---
+exclude: true
 class: inverse, middle, center
 
 # La percepción categórica y el bilingüismo
@@ -330,6 +324,7 @@ class: inverse, middle, center
 ###**Language-specific stop perception in highly proficient Heritage Speakers**
 
 ---
+exclude: true
 
 # La percepción categórica 
 
@@ -345,10 +340,12 @@ class: inverse, middle, center
 - **Do highly proficient HSs inhibit cross-language interaction effects a unilingual setting?**
 
 ---
+exclude: true
 background-image: url("./libs/img/sp_en_stops.png")
 background-size: contain
 
 ---
+exclude: true
 
 # Method
 
@@ -361,6 +358,7 @@ background-size: contain
 - Bilingual Language Profile (BLP) questionnaire (-10.16)
 
 ---
+exclude: true
 
 ## Method
 
@@ -375,6 +373,7 @@ background-size: contain
   - 'English' ba[fɹi]-pa[fɹi]
 
 ---
+exclude: true
 
 ## Method 
 
@@ -395,6 +394,7 @@ background-size: contain
         - All correspondence with investigator in English
 
 ---
+exclude: true
 
 <div align="center">
   <img width="100%" src="./libs/img/bafriTuc.png">
@@ -404,6 +404,7 @@ background-size: contain
 >- Overall probability of selecting /pa/ decreases by 38% when hearing English stimuli
 
 ---
+exclude: true
 
 # Summary of findings
 
@@ -412,6 +413,7 @@ background-size: contain
 - HSs shifted their perceptual boundary to accommodate English stimuli in session 2
 
 ---
+exclude: true
 
 # Discussion
 
@@ -419,11 +421,13 @@ background-size: contain
 - No (less) cross-language activation in unilingual settings
 
 ---
+exclude: true
 class: inverse, center, middle
 
 # Dealing with results
 
 ---
+exclude: true
 
 # Dealing with results
 
@@ -435,6 +439,7 @@ library(knitr)
 read_chunk('./assets/scripts/analysis.R')
 ```
 ---
+exclude: true
 
 # Create some data
 
@@ -461,7 +466,7 @@ my_df  <- data.frame(subjId,
 ```
 
 ---
-
+exclude: true
 
 ```{r}
 str(my_df)
@@ -484,6 +489,7 @@ tail(my_df)
 ]
 
 ---
+exclude: true
 
 ```{r, fig.retina=2, fig.width=13, fig.height=6, warning=F, message=F}
 library(tidyverse)
@@ -495,6 +501,7 @@ ggplot(my_df, aes(x = stim, y = response)) +
 ```
 
 ---
+exclude: true
 
 ```{r, fig.retina=2, fig.width=13, fig.height=6}
 my_glm <- glm(response ~ stim, data = my_df, family = "binomial")
@@ -506,6 +513,7 @@ ggplot(my_df, aes(x = stim, y = response)) +
 ```
 
 ---
+exclude: true
 
 ```{r, fig.retina=2, fig.width=13, fig.height=6, warning=F, message=F}
 library(lme4)
@@ -536,6 +544,7 @@ ggplot(my_df, aes(x = stim, y = response)) +
 
 
 ---
+exclude: true
 
 # Conclusión
 
@@ -557,6 +566,7 @@ ggplot(my_df, aes(x = stim, y = response)) +
 
 
 ---
+exclude: true
 
 ## More resources
 
@@ -566,6 +576,7 @@ ggplot(my_df, aes(x = stim, y = response)) +
 - http://www.youtube.com/watch?v=VV6qhuQgsiI
 
 ---
+exclude: true
 
 ## References
 
