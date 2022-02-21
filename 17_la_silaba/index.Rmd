@@ -266,7 +266,7 @@ background-size: 300px
 - En otras palabras, el ‘output’ no es resultado de una transformación realizada a la representación subyacente, sino que se encuentra contenido en la misma y es el resultado de evaluar y comparar todos los candidatos (análisis) para escoger el mejor
 
 .footnote[
-<sup>1</sup>Handout sobre la sílaba disponible [aquí](https://www.jvcasillas.com/ru_teaching/ru_spanish_585/585_02_s2020/slides/03_la_silaba/silaba_ho.pdf)
+<sup>1</sup>Handout sobre la sílaba disponible [aquí](https://www.spanphon.jvcasillas.com/slides/17_la_silaba/silaba_ho.pdf)
 ]
 
 ---
