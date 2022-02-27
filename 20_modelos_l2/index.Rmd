@@ -29,19 +29,69 @@ xaringanExtra::use_xaringan_extra(
 )
 ```
 
-background-image: url(./libs/img/ali.png)
+background-image: url(./libs/img/niko0a.png)
 background-size: contain
 background-color: black
 
 ---
-background-image: url(./libs/img/ali2.png)
+background-image: url(./libs/img/niko0b.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko1a.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko1b.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko2a.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko2b.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko3a.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko3b.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko4a.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko4b.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko5a.png)
+background-size: contain
+background-color: black
+
+---
+background-image: url(./libs/img/niko5b.png)
 background-size: contain
 background-color: black
 
 ---
 background-image: url(./libs/img/distributions.png)
 background-size: 1000px
-background-color: #edf0d7
+background-color: #F3F4DF
 
 ---
 background-image: url(./libs/img/sheep.jpg), url(./libs/img/ship.jpg)
@@ -60,7 +110,7 @@ background-color: black
 
 # Models
 
-### SLM
+### SLM-r
 
 ### PAM, PAM-L2
 
