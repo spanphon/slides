@@ -2,21 +2,21 @@
 title: "SPAN 585"
 subtitle: "Vocoides"
 author: "Joseph V. Casillas, PhD"
-date: "Rutgers University | Spring 2020</br>Last update: `r format(Sys.time(), '%D')`"
+date: "Rutgers University | Spring 2022</br>Last update: `r format(Sys.time(), '%D')`"
 output:
   xaringan::moon_reader:
     chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
     css: ["hygge", "rutgers", "rutgers-fonts"]
     lib_dir: libs
+    self_contained: FALSE
     nature:
-      highlightStyle: github
-      highlightLines: true
+      highlightStyle: monokai
+      highlightLines: TRUE
       countIncrementalSlides: FALSE
       ratio: "16:9"
     includes:
       in_header: "../assets/partials/header.html"
 ---
-
 
 ```{r setup, include=FALSE, cache=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -25,7 +25,7 @@ options(htmltools.dir.version = FALSE)
 ```{r xaringan-extra-all-the-things, echo=FALSE}
 xaringanExtra::use_xaringan_extra(
   c("tile_view", "panelset", "editable", 
-    "slide_tone", "animate", "tachyons")
+    "webcam", "animate", "tachyons")
 )
 ```
 
@@ -215,6 +215,7 @@ a la anterioridad (F2, el eje horizontal) y la altura (F1, el eje vertical).
 ]
 
 ---
+exclude: true
 class: title-slide-section-grey, middle
 
 # Description of Spanish Vowels and Guidelines for teaching them
@@ -222,6 +223,7 @@ class: title-slide-section-grey, middle
 ### **Eugenio Martínez Celdrán and Wendy Elvira-García**
 
 ---
+exclude: true
 
 # Celdrán and Elvira-García (2019)
 
@@ -235,6 +237,7 @@ class: title-slide-section-grey, middle
 for all levels
 
 ---
+exclude: true
 
 # Celdrán and Elvira-García (2019)
 
@@ -253,6 +256,7 @@ for all levels
 - Stressed syllables have longer vowels (mainly in nucleus of prosodic phrase), intensity negligible (lies)
 
 ---
+exclude: true
 
 # Celdrán and Elvira-García (2019)
 
@@ -271,6 +275,7 @@ for all levels
   - lengthening and diphthongization of stressed and final vowels
 
 ---
+exclude: true
 
 # Celdrán and Elvira-García (2019)
 
@@ -288,6 +293,8 @@ for all levels
   3. Production tasks (assessment, visualization, games)
 
 ---
+exclude: true
+
 background-image: url(./libs/img/celdran1.png)
 background-size: contain
 
