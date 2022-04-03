@@ -357,8 +357,8 @@ background-size: contain
 
 # Scripts
 
-- [intensityRatio.praat](https://www.jvcasillas.com/585_02_s2020/programming/praat/intensityRatio.praat)
-- [spectralMoments.praat](https://www.jvcasillas.com/585_02_s2020/programming/praat/spectralMoments.praat)
+- [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
+- [spectralMoments.praat](https://www.spanphon.jvcasillas.com/programming/praat/spectralMoments.praat)
 
 
 ---
