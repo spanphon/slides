@@ -14,7 +14,7 @@
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"a109f52e0e7a497a843e6d81b25ba945","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xda91c0a97e043b8b65caf5ba273aece","expires":14}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -30,7 +30,7 @@ class: center, middle, inverse, title-slide
 # SPAN 585
 ## Obstruyentes
 ### Joseph V. Casillas, PhD
-### Rutgers University | Spring 2022</br>Last update: 04/03/22
+### Rutgers University | Spring 2022</br>Last update: 04/18/22
 
 ---
 
@@ -64,83 +64,6 @@ class: inverse, center, middle
 - Se produce una obstrucción que impide el flujo de aire
 - Se contrastan con las sonorantes (vocoides, nasales, líquidas y aproximantes)
 - Suelen venir de dos en dos (sordas/sonoras)
-
----
-class: inverse, center, middle
-
-# Las fricativas
-
----
-
-# Las fricativas
-
-#### En general
-
-- Son más largas con respecto a las oclusivas
-- La barra de voz sirve para distinguir entre sordas y sonoras
-- Se puede distinguir entre sibilantes/estridentes (i.e. [s, ʃ]) y no-sibilantes (i.e. [f, v, θ])
-  - Sibilantes: producidas con un flujo de aire fuerte que desemboca contra los dientes
-  - No-sibilantes: producidas con un flujo de aire débil
-
-#### En el oscilograma
-
-- Se ven como ruido
-- Cuentan con una onda aperiódica
-- Parecen "peludas"
-
-#### En el espectrograma
-
-- El ruido se ve como oscuridad
-- La distribución de su energía varía según el punto de articulación 
-
-
-
-
-
-
-
-
-
-
-
----
-class: inverse, center, middle
-
-# Las africadas
-
----
-
-# Las africadas
-
-&lt;div style="float:right"&gt;
-  &lt;img width="300" src="./libs/img/chico.png"&gt;
-  &lt;/br&gt;
-  &lt;img width="300" src="./libs/img/mucho.png"&gt;
-&lt;/div&gt;
-
-#### En general
-
-- El punto de articulación comienza siendo alveolar
-- Se marca una exposión y luego una transición
-- La transición cambia el punto de articulación (alveopalatal) y el modo (fricativo)
-
-#### En el oscilograma
-
-- En posición inicial son difíciles de ver (la fase de oclusión)
-- La fricativa se ve como cualquier otra (aperiódica, peluda)
-
-#### En el espectrograma
-
-- Se ve claramente la fase oclusiva y la fase de fricción
-
----
-class: middle
-
-&lt;div align="center"&gt;
-  &lt;img width="48%" src="./libs/img/chico.png"&gt;
-  &lt;img width="48%" src="./libs/img/mucho.png"&gt;
-&lt;/div&gt;
-
 
 ---
 class: inverse, center, middle
@@ -368,33 +291,10 @@ background-size: contain
 # Scripts
 
 - [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
-- [spectralMoments.praat](https://www.spanphon.jvcasillas.com/programming/praat/spectralMoments.praat)
-
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;img src="index_files/figure-html/unnamed-chunk-1-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-data-1.png" width="1008" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -419,7 +319,7 @@ vot_data %&gt;%
 ---
 class: middle
 
-&lt;img src="index_files/figure-html/unnamed-chunk-2-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot2-1.png" width="1008" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -444,7 +344,7 @@ vot_data %&gt;%
 ---
 class: middle
 
-&lt;img src="index_files/figure-html/unnamed-chunk-3-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot3-1.png" width="1008" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -469,7 +369,7 @@ vot_data %&gt;%
 ---
 class: middle
 
-&lt;img src="index_files/figure-html/unnamed-chunk-4-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot4-1.png" width="1008" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -494,7 +394,7 @@ vot_data %&gt;%
 
 ---
 
-&lt;img src="index_files/figure-html/unnamed-chunk-5-1.png" width="828" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot5-1.png" width="828" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -530,6 +430,101 @@ vot_data %&gt;%
     theme(panel.grid.major = element_line(colour = 'grey90', size = 0.15),
           panel.grid.minor = element_blank())
 ```
+
+
+
+
+---
+class: inverse, center, middle
+
+# Las fricativas
+
+---
+
+# Las fricativas
+
+#### En general
+
+- Son más largas con respecto a las oclusivas
+- La barra de voz sirve para distinguir entre sordas y sonoras
+- Se puede distinguir entre sibilantes/estridentes (i.e. [s, ʃ]) y no-sibilantes (i.e. [f, v, θ])
+  - Sibilantes: producidas con un flujo de aire fuerte que desemboca contra los dientes
+  - No-sibilantes: producidas con un flujo de aire débil
+
+#### En el oscilograma
+
+- Se ven como ruido
+- Cuentan con una onda aperiódica
+- Parecen "peludas"
+
+#### En el espectrograma
+
+- El ruido se ve como oscuridad
+- La distribución de su energía varía según el punto de articulación 
+
+
+
+
+
+
+
+
+
+
+
+---
+class: inverse, center, middle
+
+# Las africadas
+
+---
+
+# Las africadas
+
+&lt;div style="float:right"&gt;
+  &lt;img width="300" src="./libs/img/chico.png"&gt;
+  &lt;/br&gt;
+  &lt;img width="300" src="./libs/img/mucho.png"&gt;
+&lt;/div&gt;
+
+#### En general
+
+- El punto de articulación comienza siendo alveolar
+- Se marca una exposión y luego una transición
+- La transición cambia el punto de articulación (alveopalatal) y el modo (fricativo)
+
+#### En el oscilograma
+
+- En posición inicial son difíciles de ver (la fase de oclusión)
+- La fricativa se ve como cualquier otra (aperiódica, peluda)
+
+#### En el espectrograma
+
+- Se ve claramente la fase oclusiva y la fase de fricción
+
+---
+class: middle
+
+&lt;div align="center"&gt;
+  &lt;img width="48%" src="./libs/img/chico.png"&gt;
+  &lt;img width="48%" src="./libs/img/mucho.png"&gt;
+&lt;/div&gt;
+
+---
+
+# Scripts
+
+- [spectralMoments.praat](https://www.spanphon.jvcasillas.com/programming/praat/spectralMoments.praat)
+
+---
+
+
+
+&lt;img src="index_files/figure-html/spectral-moments-plots-1.png" width="100%" /&gt;
+
+---
+
+&lt;img src="index_files/figure-html/spectral-moments-plots-std-1.png" width="100%" /&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>

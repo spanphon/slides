@@ -58,83 +58,6 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-# Las fricativas
-
----
-
-# Las fricativas
-
-#### En general
-
-- Son más largas con respecto a las oclusivas
-- La barra de voz sirve para distinguir entre sordas y sonoras
-- Se puede distinguir entre sibilantes/estridentes (i.e. [s, ʃ]) y no-sibilantes (i.e. [f, v, θ])
-  - Sibilantes: producidas con un flujo de aire fuerte que desemboca contra los dientes
-  - No-sibilantes: producidas con un flujo de aire débil
-
-#### En el oscilograma
-
-- Se ven como ruido
-- Cuentan con una onda aperiódica
-- Parecen "peludas"
-
-#### En el espectrograma
-
-- El ruido se ve como oscuridad
-- La distribución de su energía varía según el punto de articulación 
-
-
-
-
-
-
-
-
-
-
-
----
-class: inverse, center, middle
-
-# Las africadas
-
----
-
-# Las africadas
-
-<div style="float:right">
-  <img width="300" src="./libs/img/chico.png">
-  </br>
-  <img width="300" src="./libs/img/mucho.png">
-</div>
-
-#### En general
-
-- El punto de articulación comienza siendo alveolar
-- Se marca una exposión y luego una transición
-- La transición cambia el punto de articulación (alveopalatal) y el modo (fricativo)
-
-#### En el oscilograma
-
-- En posición inicial son difíciles de ver (la fase de oclusión)
-- La fricativa se ve como cualquier otra (aperiódica, peluda)
-
-#### En el espectrograma
-
-- Se ve claramente la fase oclusiva y la fase de fricción
-
----
-class: middle
-
-<div align="center">
-  <img width="48%" src="./libs/img/chico.png">
-  <img width="48%" src="./libs/img/mucho.png">
-</div>
-
-
----
-class: inverse, center, middle
-
 # Las oclusivas
 
 ---
@@ -358,65 +281,40 @@ background-size: contain
 # Scripts
 
 - [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
-- [spectralMoments.praat](https://www.spanphon.jvcasillas.com/programming/praat/spectralMoments.praat)
-
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```{r, echo=FALSE, fig.retina=2, fig.width=14, fig.align='center', message=FALSE, warning=F}
+```{r}
+#| label: vot-data
+#| echo: false
+#| fig.retina: 2
+#| fig.width: 14
+#| fig.align: "center"
+#| message: false
+#| warning: false
 library(tidyverse)
 
 vot_data <- tribble(
   ~'participante', ~'phon', ~'vot_es', ~'vot_in', 
-   'joseph',       'p',      11,        94,
-   'joseph',       't',      14,        84,
-   'joseph',       'k',      23,        104,
-   'juanjo',       'p',      16,       47,
-   'juanjo',       't',      11,       66,
-   'juanjo',       'k',      25,       42,
-   'patrick',      'p',      13,       48,
-   'patrick',      't',      24,       58,
-   'patrick',      'k',      33,       80,
-   'kyle',         'p',      32,       41,
-   'kyle',         't',      25,       81,
-   'kyle',         'k',      33,       38,
-   'jennifer',     'p',      6,       33,
-   'jennifer',     't',      2,       26,
-   'jennifer',     'k',      20,       31,
-   'jessica',      'p',      15,       65,
-   'jessica',      't',      11,       76,
-   'jessica',      'k',      23,       71,
-   'nicole',       'p',      6,       15,
-   'nicole',       't',      10,       29,
-   'nicole',       'k',      6,       40,
-   'laura',        'p',      9,       NA,
-   'laura',        't',      12,       NA,
-   'laura',        'k',      14,       NA,
-   'ezequiel',     'p',      12,       51,
-   'ezequiel',     't',      10,       72,
-   'ezequiel',     'k',      20,       69
-   ) %>% 
+   'joseph',       'p',      10,        26,
+   'joseph',       't',      21,        61,
+   'joseph',       'k',      24,        54,
+   'monica',       'p',       5,        56, 
+   'monica',       't',       8,        10, 
+   'monica',       'k',       7,         9, 
+   'ivan',         'p',       8,        16, 
+   'ivan',         't',      23,        53, 
+   'ivan',         'k',      19,        41, 
+   'gabi',         'p',      12,        85, 
+   'gabi',         't',      13,        95, 
+   'gabi',         'k',      54,        92, 
+   'diana',        'p',       5,       132, 
+   'diana',        't',       11,      143, 
+   'diana',        'k',       7,       163, 
+   'jiawei',       'p',       5,         66, 
+   'jiawei',       't',      20,         83, 
+   'jiawei',       'k',      31,         98, 
+   ) %>% #                    sp          en
   gather(., lang, vot, -participante, -phon)
 
 vot_data %>% 
@@ -460,7 +358,14 @@ vot_data %>%
 ---
 class: middle
 
-```{r, echo=FALSE, fig.retina=2, fig.width=14, fig.align='center', message=FALSE, warning=F}
+```{r}
+#| label: vot-plot2
+#| echo: false
+#| fig.retina: 2
+#| fig.width: 14
+#| fig.align: "center"
+#| message: false
+#| warning: false
 vot_data %>% 
   filter(phon == "t") %>% 
   ggplot(., aes(x = lang, y = vot, fill = lang)) + 
@@ -502,7 +407,14 @@ vot_data %>%
 ---
 class: middle
 
-```{r, echo=FALSE, fig.retina=2, fig.width=14, fig.align='center', message=FALSE, warning=F}
+```{r}
+#| label: vot-plot3
+#| echo: false
+#| fig.retina: 2
+#| fig.width: 14
+#| fig.align: "center"
+#| message: false
+#| warning: false
 vot_data %>% 
   filter(phon == "k") %>% 
   ggplot(., aes(x = lang, y = vot, fill = lang)) + 
@@ -544,7 +456,14 @@ vot_data %>%
 ---
 class: middle
 
-```{r, echo=FALSE, fig.retina=2, fig.width=14, fig.align='center', message=FALSE, warning=F}
+```{r}
+#| label: vot-plot4
+#| echo: false
+#| fig.retina: 2
+#| fig.width: 14
+#| fig.align: "center"
+#| message: false
+#| warning: false
 
 vot_data %>% 
   mutate(phon = forcats::fct_relevel(phon, "p", "t")) %>% 
@@ -587,8 +506,15 @@ vot_data %>%
 
 ---
 
-```{r, echo=F, fig.retina=2, fig.width=11.5, fig.height=6.5, fig.align='center', message=F, warning=F}
-
+```{r}
+#| label: vot-plot5
+#| echo: false
+#| fig.retina: 2
+#| fig.width: 11.5
+#| fig.height: 6.5
+#| fig.align: "center"
+#| message: false
+#| warning: false
 vot_means <- vot_data %>% group_by(lang) %>% summarize(vot = mean(vot))
 
 sigmoid_text <- tibble(
@@ -654,4 +580,172 @@ vot_data %>%
     theme_minimal(base_size = 22, base_family = 'Times') + 
     theme(panel.grid.major = element_line(colour = 'grey90', size = 0.15),
           panel.grid.minor = element_blank())
+```
+
+
+
+
+---
+class: inverse, center, middle
+
+# Las fricativas
+
+---
+
+# Las fricativas
+
+#### En general
+
+- Son más largas con respecto a las oclusivas
+- La barra de voz sirve para distinguir entre sordas y sonoras
+- Se puede distinguir entre sibilantes/estridentes (i.e. [s, ʃ]) y no-sibilantes (i.e. [f, v, θ])
+  - Sibilantes: producidas con un flujo de aire fuerte que desemboca contra los dientes
+  - No-sibilantes: producidas con un flujo de aire débil
+
+#### En el oscilograma
+
+- Se ven como ruido
+- Cuentan con una onda aperiódica
+- Parecen "peludas"
+
+#### En el espectrograma
+
+- El ruido se ve como oscuridad
+- La distribución de su energía varía según el punto de articulación 
+
+
+
+
+
+
+
+
+
+
+
+---
+class: inverse, center, middle
+
+# Las africadas
+
+---
+
+# Las africadas
+
+<div style="float:right">
+  <img width="300" src="./libs/img/chico.png">
+  </br>
+  <img width="300" src="./libs/img/mucho.png">
+</div>
+
+#### En general
+
+- El punto de articulación comienza siendo alveolar
+- Se marca una exposión y luego una transición
+- La transición cambia el punto de articulación (alveopalatal) y el modo (fricativo)
+
+#### En el oscilograma
+
+- En posición inicial son difíciles de ver (la fase de oclusión)
+- La fricativa se ve como cualquier otra (aperiódica, peluda)
+
+#### En el espectrograma
+
+- Se ve claramente la fase oclusiva y la fase de fricción
+
+---
+class: middle
+
+<div align="center">
+  <img width="48%" src="./libs/img/chico.png">
+  <img width="48%" src="./libs/img/mucho.png">
+</div>
+
+---
+
+# Scripts
+
+- [spectralMoments.praat](https://www.spanphon.jvcasillas.com/programming/praat/spectralMoments.praat)
+
+---
+
+```{r}
+#| label: spectral-moments-data
+#| include: false
+
+sm_dat <- tibble::tribble(
+~'id', ~'segment', ~'cog', ~'sd', ~'skewness', ~'kurtosis',
+"jvc",  "f",         5485,  5175,        0.72,       -0.71,
+"jvc",  "th",        4110,  4765,        0.92,       -0.29,
+"jvc",  "s",         6693,  2789,       -0.61,        0.46,
+"jvc",  "sh",        3999,  1599,        0.77,        2.70,
+
+"jiawei",  "f",      3119,  4606,        1.86,        3.13,
+"jiawei",  "th",     3099,  3202,        1.47,        3.47,
+"jiawei",  "s",      6203,  1887,       0.002,        3.63,
+"jiawei",  "sh",     5064,  2473,        0.26,        0.20,
+
+#"diana",  "f",      741,  741,         8.9,        141,
+#"diana",  "th",     597,  809,        7.79,        107,
+#"diana",  "s",      676,  927,        6.49,        73,
+#"diana",  "sh",      709,  960,        4.7,        43,
+
+"monica",  "f",      976,   1424,     2.25,       5.51,
+"monica",  "th",    3924,   2735,     -.39,      -1.38,
+"monica",  "s",     6236,   979,      -.17,       2.01,
+"monica",  "sh",    4687,   1619,      .07,       -.56,
+
+"ivan",  "f",        8084,  3145,       0.48,       2.22,
+"ivan",  "th",       5915,  2924,       0.68,       2.35,
+"ivan",  "s",        6025,  1243,      -0.50,      -0.08,
+"ivan",  "sh",       4987,  2145,       0.09,      -0.28,
+
+"gabi",  "f",      721.54,  339.6846,    18.00,    683.888,
+"gabi",  "th",  3084.4237,  1389.74,     0.044,     -0.083,
+"gabi",  "s",   5214.2848,  1199.5684,  -0.8095,     4.390,
+"gabi",  "sh",  5141.0958,  1793.9213,  0.0567,     -1.509
+  ) %>% 
+  mutate(segment = fct_relevel(segment, "f", "th", "s", "sh"))
+
+```
+
+```{r}
+#| label: spectral-moments-plots
+#| echo: false
+#| out.width: "100%"
+#| fig.height: 4
+#| fig.retina: 2
+sm_dat %>% 
+  pivot_longer(cols = cog:kurtosis, 
+    names_to = "spectral_moment", values_to = "val") %>% 
+  ggplot(., aes(x = segment, y = val)) + 
+    facet_wrap(. ~ spectral_moment, scales = "free_y", ncol = 4) + 
+    geom_point(alpha = 0.4, pch = 21, aes(fill = segment), 
+      show.legend = F) + 
+    stat_summary(fun.data = mean_se, geom = "pointrange", pch = 21, 
+      aes(fill = segment), show.legend = F) + 
+    scale_fill_viridis_d(option = "C")
+```
+
+---
+
+```{r}
+#| label: spectral-moments-plots-std
+#| echo: false
+#| out.width: "100%"
+#| fig.height: 4
+#| fig.retina: 2
+sm_dat %>% 
+  pivot_longer(cols = cog:kurtosis, 
+    names_to = "spectral_moment", values_to = "val") %>% 
+  group_by(spectral_moment) %>% 
+  mutate(val = (val - mean(val)) / sd(val)) %>% 
+  ggplot(., aes(x = segment, y = val)) + 
+    facet_grid(. ~ spectral_moment) + 
+    geom_point(alpha = 0.4, pch = 21, aes(fill = segment), 
+      show.legend = F) + 
+    stat_summary(fun.data = mean_se, geom = "pointrange", pch = 21, 
+      aes(fill = segment), show.legend = F) + 
+    coord_cartesian(ylim = c(-2, 2)) + 
+    scale_fill_viridis_d(option = "C")
 ```
