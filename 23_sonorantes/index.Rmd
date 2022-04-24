@@ -475,7 +475,7 @@ class: center, middle
 
 ---
 
-<iframe width="100%" height="100%" src="http://dood.al/pinktrombone/" style="border:none;"></iframe>
+<iframe width="100%" height="100%" src="https://dood.al/pinktrombone/" style="border:none;"></iframe>
 
 
 
@@ -487,11 +487,13 @@ class: center, middle
 
 
 ---
+exclude: true
 class: title-slide-section-grey, middle
 
 # Schmeiser (2019)
 
 ---
+exclude: true
 
 # Schmeiser (2019)
 
@@ -503,6 +505,7 @@ class: title-slide-section-grey, middle
 - Practical suggestions for teaching
 
 --
+exclude: true
 
 ### Liquid production by L2 learners: Main issues
 
@@ -510,6 +513,7 @@ class: title-slide-section-grey, middle
 2. retroflex production instead of tap/trill
 
 ---
+exclude: true
 
 # Schmeiser (2019)
 
@@ -529,6 +533,7 @@ class: title-slide-section-grey, middle
 **Take away: learners improve with experience**
 
 ---
+exclude: true
 
 # Schmeiser (2019)
 
@@ -553,6 +558,7 @@ Other studies: Waltmunson (2005), Face (2006), Colantoni and Steele (2006), John
 ]
 
 ---
+exclude: true
 
 # Schmeiser (2019)
 
@@ -572,6 +578,7 @@ Other studies: Waltmunson (2005), Face (2006), Colantoni and Steele (2006), John
 ]
 
 --
+exclude: true
 
 .pull-right[
 
@@ -584,6 +591,7 @@ Other studies: Waltmunson (2005), Face (2006), Colantoni and Steele (2006), John
 ]
 
 ---
+exclude: true
 
 # Schmeiser (2019)
 
@@ -601,6 +609,7 @@ Other studies: Waltmunson (2005), Face (2006), Colantoni and Steele (2006), John
 ]
 
 --
+exclude: true
 
 .pull-right[
 
@@ -614,6 +623,7 @@ Other studies: Waltmunson (2005), Face (2006), Colantoni and Steele (2006), John
 ]
 
 ---
+exclude: true
 
 # Schmeiser (2019)
 
@@ -631,6 +641,7 @@ Other studies: Waltmunson (2005), Face (2006), Colantoni and Steele (2006), John
 ]
 
 --
+exclude: true
 
 .pull-right[
 
