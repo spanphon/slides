@@ -2,7 +2,7 @@
 title       : "Español 362/580: Fonética y fonología españolas"
 subtitle    : "Programa"
 author      : "Joseph V. Casillas, PhD"
-date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+date    : "Rutgers University</br>Otoño 2022</br>Última actualización: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: assets
@@ -44,7 +44,7 @@ Otoño 2020
 Profesor: Joseph Casillas  
 
 Despacho: AB 5174  
-Horas de oficina: mediante zoom, lunes (1:00-2:00) y viernes (12:30-1:30)  
+Horas de oficina: mediante zoom, viernes (11:00-12:00)  
 URL: https://rutgers.zoom.us/my/jvc83  
 password: casillas  
 Email: joseph.casillas@rutgers.edu
@@ -569,14 +569,14 @@ class: center, middle
 .panel[.panel-name[362]
 
 
-```{r, temario-362, child="../../syllabi/362/temario/temario_f2020.Rmd"}
+```{r, temario-362, child="../../../syllabi/362/temario/temario_f2020.Rmd"}
 ```
 
 ]
 
 .panel[.panel-name[580]
 
-```{r, temario-580, child="../../syllabi/580/temario/temario_f2020.Rmd"}
+```{r, temario-580, child="../../../syllabi/580/temario/temario_f2022.Rmd"}
 ```
 
 ]
