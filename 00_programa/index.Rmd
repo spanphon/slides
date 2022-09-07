@@ -30,9 +30,9 @@ xaringanExtra::use_xaringan_extra(
 ```
 
 class: middle
-background-image: url(../assets/img/intro_phonetics.png)
-background-size: 200px
-background-position: 85% 30%
+background-image: url(../assets/img/intro_phonetics.png), url(../assets/img/intro_phonetics_mat.png)
+background-size: 175px, 175px
+background-position: 75% 30%, 95% 30%
 
 # Información básica
 
