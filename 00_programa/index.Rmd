@@ -38,9 +38,9 @@ background-position: 85% 30%
 
 .big[
 
-Otoño 2020  
-<!-- Lunes y jueves 1:10 – 2:30 pm  -->
-<!-- Lugar: AB-5190  -->
+Otoño 2022  
+Miércoles 17:40 – 20:40 pm  
+Lugar: SS-403  
 Profesor: Joseph Casillas  
 
 Despacho: AB 5174  
@@ -56,7 +56,7 @@ Email: joseph.casillas@rutgers.edu
 
 ## Página web de clase
 
-- Canvas: <!--[https://rutgers.instructure.com/courses/39796](https://rutgers.instructure.com/courses/39796) -->
+- Canvas: [https://rutgers.instructure.com/courses/196870](https://rutgers.instructure.com/courses/196870)
   - Presentaciones disponibles
   - Resúmenes imprimibles al final de cada presentación
 
