@@ -4,6 +4,7 @@
     <title>Fonética y fonología españolas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Joseph V. Casillas, PhD" />
+    <script src="assets/header-attrs/header-attrs.js"></script>
     <link href="assets/remark-css/hygge.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers-fonts.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
     <link href="assets/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="assets/panelset/panelset.css" rel="stylesheet" />
     <script src="assets/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"aaba7017ead843e0aab0bfcc66a7c073","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"bfe8b5f3865d4d4db35717b488dd42d5","expires":14}</script>
     <script src="assets/himalaya/himalaya.js"></script>
     <script src="assets/js-cookie/js.cookie.js"></script>
     <link href="assets/editable/editable.css" rel="stylesheet" />
@@ -24,10 +25,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Fonética y fonología españolas
+]
+.subtitle[
 ## La sílaba, los diptongos y los hiatos - Ejercicios
+]
+.author[
 ### Joseph V. Casillas, PhD
-### Rutgers University</br>Otoño 2020</br>Última actualización: 2020-09-10
+]
+.date[
+### Rutgers University</br>Otoño 2022</br>Última actualización: 2022-09-20
+]
 
 ---
 
@@ -667,6 +676,8 @@ class: title-slide-final, left
 - Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
 
 - Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
@@ -716,6 +727,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
