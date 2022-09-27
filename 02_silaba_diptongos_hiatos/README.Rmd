@@ -10,12 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Overview
 
-- This lesson includes basic information regarding the syllable, diphthongs, 
-and hiatuses
-- The exercises/videos have been moved to "index_ex.Rmd" and can be used in 
-class
-- There is also extra information regarding syllabification under a 
-generative framework
+- This lesson includes basic information regarding the syllable, diphthongs, and hiatuses
+- The exercises/videos have been moved to "index_ex.Rmd" and can be used in class
+- There is also extra information regarding syllabification under a generative framework
 
 
 ## Videos

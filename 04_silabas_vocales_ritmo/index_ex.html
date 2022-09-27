@@ -4,6 +4,7 @@
     <title>Fonética y fonología españolas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Joseph V. Casillas, PhD" />
+    <script src="assets/header-attrs/header-attrs.js"></script>
     <link href="assets/remark-css/hygge.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers-fonts.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
     <link href="assets/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="assets/panelset/panelset.css" rel="stylesheet" />
     <script src="assets/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"b1dd694ddc0748feb3b35ee33d2a40f5","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x900878272724a66ba5ff219359b110d","expires":14}</script>
     <script src="assets/himalaya/himalaya.js"></script>
     <script src="assets/js-cookie/js.cookie.js"></script>
     <link href="assets/editable/editable.css" rel="stylesheet" />
@@ -26,10 +27,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Fonética y fonología españolas
+]
+.subtitle[
 ## Las sílabas, las vocales y el ritmo.
+]
+.author[
 ### Joseph V. Casillas, PhD
-### Rutgers University</br>Otoño 2020</br>Última actualización: 2020-09-26
+]
+.date[
+### Rutgers University</br>Otoño 2022</br>Última actualización: 2022-09-27
+]
 
 ---
 
@@ -1008,6 +1017,8 @@ class: title-slide-section-grey, middle
 - Repasad las presentaciones
 - Estudiad los resúmenes
 - ¡Haced preguntas!
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
@@ -1057,6 +1068,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

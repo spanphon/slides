@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Overview 
 
-- This lesson continues previous talkbs about the syllable, vowels and 
+- This lesson continues previous talks about the syllable, vowels and 
 expands to talk more about rhythm. 
 - The exercises have been moved to "index_ex.Rmd" and can be used in 
 class
