@@ -977,13 +977,7 @@ class: title-slide-section-grey, middle
 
 # La yod
 
-<iframe width="1000" height="500" src="http://soundsofspeech.uiowa.edu/index.html#english" frameborder="0" allowfullscreen></iframe>
-
----
-
-# La yod
-
-<iframe width="1000" height="500" src="http://soundsofspeech.uiowa.edu/index.html#spanish" frameborder="0" allowfullscreen></iframe>
+<iframe width="1000" height="500" src="https://soundsofspeech.uiowa.edu/spanish" frameborder="0" allowfullscreen></iframe>
 
 ---
 exclude: false
