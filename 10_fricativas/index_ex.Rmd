@@ -242,7 +242,7 @@ class: middle
 
 # El fonema /x/
 
-<iframe width="1000" height="500" src="http://soundsofspeech.uiowa.edu/index.html#spanish" frameborder="0" allowfullscreen></iframe>
+<iframe width="1000" height="500" src="https://soundsofspeech.uiowa.edu/spanish" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -418,7 +418,7 @@ class: middle
 
 # El fonema /s/
 
-<iframe width="1000" height="500" src="http://soundsofspeech.uiowa.edu/index.html#spanish" frameborder="0" allowfullscreen></iframe>
+<iframe width="1000" height="500" src="https://soundsofspeech.uiowa.edu/spanish" frameborder="0" allowfullscreen></iframe>
 
 ---
 
