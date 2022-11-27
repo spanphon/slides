@@ -4,6 +4,7 @@
     <title>Fonética y fonología españolas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Joseph V. Casillas, PhD" />
+    <script src="assets/header-attrs/header-attrs.js"></script>
     <link href="assets/remark-css/hygge.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers-fonts.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
     <link href="assets/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="assets/panelset/panelset.css" rel="stylesheet" />
     <script src="assets/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xf4dddc5c3b241a69586e6a547c661b6","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x66f3278d84043bea1e68d5ac3cbd0c1","expires":14}</script>
     <script src="assets/himalaya/himalaya.js"></script>
     <script src="assets/js-cookie/js.cookie.js"></script>
     <link href="assets/editable/editable.css" rel="stylesheet" />
@@ -26,10 +27,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Fonética y fonología españolas
+]
+.subtitle[
 ## Las vibrantes y la entonación
+]
+.author[
 ### Joseph V. Casillas, PhD
-### Rutgers University</br>Otoño 2020</br>Última actualización: 2020-11-19
+]
+.date[
+### Rutgers University</br>Otoño 2022</br>Última actualización: 2022-11-27
+]
 
 ---
 
@@ -60,7 +69,7 @@ debido a la presencia de una nasal
 7. Una lateral interdental
 
 .footnote[
-Las letras están disponibles [aquí](https://www.jvcasillas.com/ru_teaching/ru_spanish_362/362_03_s2019/slides/12_vibrantes_entonacion/assets/img/fito2/fito2.pdf)
+Las letras están disponibles [aquí](https://www.spanphon.jvcasillas.com/slides/12_vibrantes_entonacion/assets/img/fito2/fito2.pdf)
 ]
 
 ---
@@ -190,7 +199,7 @@ exclude: false
 
 # Las vibrantes
 
-&lt;iframe width="1200" height="500" src="http://soundsofspeech.uiowa.edu/index.html#spanish" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1200" height="500" src="https://soundsofspeech.uiowa.edu/spanish" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 ---
 exclude: false
@@ -325,6 +334,19 @@ class: title-slide-final, left
 - Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
 
 - Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+
+
+
+
+
+
+
+
+
+
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -374,6 +396,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

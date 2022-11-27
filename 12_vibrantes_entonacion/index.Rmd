@@ -2,7 +2,7 @@
 title       : "Fonética y fonología españolas"
 subtitle    : "Las vibrantes y la entonación"
 author      : "Joseph V. Casillas, PhD"
-date    : "Rutgers University</br>Otoño 2020</br>Última actualización: `r Sys.Date()`"
+date    : "Rutgers University</br>Otoño 2022</br>Última actualización: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: assets
@@ -50,7 +50,7 @@ debido a la presencia de una nasal
 7. Una lateral interdental
 
 .footnote[
-Las letras están disponibles [aquí](https://www.jvcasillas.com/ru_teaching/ru_spanish_362/362_03_s2019/slides/12_vibrantes_entonacion/assets/img/fito2/fito2.pdf)
+Las letras están disponibles [aquí](https://www.spanphon.jvcasillas.com/slides/12_vibrantes_entonacion/assets/img/fito2/fito2.pdf)
 ]
 
 ---
@@ -180,7 +180,7 @@ exclude: true
 
 # Las vibrantes
 
-<iframe width="1200" height="500" src="http://soundsofspeech.uiowa.edu/index.html#spanish" frameborder="0" allowfullscreen></iframe>
+<iframe width="1200" height="500" src="https://soundsofspeech.uiowa.edu/spanish" frameborder="0" allowfullscreen></iframe>
 
 ---
 exclude: true

@@ -4,6 +4,7 @@
     <title>Fonética y fonología españolas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Joseph V. Casillas, PhD" />
+    <script src="assets/header-attrs/header-attrs.js"></script>
     <link href="assets/remark-css/hygge.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers.css" rel="stylesheet" />
     <link href="assets/remark-css/rutgers-fonts.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
     <link href="assets/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="assets/panelset/panelset.css" rel="stylesheet" />
     <script src="assets/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"ac10eb1192fa44bfbc6321792af1cc7e","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x7e10826a6d34e42bebbccfb9016538d","expires":14}</script>
     <script src="assets/himalaya/himalaya.js"></script>
     <script src="assets/js-cookie/js.cookie.js"></script>
     <link href="assets/editable/editable.css" rel="stylesheet" />
@@ -28,10 +29,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Fonética y fonología españolas
+]
+.subtitle[
 ## El español peninsular y americano
+]
+.author[
 ### Joseph V. Casillas, PhD
-### Rutgers University</br>Otoño 2020</br>Última actualización: 2020-12-10
+]
+.date[
+### Rutgers University</br>Otoño 2022</br>Última actualización: 2022-11-27
+]
 
 ---
 
@@ -52,7 +61,8 @@ class: title-slide-section-grey, middle
 
 - Cuéntale al vecino acerca de los tres procesos fonológicos que hemos visto en clase (i.e. cuáles son, cuándo ocurren, da ejemplos)
 
-<div class="countdown" id="timer_5fd29512" style="top:0;right:0;" data-audio="true" data-warnwhen="0">
+<div class="countdown" id="timer_fb7b7198" data-update-every="1" data-play-sound="true" tabindex="0" style="top:0;right:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">02</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -875,6 +885,9 @@ background-position: 95% 50%
 - Comenta si (o cómo) piensas incorporar ejercicios de pronunciación en tus clases. ¿Cómo vas a evaluar su eficacia? ¿Cómo vas a evaluar al alumno?
 
 ]
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -924,6 +937,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
