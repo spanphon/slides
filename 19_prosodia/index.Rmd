@@ -2,7 +2,7 @@
 title: "SPAN 585"
 subtitle: "Prosodia"
 author: "Joseph V. Casillas, PhD"
-date: "Rutgers University | Spring 2022</br>Last update: `r format(Sys.time(), '%D')`"
+date: "Rutgers University | Spring 2024</br>Last update: `r format(Sys.time(), '%D')`"
 output:
   xaringan::moon_reader:
     chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"

@@ -2,8 +2,8 @@
 title: "La sílaba"
 output: pdf_document
 fontsize: 10pt
-bibliography   : ../../site_libs/assets/refs/bib/span585.bib
-csl            : ../../site_libs/assets/refs/bib/apa.csl
+bibliography   : "../../../syllabi/585/refs/bib/span585.bib"
+csl            : "../../../syllabi/585/refs/bib/apa.csl"
 header-includes:
    - \usepackage{tipa}
    - \usepackage{graphicx}
@@ -375,7 +375,7 @@ velarización a las formas subyacentes para obtener las formas superficiales cor
 
 ```{r, eval=TRUE, echo=FALSE, cache=FALSE}
 library(RefManageR)
-bib <- ReadBib("../../site_libs/assets/refs/bib/span585.bib", check = FALSE)
+bib <- ReadBib("../../../syllabi/585/refs/bib/span585.bib", check = FALSE)
 ```
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}

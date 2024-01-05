@@ -2,7 +2,7 @@
 title: "SPAN 585"
 subtitle: "La percepción del habla"
 author: "Joseph V. Casillas, PhD"
-date: "Rutgers University | Spring 2022</br>Last update: `r format(Sys.time(), '%D')`"
+date: "Rutgers University | Spring 2024</br>Last update: `r format(Sys.time(), '%D')`"
 output:
   xaringan::moon_reader:
     chakra: "https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"
@@ -294,7 +294,7 @@ library(here)
 library(fs)
 library(ggdark)
 
-data <- dir_ls(path = here("../categorical_perception/data"), regexp = "\\.csv$") %>%
+data <- dir_ls(path = here("../categorical_perception/data2022"), regexp = "\\.csv$") %>%
   map_dfr(read_csv, id = "source") %>% 
   transmute(id = participant, 
     response = key_resp_2afc.keys, rt_2afc = key_resp_2afc.rt, 
