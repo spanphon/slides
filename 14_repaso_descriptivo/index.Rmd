@@ -266,9 +266,11 @@ background-image: url(./libs/img/fonemas_edit.png)
 background-size: contain
 
 ---
-class: center, middle
+class: middle
 
-<iframe width="100%" height="100%" src="https://www.seeingspeech.ac.uk/ipa-charts/" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="//www.seeingspeech.ac.uk/ipa-charts/" frameborder="0" allowfullscreen></iframe>
+
+.footnote[https://www.seeingspeech.ac.uk/ipa-charts/]
 
 ---
 
@@ -283,6 +285,8 @@ class: center, middle
 ---
 
 <iframe width="100%" height="100%" src="https://jvcasillas.shinyapps.io/shiny_distinctiveFeatures/" frameborder="0" allowfullscreen></iframe>
+
+.footnote[https://jvcasillas.shinyapps.io/shiny_distinctiveFeatures/]
 
 ---
 class: inverse, center, middle
