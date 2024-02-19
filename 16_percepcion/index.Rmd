@@ -124,7 +124,7 @@ background-size: contain
 --
 
 - Investigadora principal: Fowler
-- Similar a MT: "primatives" son articulatorios
+- Similar a MT: "primitives" son articulatorios
 - Diferente de MT: 
 	- la unidades de percepción son los gestos  
 	("intended gesture" vs. "gesture")
