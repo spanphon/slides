@@ -86,7 +86,7 @@ background-size: contain
 --
 
 - 3 aserciones
-	- "primatives" son articulatorios ("intended gestures")
+	- "primitives" son articulatorios ("intended gestures")
 	- "Speech is special"
 		- la señal codifica la estructura del lenguaje
 		- los seres humanos tenemos "algo" (speech  
