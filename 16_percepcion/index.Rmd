@@ -288,206 +288,222 @@ background-size: contain
 ---
 background-color: black
 
-```{r, 'get-data'}
-library(tidyverse)
-library(here)
-library(fs)
-library(ggdark)
+```{r}
+#| label: get-data
 
-data <- dir_ls(path = here("../categorical_perception/data2022"), regexp = "\\.csv$") %>%
-  map_dfr(read_csv, id = "source") %>% 
-  transmute(id = participant, 
-    response = key_resp_2afc.keys, rt_2afc = key_resp_2afc.rt, 
-    stim = sound_bda_2afc, sound1, sound2, is_correct = key_resp_2.corr, 
-    rt_ax = key_resp_2.rt) %>%
+library("tidyverse")
+library("here")
+library("fs")
+library("ggdark")
+library("patchwork")
+
+theme_set(dark_theme_bw(base_family = "Palatino", base_size = 12))
+
+data <- dir_ls(
+  path = here("../categorical_perception/data"), 
+  regexp = "\\.csv$"
+  ) |>
+  map_dfr(read_csv, id = "source") |> 
+  transmute(
+    source, 
+    id = participant, 
+    task, contrast, 
+    sound1, sound2, sound_file, 
+    response_ax = key_resp_ax.keys, 
+    is_correct = key_resp_ax.corr, 
+    correct, 
+    rt_ax = key_resp_ax.rt, 
+    response_2afc = key_resp_2afc.keys, 
+    rt_2afc = key_resp_2afc.rt
+    ) |> 
+  filter(!is.na(sound1) | !is.na(sound_file)) |>
   mutate(
-    stim = case_when(
-      stim == "bda6.wav" ~ 6, 
-      stim == "bda5.wav" ~ 5,
-      stim == "bda4.wav" ~ 4, 
-      stim == "bda3.wav" ~ 3, 
-      stim == "bda2.wav" ~ 2, 
-      stim == "bda1.wav" ~ 1, 
-      stim == "bda0.wav" ~ 0), 
-    pair_hard = case_when(
-      sound1 == "bda0.wav" & sound2 == "bda1.wav" ~ "0_1", 
-      sound1 == "bda1.wav" & sound2 == "bda0.wav" ~ "0_1", 
-      sound1 == "bda1.wav" & sound2 == "bda2.wav" ~ "1_2", 
-      sound1 == "bda2.wav" & sound2 == "bda1.wav" ~ "1_2",
-      sound1 == "bda2.wav" & sound2 == "bda3.wav" ~ "2_3", 
-      sound1 == "bda3.wav" & sound2 == "bda2.wav" ~ "2_3",
-      sound1 == "bda3.wav" & sound2 == "bda4.wav" ~ "3_4", 
-      sound1 == "bda4.wav" & sound2 == "bda3.wav" ~ "3_4",
-      sound1 == "bda4.wav" & sound2 == "bda5.wav" ~ "4_5", 
-      sound1 == "bda5.wav" & sound2 == "bda4.wav" ~ "4_5",
-      sound1 == "bda5.wav" & sound2 == "bda6.wav" ~ "5_6", 
-      sound1 == "bda6.wav" & sound2 == "bda5.wav" ~ "5_6",
-      TRUE ~ "same"), 
-    pair_medium = case_when(
-      sound1 == "bda0.wav" & sound2 == "bda2.wav" ~ "0_2", 
-      sound1 == "bda2.wav" & sound2 == "bda0.wav" ~ "0_2", 
-      sound1 == "bda1.wav" & sound2 == "bda3.wav" ~ "1_3", 
-      sound1 == "bda3.wav" & sound2 == "bda1.wav" ~ "1_3",
-      sound1 == "bda2.wav" & sound2 == "bda4.wav" ~ "2_4", 
-      sound1 == "bda4.wav" & sound2 == "bda2.wav" ~ "2_4",
-      sound1 == "bda3.wav" & sound2 == "bda5.wav" ~ "3_5", 
-      sound1 == "bda5.wav" & sound2 == "bda3.wav" ~ "3_5",
-      sound1 == "bda4.wav" & sound2 == "bda6.wav" ~ "4_6", 
-      sound1 == "bda6.wav" & sound2 == "bda4.wav" ~ "4_6",
-      TRUE ~ "same"), 
-    pair_easy = case_when(
-      sound1 == "bda0.wav" & sound2 == "bda3.wav" ~ "0_3", 
-      sound1 == "bda3.wav" & sound2 == "bda0.wav" ~ "0_3", 
-      sound1 == "bda1.wav" & sound2 == "bda4.wav" ~ "1_4", 
-      sound1 == "bda4.wav" & sound2 == "bda1.wav" ~ "1_4",
-      sound1 == "bda2.wav" & sound2 == "bda5.wav" ~ "2_5", 
-      sound1 == "bda5.wav" & sound2 == "bda2.wav" ~ "2_5",
-      sound1 == "bda3.wav" & sound2 == "bda6.wav" ~ "3_6", 
-      sound1 == "bda6.wav" & sound2 == "bda3.wav" ~ "3_6",
-      TRUE ~ "same"), 
-    exp = if_else(is.na(response), "ax", "2afc"), 
-    pair_type = case_when(
-      pair_hard == "same" & pair_medium == "same" ~ "easy", 
-      pair_hard == "same" & pair_easy   == "same" ~ "medium", 
-      pair_medium == "same" & pair_easy == "same" ~ "hard"), 
-    pair_status = if_else(pair_hard == "same" & pair_medium == "same" & pair_easy == "same", "same", "different")) 
+    sound1 = str_remove(sound1, ".wav"), 
+    sound1 = str_sub(sound1, -3, -1), 
+    sound1 = str_remove(sound1, "da|_"), 
+    sound2 = str_remove(sound2, ".wav"), 
+    sound2 = str_sub(sound2, -3, -1), 
+    sound2 = str_remove(sound2, "da|_"), 
+    is_same = if_else(sound1 == sound2, 1, 0)
+  ) |> 
+  unite(col = "pair", sound1, sound2, sep = "_") |> 
+  mutate(
+    sound_file = str_remove(sound_file, ".wav"), 
+    sound_file = str_sub(sound_file, -3, -1), 
+    sound_file = str_remove(sound_file, "da|_"), 
+    sound_file = as.numeric(sound_file)
+  ) |> 
+  mutate(
+    response = case_when(
+      is.na(response_2afc) ~ response_ax, 
+      is.na(response_ax) ~ response_2afc
+    ), 
+    rt = case_when(
+      is.na(rt_2afc) ~ rt_ax, 
+      is.na(rt_ax) ~ rt_2afc
+    )
+  ) |> 
+  select(id:pair, is_same, step = sound_file, correct, response, is_correct, rt)
+
 ```
 
-```{r, '2afc-plot', out.width="100%", fig.height=4}
+```{r}
+#| label: fig-2afc 
+#| out-width: "100%"
+#| fig-height: 4
+
 data %>% 
-  filter(exp == "2afc") %>% 
-  ggplot(., aes(x = stim, y = response)) + 
-    geom_hline(yintercept = 0.5, lty = 3) + 
-    geom_smooth(method = "glm", method.args = list(family = "binomial"), 
+  filter(task == "2afc") %>% 
+  ggplot() + 
+  aes(x = step, y = response) + 
+  facet_grid(. ~ contrast, scales = "free_x") + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), 
       formula = "y ~ x") + 
-    scale_x_continuous(breaks = 0:6, 
-      labels = c("0\nba", "1", "2", "3", "4", "5", "6\nda")) + 
-    labs(y = "p(ba)", x = "Continuum step") + 
-    dark_theme_bw(base_family = "Times")
-  
+  labs(y = "p(ba)", x = "Continuum step")
 ```
 
 ---
 background-color: black
 
-```{r, 'ax-pair-type-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax") %>% 
-  mutate(pair_type = fct_relevel(pair_type, "easy", "medium")) %>% 
-  ggplot(., aes(x = pair_status, y = is_correct, color = pair_type)) + 
-    geom_hline(yintercept = 0.5, lty = 3) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", pch = 21, 
-      fill = "white", size = 1.25, position = position_dodge(0.4)) +
-    scale_y_continuous(labels = scales::percent) + 
-    scale_color_viridis_d(option = "B", begin = 0.4) + 
-    labs(y = "% correct", x = "Pair type") + 
-    dark_theme_bw(base_family = "Times")
+```{r}
+#| label: fig-fricative-place
+#| out-width: "100%"
+#| fig-height: 4
+
+p_fp_2afc <- data %>% 
+  filter(task == "2afc", contrast == "fricative-place") %>% 
+  ggplot() + 
+  aes(x = step, y = response) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), 
+      formula = "y ~ x") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(sock)", x = "Continuum step")
+
+p_fp_ax <- data %>% 
+  filter(task == "ax", contrast == "fricative-place", is_same == 0) |> 
+  ggplot() + 
+  aes(x = pair, y = is_correct) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  stat_summary(fun.data = mean_se, geom = "pointrange") + 
+  scale_y_continuous(position = "right") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(correct)", x = "AX pair")
+
+p_fp_2afc + p_fp_ax + plot_annotation(
+  title = "Identification and discrimination of 'sock' - 'shock'"
+)
+
 ```
 
 ---
 background-color: black
 
-```{r, 'ax-hard-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax", pair_status == "different", pair_type == "hard") %>% 
-  ggplot(., aes(x = pair_hard, y = is_correct, color = pair_type)) + 
-    geom_hline(yintercept = 0.5, lty = 3) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", show.legend = F, 
-      pch = 21, fill = "white", size = 1.25) + 
-    scale_y_continuous(labels = scales::percent) + 
-    scale_color_viridis_d(option = "B", begin = 0.6) + 
-    labs(y = "% correct", x = "Continuum pair") + 
-    dark_theme_bw(base_family = "Times")
+```{r}
+#| label: fig-stop-place
+#| out-width: "100%"
+#| fig-height: 4
+
+p_sp_2afc <- data %>% 
+  filter(task == "2afc", contrast == "stop-place") %>% 
+  ggplot() + 
+  aes(x = step, y = response) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), 
+      formula = "y ~ x") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(ba)", x = "Continuum step")
+
+p_sp_ax <- data %>% 
+  filter(task == "ax", contrast == "stop-place", is_same == 0) |> 
+  ggplot() + 
+  aes(x = pair, y = is_correct) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  stat_summary(fun.data = mean_se, geom = "pointrange") + 
+  scale_y_continuous(position = "right") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(correct)", x = "AX pair")
+
+p_sp_2afc + p_sp_ax + plot_annotation(
+  title = 'Identification and discrimination of /ba/-/da/'
+)
+
 ```
 
 ---
 background-color: black
 
-```{r, 'ax-medium-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax", pair_status == "different", pair_type == "medium") %>% 
-  ggplot(., aes(x = pair_medium, y = is_correct, color = pair_type)) + 
-    geom_hline(yintercept = 0.5, lty = 3) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", show.legend = F, 
-      pch = 21, fill = "white", size = 1.25) + 
-    scale_y_continuous(labels = scales::percent) + 
-    scale_color_viridis_d(option = "B", begin = 0.4) + 
-    labs(y = "% correct", x = "Continuum pair") + 
-    dark_theme_bw(base_family = "Times")
+```{r}
+#| label: fig-stop-voicing
+#| out-width: "100%"
+#| fig-height: 4
+
+p_sv_2afc <- data %>% 
+  filter(task == "2afc", contrast == "stop-voicing") %>% 
+  ggplot() + 
+  aes(x = step, y = response) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), 
+      formula = "y ~ x") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(ba)", x = "Continuum step")
+
+p_sv_ax <- data %>% 
+  filter(task == "ax", contrast == "stop-voicing", is_same == 0) |> 
+  ggplot() + 
+  aes(x = pair, y = is_correct) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  stat_summary(fun.data = mean_se, geom = "pointrange") + 
+  scale_y_continuous(position = "right") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(correct)", x = "AX pair")
+
+p_sv_2afc + p_sv_ax + plot_annotation(
+  title = 'Identification and discrimination of /ba/-/pa/'
+)
+
 ```
 
 ---
 background-color: black
 
-```{r, 'ax-easy-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax", pair_status == "different", pair_type == "easy") %>% 
-  ggplot(., aes(x = pair_easy, y = is_correct, color = pair_type)) + 
-    geom_hline(yintercept = 0.5, lty = 3) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", show.legend = F, 
-      pch = 21, fill = "white", size = 1.25) + 
-    scale_y_continuous(labels = scales::percent) + 
-    scale_color_viridis_d(option = "B", begin = 0.8) + 
-    labs(y = "% correct", x = "Continuum pair") + 
-    dark_theme_bw(base_family = "Times")
+```{r}
+#| label: fig-vowel
+#| out-width: "100%"
+#| fig-height: 4
+
+p_v_2afc <- data %>% 
+  filter(task == "2afc", contrast == "vowel") %>% 
+  ggplot() + 
+  aes(x = step, y = response) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), 
+      formula = "y ~ x") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(teet)", x = "Continuum step")
+
+p_v_ax <- data %>% 
+  filter(task == "ax", contrast == "vowel", is_same == 0) |> 
+  ggplot() + 
+  aes(x = pair, y = is_correct) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  stat_summary(fun.data = mean_se, geom = "pointrange") + 
+  scale_y_continuous(position = "right") + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  labs(y = "p(correct)", x = "AX pair")
+
+p_v_2afc + p_v_ax + plot_annotation(
+  title = 'Identification and discrimination of /i/-/u/'
+)
+
 ```
 
----
-background-color: black
 
-```{r, 'ax-rt-pair-type-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax") %>% 
-  mutate(pair_type = fct_relevel(pair_type, "easy", "medium")) %>% 
-  ggplot(., aes(x = pair_status, y = rt_ax, color = pair_type)) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", pch = 21, 
-      fill = "white", size = 1.25, position = position_dodge(0.4)) +
-    scale_color_viridis_d(option = "B", begin = 0.4) + 
-    labs(y = "RT", x = "Pair type") + 
-    dark_theme_bw(base_family = "Times")
-```
 
----
-background-color: black
 
-```{r, 'ax-rt-hard-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax", pair_status == "different", pair_type == "hard") %>% 
-  ggplot(., aes(x = pair_hard, y = rt_ax, color = pair_type)) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", show.legend = F, 
-      pch = 21, fill = "white", size = 1.25) + 
-    scale_color_viridis_d(option = "B", begin = 0.6) + 
-    labs(y = "RT", x = "Continuum pair") + 
-    dark_theme_bw(base_family = "Times")
-```
 
----
-background-color: black
 
-```{r, 'ax-rt-medium-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax", pair_status == "different", pair_type == "medium") %>% 
-  ggplot(., aes(x = pair_medium, y = rt_ax, color = pair_type)) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", show.legend = F, 
-      pch = 21, fill = "white", size = 1.25) + 
-    scale_color_viridis_d(option = "B", begin = 0.4) + 
-    labs(y = "RT", x = "Continuum pair") + 
-    dark_theme_bw(base_family = "Times")
-```
-
----
-background-color: black
-
-```{r, 'ax-rt-easy-plot', out.width="100%", fig.height=4}
-data %>% 
-  filter(exp == "ax", pair_status == "different", pair_type == "easy") %>% 
-  ggplot(., aes(x = pair_easy, y = rt_ax, color = pair_type)) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", show.legend = F, 
-      pch = 21, fill = "white", size = 1.25) + 
-    scale_color_viridis_d(option = "B", begin = 0.8) + 
-    labs(y = "RT", x = "Continuum pair") + 
-    dark_theme_bw(base_family = "Times")
-```
 
 
 
