@@ -14,7 +14,7 @@
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"dabc34af0ecf4ecda0076caaefd31bb5","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"c5965e78852c4716aca746ebd9950565","expires":14}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -37,7 +37,7 @@ class: center, middle, inverse, title-slide
 ### Joseph V. Casillas, PhD
 ]
 .date[
-### Rutgers University | Spring 2024</br>Last update: 01/05/24
+### Rutgers University | Spring 2024</br>Last update: 03/26/24
 ]
 
 ---
@@ -82,6 +82,8 @@ class: inverse, center, middle
 
 # Las oclusivas
 
+.Large[
+
 - Representan la consonante más común croslingüísticamente
 
 - /k/ es la más frecuente
@@ -89,6 +91,8 @@ class: inverse, center, middle
 - Son más comunes en posición de ataque
 
 - En posición de coda suele haber menos contrastes (sobre todo en posición final de palabra)
+
+]
 
 ---
 
@@ -198,6 +202,8 @@ background-size: contain
 
 ### Voice onset time (VOT)
 
+.large[
+
 - La sonoridad de las oclusivas tiene un correlato 'acústico': VOT
 
 - Se refiere a la duración del intervalo de tiempo que ocurre entre la explosión 
@@ -205,13 +211,19 @@ de la oclusiva y el comienzo de la fonación.
 
 - Se mide en milisegundos.
 
+&lt;p&gt;&lt;/p&gt;
+
 - En general hay tres tipos:
 	1. lead VOT (negativo)
 	2. short-lag VOT (positivo)
 	3. long-lag VOT (positivo)
 
+&lt;p&gt;&lt;/p&gt;
+
 - La realación entre VOT y el estatus fonológico de una oclusiva depende de la 
 lengua en cuestión 
+
+]
 
 ---
 background-image: url("./libs/img/vot_oscillograms.png")
@@ -301,142 +313,153 @@ background-size: contain
 - [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
 
 ---
+class: middle
 
-&lt;img src="index_files/figure-html/vot-data-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+
+
+&lt;img src="index_files/figure-html/vot-plot1-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 ```r
-vot_data %&gt;% 
-  filter(phon == "p") %&gt;% 
-  ggplot(., aes(x = lang, y = vot, fill = lang)) + 
-    geom_point(size = 3, pch = 21) + 
-    #ggrepel::geom_text_repel(aes(label = participante), size = 6, 
-    #                         position = position_nudge(x = -0.1)) + 
-    stat_summary(fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
-                 size = 2, stroke = 1, position = position_nudge(x = 0.15)) + 
-    scale_fill_brewer(palette = "Set1", guide = F) + 
-    scale_x_discrete(labels = c("Español", "Inglés")) + 
-    labs(title = "Oclusivas sordas", 
-      subtitle = "VOT de /p/ en inglés y español", 
-      y = "VOT (ms)", x = "Lengua", caption = "Promedio +/- 95% CI") + 
-    coord_flip() + 
-    theme_minimal(base_size = 20, base_family = 'Times')
+vot_data |&gt; 
+  filter(phon == "p") |&gt; 
+  ggplot() +
+  aes(x = vot, y = lang, fill = lang) + 
+  geom_point(size = 3, pch = 21, show.legend = F) + 
+  stat_summary(
+    fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
+    size = 1.5, stroke = 1, position = position_nudge(y = 0.15), 
+    show.legend = F) + 
+  scale_fill_viridis_d(option = "D", begin = 0.4, end = 0.8) + 
+  scale_y_discrete(labels = c("Español", "Inglés")) + 
+  scale_x_continuous(breaks = seq(0, 200, 20)) + 
+  labs(
+    title = "Oclusivas sordas", 
+    subtitle = "VOT de /p/ en inglés y español", 
+    x = "VOT (ms)", y = NULL, caption = "Promedio ±95% CI"
+  )
 ```
 
 ---
 class: middle
 
-&lt;img src="index_files/figure-html/vot-plot2-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot2-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 ```r
-vot_data %&gt;% 
-  filter(phon == "t") %&gt;% 
-  ggplot(., aes(x = lang, y = vot, fill = lang)) + 
-    geom_point(size = 3, pch = 21) + 
-    #ggrepel::geom_text_repel(aes(label = participante), size = 6, 
-    #                         position = position_nudge(x = -0.1)) + 
-    stat_summary(fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
-                 size = 2, stroke = 1, position = position_nudge(x = 0.15)) + 
-    scale_fill_brewer(palette = "Set1", guide = F) + 
-    scale_x_discrete(labels = c("Español", "Inglés")) + 
-    labs(title = "Oclusivas sordas", 
-      subtitle = "VOT de /t/ en inglés y español", 
-      y = "VOT (ms)", x = "Lengua", caption = "Promedio +/- 95% CI") + 
-    coord_flip() + 
-    theme_minimal(base_size = 20, base_family = 'Times')
+vot_data |&gt; 
+  filter(phon == "t") |&gt; 
+  ggplot() +
+  aes(x = vot, y = lang, fill = lang) + 
+  geom_point(size = 3, pch = 21, show.legend = F) + 
+  stat_summary(
+    fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
+    size = 1.5, stroke = 1, position = position_nudge(y = 0.15), 
+    show.legend = F) + 
+  scale_fill_viridis_d(option = "D", begin = 0.4, end = 0.8) + 
+  scale_y_discrete(labels = c("Español", "Inglés")) + 
+  scale_x_continuous(breaks = seq(0, 200, 20)) + 
+  labs(
+    title = "Oclusivas sordas", 
+    subtitle = "VOT de /t/ en inglés y español", 
+    x = "VOT (ms)", y = NULL, caption = "Promedio ±95% CI")
 ```
 
 ---
 class: middle
 
-&lt;img src="index_files/figure-html/vot-plot3-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot3-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 ```r
-vot_data %&gt;% 
-  filter(phon == "k") %&gt;% 
-  ggplot(., aes(x = lang, y = vot, fill = lang)) + 
-    geom_point(size = 3, pch = 21) + 
-    #ggrepel::geom_text_repel(aes(label = participante), size = 6, 
-    #                         position = position_nudge(x = -0.1)) + 
-    stat_summary(fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
-                 size = 2, stroke = 1, position = position_nudge(x = 0.15)) + 
-    scale_fill_brewer(palette = "Set1", guide = F) + 
-    scale_x_discrete(labels = c("Español", "Inglés")) + 
-    labs(title = "Oclusivas sordas", 
-      subtitle = "VOT de /k/ en inglés y español", 
-      y = "VOT (ms)", x = "Lengua", caption = "Promedio +/- 95% CI") + 
-    coord_flip() + 
-    theme_minimal(base_size = 20, base_family = 'Times')
+vot_data |&gt; 
+  filter(phon == "k") |&gt; 
+  ggplot() +
+  aes(x = vot, y = lang, fill = lang) + 
+  geom_point(size = 3, pch = 21, show.legend = F) + 
+  stat_summary(
+    fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
+    size = 1.5, stroke = 1, position = position_nudge(y = 0.15), 
+    show.legend = F) + 
+  scale_fill_viridis_d(option = "D", begin = 0.4, end = 0.8) + 
+  scale_y_discrete(labels = c("Español", "Inglés")) + 
+  scale_x_continuous(breaks = seq(0, 200, 20)) + 
+  labs(
+    title = "Oclusivas sordas", 
+    subtitle = "VOT de /k/ en inglés y español", 
+    x = "VOT (ms)", y = NULL, caption = "Promedio ±95% CI")
 ```
 
 ---
 class: middle
 
-&lt;img src="index_files/figure-html/vot-plot4-1.png" width="1008" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot4-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 ```r
-vot_data %&gt;% 
-  mutate(phon = forcats::fct_relevel(phon, "p", "t")) %&gt;% 
-  ggplot(., aes(x = lang, y = vot, fill = lang)) + 
-    facet_grid(. ~ phon) + 
-    geom_point(size = 3, pch = 21) + 
-    #ggrepel::geom_text_repel(aes(label = participante), size = 6, 
-    #                         position = position_nudge(x = -0.1)) + 
-    stat_summary(fun.data = mean_cl_boot, geom = "pointrange", pch = 21, 
-                 size = 2, stroke = 1, position = position_nudge(x = 0.15)) + 
-    scale_fill_brewer(palette = "Set1", guide = F) + 
-    scale_x_discrete(labels = c("Español", "Inglés")) + 
-    labs(title = "Oclusivas sordas", 
-      subtitle = "VOT de /p, t, k/ en inglés y español", 
-      y = "VOT (ms)", x = "Lengua", caption = "Promedio +/- 95% CI") + 
-    coord_flip() + 
-    theme_minimal(base_size = 20, base_family = 'Times')
- ```
+vot_data |&gt;
+  mutate(
+    phon = forcats::fct_relevel(phon, "p", "t"), 
+    lang = if_else(lang == "vot_es", "Español", "Inglés")
+  ) |&gt; 
+  ggplot() +
+  aes(x = phon, y = vot) + 
+  facet_grid(. ~ lang) + 
+  geom_boxplot(aes(fill = lang), size = 0.5, show.legend = F) + 
+  geom_jitter(width = 0.2, alpha = 0.3, show.legend = F) + 
+  scale_fill_viridis_d(option = "D", begin = 0.4, end = 0.8) + 
+  labs(y = "VOT (ms)", x = NULL) + 
+  theme_spanphon(base_size = 12, base_family = "Palatino")
+```
 
 ---
+class: middle
 
-&lt;img src="index_files/figure-html/vot-plot5-1.png" width="828" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/vot-plot5-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 ```r
-vot_means &lt;- vot_data %&gt;% group_by(lang) %&gt;% summarize(vot = mean(vot))
+vot_means &lt;- vot_data |&gt; 
+  group_by(lang) |&gt; 
+  summarize(vot = mean(vot))
 
 sigmoid_text &lt;- tibble(
   vot = c(pull(vot_means[1, 2]), pull(vot_means[2, 2])), y = c(-0.03, 0.03), 
   lang = c("Español", "Inglés")
 )
 
-vot_data %&gt;% 
-  ggplot(., aes(x = vot, fill = lang)) + 
-    geom_vline(xintercept = 0, lty = 3, color = "grey70") + 
-    geom_hline(yintercept = 0, lty = 3) + 
-    geom_density(data = filter(vot_data, lang == "vot_in"), show.legend = F) + 
-    geom_density(data = filter(vot_data, lang == "vot_es"), show.legend = F, 
-                 aes(x = vot, y = -(..density..))) + 
-    scale_fill_brewer(name = NULL, palette = "Set1") + 
-    scale_color_brewer(name = NULL, palette = "Set1") + 
-    coord_cartesian(xlim = c(-140, 140), ylim = c(-0.06, 0.04)) + 
-    labs(x = "VOT (ms)", y = NULL) + 
-    scale_y_continuous(labels = NULL) + 
-    scale_x_continuous(
-      breaks = seq(-140, 140, 10), 
-      labels = c("-140", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", 
-                 " ", " ", " ", "0", " ", " ", " ", " ", " ", " ", " ", " ", 
-                 " ", " ", " ", " ", " ", "140")) + 
-    geom_text(data = sigmoid_text, 
-              aes(x = vot, y = y, label = lang, fill = lang), 
-              hjust = 0, show.legend = F, size = 7, family = "Times") +
-    theme_minimal(base_size = 22, base_family = 'Times') + 
-    theme(panel.grid.major = element_line(colour = 'grey90', size = 0.15),
-          panel.grid.minor = element_blank())
+vot_data |&gt; 
+  ggplot() + 
+  aes(x = vot, fill = lang) + 
+  geom_vline(xintercept = 0, lty = 3, color = "grey70") + 
+  geom_hline(yintercept = 0, lty = 3) + 
+  geom_density(data = filter(vot_data, lang == "vot_in"), show.legend = F) + 
+  geom_density(
+    data = filter(vot_data, lang == "vot_es"), show.legend = F, 
+    aes(x = vot, y = after_stat(-density))
+  ) + 
+  geom_text(
+    data = sigmoid_text, 
+    aes(x = vot, y = y, label = lang), 
+    hjust = 0, show.legend = F, size = 7, family = "Palatino"
+  ) +
+  scale_fill_manual(
+    values = c("#2A788EFF", "#7AD151FF", "#2A788EFF", "#7AD151FF")
+    ) + 
+  coord_cartesian(xlim = c(-140, 140), ylim = c(-0.06, 0.04)) + 
+  labs(x = "VOT (ms)", y = NULL) + 
+  scale_y_continuous(labels = NULL) + 
+  scale_x_continuous(
+    breaks = seq(-140, 140, 20), 
+    labels = c("-140", rep(" ", 6), "0", rep(" ", 6), "140")
+  ) + 
+  theme_spanphon(base_size = 12, base_family = 'Palatino') 
+
 ```
 
 
