@@ -216,85 +216,6 @@ background-image: url("./libs/img/sp_en_stops.png")
 background-size: contain
 
 ---
-
-# Las oclusivas sonoras
-
-.pull-left[
-
-- Se someten a un proceso de espirantización en posición no homorgánica
-
-| /b/                           | /d/                           | /g/                           |
-| :---------------------------- | :---------------------------- | :---------------------------- | 
-| &#124; &nbsp; \               | &#124; &nbsp; \               | &#124; &nbsp; \               | 
-| &#124; &nbsp; &nbsp; \        | &#124; &nbsp; &nbsp; \        | &#124; &nbsp; &nbsp; \        | 
-| &#124; &nbsp; &nbsp; &nbsp; \ | &#124; &nbsp; &nbsp; &nbsp; \ | &#124; &nbsp; &nbsp; &nbsp; \ | 
-| [b] &nbsp; &nbsp; [β] &nbsp;  | [d] &nbsp; &nbsp; [ð] &nbsp;  | [g] &nbsp; &nbsp; [ɣ] &nbsp;  |
-
-]
-
---
-
-.pull-right[
-
-|                       |     |                           |
-| :-                    | :-: | :-                        |
-| [**b**, **d**, **g**] | ⇨   | después de nasal;         |
-|                       |     | después de pausa;         |
-|                       |     | también después de /l/    |
-|                       |     | en el caso de /d/         |
-
-|                       |     |                                                   |
-| :-                    | :-: | :-                                                |
-| [<BLUE>β</BLUE>, <BLUE>ð</BLUE>, <BLUE>ɣ</BLUE>] | ⇨ | en el resto de los casos |
-
-</br>
-
-|      | Punto        | Modo        | Sonoridad |
-| ---: | :----------- | :---------- | :-------- |
-| [β]: | **bilabial** | aproximante | sonora    |
-| [ð]: | **dental**   | aproximante | sonora    |
-| [ɣ]: | **velar**    | aproximante | sonora    |
-
-]
-
----
-
-# Correlatos acústicos 
-
-.pull-left[
-
-### Ratio de intensidad<sup>1</sup>
-
-- Se mide la intensidad (dB)...
-  - del valle de la aproximante 
-  - del pico de la vocal siguiente
-- valle / pico = ratio de intensidad
-- Un valor cerca de 1 se interpreta como una realización más vocálica (aproximante)
-- Un valor cerca de 0 se interpreta como una realización más polisiva
-
-]
-
---
-
-.pull-right[
-
-<div align="center">
-  <img src="./libs/img/intensityRatio.png">
-</div>
-
-]
-
-.footnote[
-<sup>1</sup> Simonet, Hualde & Nadeu (2011)
-]
-
----
-
-# Scripts
-
-- [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
-
----
 class: middle
 
 ```{r}
@@ -307,28 +228,28 @@ library("tidyverse")
 
 vot_data <- tribble(
   ~'participante', ~'phon', ~'vot_es', ~'vot_in', 
-   'joseph',       'p',      10,         26,
-   'joseph',       't',      21,         61,
-   'joseph',       'k',      24,         54,
-   'yhosef',       'p',       5,         56, 
-   'yhosef',       't',       8,         10, 
-   'yhosef',       'k',       7,          9, 
-   'alejandro',    'p',       8,         16, 
-   'alejandro',    't',      23,         53, 
-   'alejandro',    'k',      19,         41, 
-   'txel',         'p',      12,         85, 
-   'txel',         't',      13,         95, 
-   'txel',         'k',      54,         92, 
-   'hunter',       'p',       5,         65, 
-   'hunter',       't',      11,         75, 
-   'hunter',       'k',       7,         67, 
-   'jorge',        'p',       5,         66, 
-   'jorge',        't',      20,         83, 
-   'jorge',        'k',      31,         98, 
-   'alex',         'p',      20,         20, 
-   'alex',         't',      20,         20, 
-   'alex',         'k',      20,         20
-   ) |>
+   'joseph',       'p',       9,         70,
+   'joseph',       't',      18,         69,
+   'joseph',       'k',      22,         76,
+   'yhosef',       'p',      12,        100, 
+   'yhosef',       't',       9,         62, 
+   'yhosef',       'k',      39,         76, 
+   'alejandro',    'p',       8,         53, 
+   'alejandro',    't',      11,         30, 
+   'alejandro',    'k',      25,         69, 
+   'txel',         'p',       9,         61, 
+   'txel',         't',      13,         52, 
+   'txel',         'k',      26,         49, 
+   'hunter',       'p',      18,         59, 
+   'hunter',       't',      11,         70, 
+   'hunter',       'k',      24,         65, 
+   'jorge',        'p',      15,         74, 
+   'jorge',        't',      20,         97, 
+   'jorge',        'k',      26,         91, 
+   'alex',         'p',      24,         33, 
+   'alex',         't',      29,         41, 
+   'alex',         'k',      36,         54   
+  ) |>
   pivot_longer(
     cols = c("vot_es", "vot_in"), 
     names_to = "lang", 
@@ -633,6 +554,85 @@ vot_data |>
   theme_spanphon(base_size = 12, base_family = 'Palatino') 
 
 ```
+
+---
+
+# Las oclusivas sonoras
+
+.pull-left[
+
+- Se someten a un proceso de espirantización en posición no homorgánica
+
+| /b/                           | /d/                           | /g/                           |
+| :---------------------------- | :---------------------------- | :---------------------------- | 
+| &#124; &nbsp; \               | &#124; &nbsp; \               | &#124; &nbsp; \               | 
+| &#124; &nbsp; &nbsp; \        | &#124; &nbsp; &nbsp; \        | &#124; &nbsp; &nbsp; \        | 
+| &#124; &nbsp; &nbsp; &nbsp; \ | &#124; &nbsp; &nbsp; &nbsp; \ | &#124; &nbsp; &nbsp; &nbsp; \ | 
+| [b] &nbsp; &nbsp; [β] &nbsp;  | [d] &nbsp; &nbsp; [ð] &nbsp;  | [g] &nbsp; &nbsp; [ɣ] &nbsp;  |
+
+]
+
+--
+
+.pull-right[
+
+|                       |     |                           |
+| :-                    | :-: | :-                        |
+| [**b**, **d**, **g**] | ⇨   | después de nasal;         |
+|                       |     | después de pausa;         |
+|                       |     | también después de /l/    |
+|                       |     | en el caso de /d/         |
+
+|                       |     |                                                   |
+| :-                    | :-: | :-                                                |
+| [<BLUE>β</BLUE>, <BLUE>ð</BLUE>, <BLUE>ɣ</BLUE>] | ⇨ | en el resto de los casos |
+
+</br>
+
+|      | Punto        | Modo        | Sonoridad |
+| ---: | :----------- | :---------- | :-------- |
+| [β]: | **bilabial** | aproximante | sonora    |
+| [ð]: | **dental**   | aproximante | sonora    |
+| [ɣ]: | **velar**    | aproximante | sonora    |
+
+]
+
+---
+
+# Correlatos acústicos 
+
+.pull-left[
+
+### Ratio de intensidad<sup>1</sup>
+
+- Se mide la intensidad (dB)...
+  - del valle de la aproximante 
+  - del pico de la vocal siguiente
+- valle / pico = ratio de intensidad
+- Un valor cerca de 1 se interpreta como una realización más vocálica (aproximante)
+- Un valor cerca de 0 se interpreta como una realización más polisiva
+
+]
+
+--
+
+.pull-right[
+
+<div align="center">
+  <img src="./libs/img/intensityRatio.png">
+</div>
+
+]
+
+.footnote[
+<sup>1</sup> Simonet, Hualde & Nadeu (2011)
+]
+
+---
+
+# Scripts
+
+- [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
 
 
 

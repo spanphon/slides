@@ -14,7 +14,7 @@
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"c5965e78852c4716aca746ebd9950565","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x2f3cfaf71a44ffabcb4dd2dc6a0571c","expires":14}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -37,7 +37,7 @@ class: center, middle, inverse, title-slide
 ### Joseph V. Casillas, PhD
 ]
 .date[
-### Rutgers University | Spring 2024</br>Last update: 03/26/24
+### Rutgers University | Spring 2024</br>Last update: 04/01/24
 ]
 
 ---
@@ -234,85 +234,6 @@ background-image: url("./libs/img/sp_en_stops.png")
 background-size: contain
 
 ---
-
-# Las oclusivas sonoras
-
-.pull-left[
-
-- Se someten a un proceso de espirantización en posición no homorgánica
-
-| /b/                           | /d/                           | /g/                           |
-| :---------------------------- | :---------------------------- | :---------------------------- | 
-| &amp;#124; &amp;nbsp; \               | &amp;#124; &amp;nbsp; \               | &amp;#124; &amp;nbsp; \               | 
-| &amp;#124; &amp;nbsp; &amp;nbsp; \        | &amp;#124; &amp;nbsp; &amp;nbsp; \        | &amp;#124; &amp;nbsp; &amp;nbsp; \        | 
-| &amp;#124; &amp;nbsp; &amp;nbsp; &amp;nbsp; \ | &amp;#124; &amp;nbsp; &amp;nbsp; &amp;nbsp; \ | &amp;#124; &amp;nbsp; &amp;nbsp; &amp;nbsp; \ | 
-| [b] &amp;nbsp; &amp;nbsp; [β] &amp;nbsp;  | [d] &amp;nbsp; &amp;nbsp; [ð] &amp;nbsp;  | [g] &amp;nbsp; &amp;nbsp; [ɣ] &amp;nbsp;  |
-
-]
-
---
-
-.pull-right[
-
-|                       |     |                           |
-| :-                    | :-: | :-                        |
-| [**b**, **d**, **g**] | ⇨   | después de nasal;         |
-|                       |     | después de pausa;         |
-|                       |     | también después de /l/    |
-|                       |     | en el caso de /d/         |
-
-|                       |     |                                                   |
-| :-                    | :-: | :-                                                |
-| [&lt;BLUE&gt;β&lt;/BLUE&gt;, &lt;BLUE&gt;ð&lt;/BLUE&gt;, &lt;BLUE&gt;ɣ&lt;/BLUE&gt;] | ⇨ | en el resto de los casos |
-
-&lt;/br&gt;
-
-|      | Punto        | Modo        | Sonoridad |
-| ---: | :----------- | :---------- | :-------- |
-| [β]: | **bilabial** | aproximante | sonora    |
-| [ð]: | **dental**   | aproximante | sonora    |
-| [ɣ]: | **velar**    | aproximante | sonora    |
-
-]
-
----
-
-# Correlatos acústicos 
-
-.pull-left[
-
-### Ratio de intensidad&lt;sup&gt;1&lt;/sup&gt;
-
-- Se mide la intensidad (dB)...
-  - del valle de la aproximante 
-  - del pico de la vocal siguiente
-- valle / pico = ratio de intensidad
-- Un valor cerca de 1 se interpreta como una realización más vocálica (aproximante)
-- Un valor cerca de 0 se interpreta como una realización más polisiva
-
-]
-
---
-
-.pull-right[
-
-&lt;div align="center"&gt;
-  &lt;img src="./libs/img/intensityRatio.png"&gt;
-&lt;/div&gt;
-
-]
-
-.footnote[
-&lt;sup&gt;1&lt;/sup&gt; Simonet, Hualde &amp; Nadeu (2011)
-]
-
----
-
-# Scripts
-
-- [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
-
----
 class: middle
 
 
@@ -461,6 +382,85 @@ vot_data |&gt;
   theme_spanphon(base_size = 12, base_family = 'Palatino') 
 
 ```
+
+---
+
+# Las oclusivas sonoras
+
+.pull-left[
+
+- Se someten a un proceso de espirantización en posición no homorgánica
+
+| /b/                           | /d/                           | /g/                           |
+| :---------------------------- | :---------------------------- | :---------------------------- | 
+| &amp;#124; &amp;nbsp; \               | &amp;#124; &amp;nbsp; \               | &amp;#124; &amp;nbsp; \               | 
+| &amp;#124; &amp;nbsp; &amp;nbsp; \        | &amp;#124; &amp;nbsp; &amp;nbsp; \        | &amp;#124; &amp;nbsp; &amp;nbsp; \        | 
+| &amp;#124; &amp;nbsp; &amp;nbsp; &amp;nbsp; \ | &amp;#124; &amp;nbsp; &amp;nbsp; &amp;nbsp; \ | &amp;#124; &amp;nbsp; &amp;nbsp; &amp;nbsp; \ | 
+| [b] &amp;nbsp; &amp;nbsp; [β] &amp;nbsp;  | [d] &amp;nbsp; &amp;nbsp; [ð] &amp;nbsp;  | [g] &amp;nbsp; &amp;nbsp; [ɣ] &amp;nbsp;  |
+
+]
+
+--
+
+.pull-right[
+
+|                       |     |                           |
+| :-                    | :-: | :-                        |
+| [**b**, **d**, **g**] | ⇨   | después de nasal;         |
+|                       |     | después de pausa;         |
+|                       |     | también después de /l/    |
+|                       |     | en el caso de /d/         |
+
+|                       |     |                                                   |
+| :-                    | :-: | :-                                                |
+| [&lt;BLUE&gt;β&lt;/BLUE&gt;, &lt;BLUE&gt;ð&lt;/BLUE&gt;, &lt;BLUE&gt;ɣ&lt;/BLUE&gt;] | ⇨ | en el resto de los casos |
+
+&lt;/br&gt;
+
+|      | Punto        | Modo        | Sonoridad |
+| ---: | :----------- | :---------- | :-------- |
+| [β]: | **bilabial** | aproximante | sonora    |
+| [ð]: | **dental**   | aproximante | sonora    |
+| [ɣ]: | **velar**    | aproximante | sonora    |
+
+]
+
+---
+
+# Correlatos acústicos 
+
+.pull-left[
+
+### Ratio de intensidad&lt;sup&gt;1&lt;/sup&gt;
+
+- Se mide la intensidad (dB)...
+  - del valle de la aproximante 
+  - del pico de la vocal siguiente
+- valle / pico = ratio de intensidad
+- Un valor cerca de 1 se interpreta como una realización más vocálica (aproximante)
+- Un valor cerca de 0 se interpreta como una realización más polisiva
+
+]
+
+--
+
+.pull-right[
+
+&lt;div align="center"&gt;
+  &lt;img src="./libs/img/intensityRatio.png"&gt;
+&lt;/div&gt;
+
+]
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Simonet, Hualde &amp; Nadeu (2011)
+]
+
+---
+
+# Scripts
+
+- [intensityRatio.praat](https://www.spanphon.jvcasillas.com/programming/praat/intensityRatio.praat)
 
 
 
