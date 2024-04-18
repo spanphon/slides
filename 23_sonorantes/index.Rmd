@@ -486,75 +486,97 @@ class: middle, center
 #| message: false
 #| warning: false
 library("tidyverse")
-laterals <- tribble(
-~'id', ~'lang', ~'item',  ~'f1', ~'f2', ~'f3', 
-"jvc", "es",       "al",    354,  1955,  2998,
-"jvc", "es",      "tal",    476,  1770,  2813,
-"jvc", "es",      "mal",    402,  1989,  3182,
-"jvc", "en",      "all",    690,   756,  2979,
-"jvc", "en",     "tall",    625,   921,  3502,
-"jvc", "en",     "mall",    614,   879,  3349, 
-  
-"jiawei", "es",    "al",  401.82, 1455.10, 2897.24,
-"jiawei", "es",   "tal",  424.02, 1520.91, 2557.30,
-"jiawei", "es",   "mal",  472.96, 1488.74, 2692.84,
-"jiawei", "en",   "all",  363.44,  727.83, 3114.95,
-"jiawei", "en",  "tall",  455.07,  749.65, 3081.43,
-"jiawei", "en",  "mall",  491.71,  753.05, 2924.13,
 
-"gabi", "es",      "al",  309.0244, 1892.0929, 3152.5739,
-"gabi", "es",     "tal",  311.0921, 2061.9002, 3102.8865,
-"gabi", "es",     "mal",  337.6475, 2881.8666, 3563.8083,
-"gabi", "en",     "all",  764.2369, 1333.5358, 3666.4714,
-"gabi", "en",    "tall",  271.2142, 1575.8365, 2416.6151,
-"gabi", "en",    "mall",  308.3029, 1540.4373, 3143.2807,
+dat <- list(
+  jvc = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  ), 
+  alex = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  ), 
+  alejandro = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  ), 
+  txell = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  ), 
+  hunter = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  ), 
+  jorge = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  ), 
+  yhosep = tibble(
+    lang = c("es", "es", "es", "en", "en", "en"), 
+    item = c("al", "tal", "mal", "all", "tall", "mall"), 
+    f1 = c(354, 476, 402, 690, 625, 614), 
+    f2 = c(1955, 1770, 1989, 756, 921, 879), 
+    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+  )
+)
 
-"diana", "es",      "al",     400, 1896, 3198, 
-"diana", "es",      "tal",    325, 1827, 3103, 
-"diana", "es",      "mal",    372, 1893, 3138, 
-"diana", "en",      "all",    467, 744,  3414, 
-"diana", "en",      "tall",   618, 957,  3363, 
-"diana", "en",      "mall",   877, 912,  3225, 
-
-"ivan", "es",      "al",    365.33, 1635.04, 2791.02,
-"ivan", "es",      "tal",   430.49, 1583.54, 2446.21,
-"ivan", "es",      "mal",   421.33, 1483.70, 2665.33,
-"ivan", "en",      "all",   344.44,  765.25, 2748.15,
-"ivan", "en",      "tall",  410.69,  808.44, 2760.60,
-"ivan", "en",      "mall",  573.39, 2061.03, 3475.47,
-
-"monica", "es",      "al",     423.52, 1318.67, 2989.84,
-"monica", "es",      "tal",    424.79, 1655.42, 3296.09,
-"monica", "es",      "mal",    327.86,  1505.3, 3409.32,
-"monica", "en",      "all",    876.21, 3628.29, 3943.33,
-"monica", "en",      "tall",   815.02, 3507.54, 3817.75,
-"monica", "en",      "mall",   855.2,  3381.28, 3912.94,
-  ) %>% 
-  mutate(diff = f2 - f1, 
-         diff_norm = (diff - min(diff)) / (max(diff) - min(diff)))
+laterals <- enframe(dat, name = "id") |> 
+  unnest(cols = "value") |> 
+  mutate(
+    diff = f2 - f1, 
+    diff_norm = (diff - min(diff)) / (max(diff) - min(diff))
+  )
 ```
 
 ```{r}
 #| label: lateral-plot0
 #| echo: false
-#| fig.width: 12
-#| fig.retina: 2
-#| fig.height: 7
+#| out.width: "100%"
+#| fig.asp: 0.56
 #| dpi: 400
-laterals %>% 
-  pivot_longer(cols = c("f1", "f2", "f3"), names_to = "formant", 
-    values_to = "hz") %>% 
-  ggplot(., aes(x = formant, y = hz, color = lang)) + 
-    geom_point(alpha = 0.1, size = 4, position = position_dodge(0.3)) + 
-    stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
-      fill = "white", fun.args = list(mult = 1), 
-      position = position_dodge(0.3)) + 
-    scale_color_viridis_d(name = NULL, 
-      labels = c("English", "Spanish"), end = 0.6) + 
-    labs(title = "Lateral velarization", 
-      subtitle = "Normalized F2/F1 difference", caption = "Mean +/- SD", 
-      y = "Hz", x = "Formant") + 
-    ds4ling::ds4ling_bw_theme(base_size = 20)
+laterals |> 
+  pivot_longer(
+    cols = c("f1", "f2", "f3"), 
+    names_to = "formant", 
+    values_to = "hz"
+  ) |> 
+  ggplot() + 
+  aes(x = formant, y = hz, color = lang) + 
+  geom_point(alpha = 0.1, size = 4, position = position_dodge(0.3)) + 
+  stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
+    fill = "white", fun.args = list(mult = 1), 
+    position = position_dodge(0.3)) + 
+  scale_color_viridis_d(name = NULL, 
+    labels = c("English", "Spanish"), end = 0.6) + 
+  labs(
+    title = "Lateral velarization", 
+    subtitle = "Formant frequencies as a function of language", 
+    caption = "Mean +/- SD", 
+    y = "Hz", x = NULL
+  ) + 
+  ds4ling::ds4ling_bw_theme(base_family = "Palatino", base_size = 14) + 
+  guides(color = guide_legend(position = "inside")) + 
+  theme(legend.position.inside = c(0, 1), legend.justification.inside = c(0, 1), 
+        legend.background = element_blank())
 ```
 
 
@@ -564,19 +586,19 @@ class: center, middle
 ```{r}
 #| label: lateral-plot1
 #| echo: false
-#| fig.width: 12
-#| fig.retina: 2
-#| fig.height: 7
+#| out.width: "100%"
+#| fig.asp: 0.56
 #| dpi: 400
-laterals %>% 
-  ggplot(., aes(x = lang, y = diff)) + 
-    geom_point(alpha = 0.1, size = 4) + 
-    stat_summary(fun.data = mean_se, geom = "pointrange", pch = 21, 
-      fill = "white", size = 1.5) + 
-    labs(title = "Lateral velarization", 
-      subtitle = "F2/F1 difference", caption = "Mean +/- SD", 
-      y = "F2-F1", x = "Language") + 
-    ds4ling::ds4ling_bw_theme(base_size = 20)
+laterals |> 
+  ggplot() + 
+  aes(x = lang, y = diff) + 
+  geom_point(alpha = 0.1, size = 4) + 
+  stat_summary(fun.data = mean_se, geom = "pointrange", pch = 21, 
+    fill = "white", size = 1.5) + 
+  labs(title = "Lateral velarization", 
+    subtitle = "F2/F1 difference", caption = "Mean +/- SE", 
+    y = "F2-F1", x = NULL) + 
+  ds4ling::ds4ling_bw_theme(base_family = "Palatino", base_size = 14)
 ```
 
 ---
@@ -585,19 +607,19 @@ class: center, middle
 ```{r}
 #| label: lateral-plot2
 #| echo: false
-#| fig.width: 12
-#| fig.retina: 2
-#| fig.height: 7
+#| out.width: "100%"
+#| fig.asp: 0.56
 #| dpi: 400
-laterals %>% 
-  ggplot(., aes(x = lang, y = diff_norm)) + 
-    geom_point(alpha = 0.1, size = 2) + 
-    stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
-      fill = "white", fun.args = list(mult = 1)) + 
-    labs(title = "Lateral velarization", 
-      subtitle = "Normalized F2/F1 difference", caption = "Mean +/- SD", 
-      y = "Velarization", x = "Language") + 
-    ds4ling::ds4ling_bw_theme(base_size = 20)
+laterals |> 
+  ggplot() +
+  aes(x = lang, y = diff_norm) + 
+  geom_point(alpha = 0.1, size = 2) + 
+  stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
+    fill = "white", fun.args = list(mult = 1)) + 
+  labs(title = "Lateral velarization", 
+    subtitle = "Normalized F2/F1 difference", caption = "Mean +/- SE", 
+    y = "Velarization", x = NULL) + 
+  ds4ling::ds4ling_bw_theme(base_family = "Palatino", base_size = 14)
 ```
 
 
