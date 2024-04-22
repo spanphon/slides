@@ -491,51 +491,51 @@ dat <- list(
   jvc = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 378,  406,  390,  593,  610,  630), 
+    f2 = c(1589, 1624, 1631,  792,  874, 1126), 
+    f3 = c(2539, 2687, 2557, 2565, 2489, 2967)
   ), 
   alex = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 557,  662,  691,  529,  549,  596), 
+    f2 = c(1470, 1509, 1288,  684,  832,  879), 
+    f3 = c(2660, 2639, 2572, 2936, 2745, 2790)
   ), 
   alejandro = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 370,  381,  423,  576,  671,  687), 
+    f2 = c(1636, 1577, 1565, 1310, 1242, 1532), 
+    f3 = c(2974, 2832, 2909, 2751, 2780, 3043)
   ), 
   txell = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 534,  442,  435,  382,  357,  400), 
+    f2 = c(1696, 1690, 1717,  979, 1036, 1343), 
+    f3 = c(3268, 2993, 3195, 3250, 3196, 3043)
   ), 
   hunter = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 372,  334,  408,  426,  472,  476), 
+    f2 = c(1414, 1486, 1243, 1036,  820, 1305), 
+    f3 = c(2922, 2737, 2638, 3062, 2863, 3020)
   ), 
   jorge = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 323,  347,  335,  571,  437,  627), 
+    f2 = c(1943, 1697, 1670, 1905,  945, 1460), 
+    f3 = c(2690, 2642, 2739, 3293, 2970, 3130)
   ), 
   yhosep = tibble(
     lang = c("es", "es", "es", "en", "en", "en"), 
     item = c("al", "tal", "mal", "all", "tall", "mall"), 
-    f1 = c(354, 476, 402, 690, 625, 614), 
-    f2 = c(1955, 1770, 1989, 756, 921, 879), 
-    f3 = c(2998, 2813, 3182, 2979, 3502, 3349)
+    f1 = c( 461,  469,  406,  368,  379,  488), 
+    f2 = c(1594, 1361, 1487,  697,  727, 1073), 
+    f3 = c(2723, 2626, 2707, 3091, 2156, 2839)
   )
 )
 
@@ -543,7 +543,8 @@ laterals <- enframe(dat, name = "id") |>
   unnest(cols = "value") |> 
   mutate(
     diff = f2 - f1, 
-    diff_norm = (diff - min(diff)) / (max(diff) - min(diff))
+    diff_norm = (diff - min(diff)) / (max(diff) - min(diff)), 
+    diff_z = (diff - mean(diff)) / sd(diff)
   )
 ```
 
@@ -613,6 +614,28 @@ class: center, middle
 laterals |> 
   ggplot() +
   aes(x = lang, y = diff_norm) + 
+  geom_point(alpha = 0.1, size = 2) + 
+  stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
+    fill = "white", fun.args = list(mult = 1)) + 
+  labs(title = "Lateral velarization", 
+    subtitle = "Normalized F2/F1 difference", caption = "Mean +/- SE", 
+    y = "Velarization", x = NULL) + 
+  ds4ling::ds4ling_bw_theme(base_family = "Palatino", base_size = 14)
+```
+
+
+---
+class: center, middle
+
+```{r}
+#| label: lateral-plot3
+#| echo: false
+#| out.width: "100%"
+#| fig.asp: 0.56
+#| dpi: 400
+laterals |> 
+  ggplot() +
+  aes(x = lang, y = diff_z) + 
   geom_point(alpha = 0.1, size = 2) + 
   stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
     fill = "white", fun.args = list(mult = 1)) + 
