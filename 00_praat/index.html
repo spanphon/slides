@@ -4,6 +4,7 @@
     <title>Español 362/580: Fonética y fonología españolas</title>
     <meta charset="utf-8" />
     <meta name="author" content="Joseph V. Casillas, PhD" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/remark-css/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css/rutgers-fonts.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xcec79d55aff418a81f4a28c88c4bdcb","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x9121f4f6da84f86a06257d8115d6312","expires":14}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -24,10 +25,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Español 362/580: Fonética y fonología españolas
+]
+.subtitle[
 ## Praat
+]
+.author[
 ### Joseph V. Casillas, PhD
-### Rutgers University</br>Otoño 2020</br>Última actualización: 2021-01-07
+]
+.date[
+### Rutgers University</br>Otoño 2024</br>Última actualización: 2024-08-29
+]
 
 ---
 
@@ -405,16 +414,6 @@ la anterioridad (F2, el eje horizontal) y la altura (F1, el eje vertical).
 
 .pull-right[
 
-
-```
-##   vowel       f1       f2
-## 1     a 688.7835 1502.611
-## 2     e 509.9070 1963.343
-## 3     i 335.8428 2283.843
-## 4     o 509.7089 1179.800
-## 5     u 369.5693 1140.682
-```
-
 &lt;img src="index_files/figure-html/unnamed-chunk-1-1.png" width="576" /&gt;
 
 ]
@@ -488,6 +487,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
