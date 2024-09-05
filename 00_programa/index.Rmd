@@ -43,8 +43,8 @@ Lunes y jueves 12:10 – 13:30 pm
 Lugar: SS-319  
 Profesor: Joseph Casillas  
 
-Despacho: AB 5174  
-Horas de oficina: mediante zoom, viernes (11:00-12:00)  
+Despacho: AB 5174, SS 413  
+Horas de oficina: lunes y jueves 11-12  
 URL: https://rutgers.zoom.us/my/jvc83  
 password: casillas  
 Email: joseph.casillas@rutgers.edu
@@ -159,8 +159,8 @@ enrolled in the language course that corresponds to your placement.
 
 # Fechas importantes
 
-La asignatura comienza el día 1 de septiembre y termina el día 22 de diciembre. 
-El último día para dejar la clase es el día 9 de septiembre.
+La asignatura comienza el día 5 de septiembre y termina el día 15 de diciembre. 
+El último día para dejar la clase es el día 12 de septiembre.
 
 ]
 
@@ -300,12 +300,13 @@ correspondiente a la misma se distribuirá entre el resto de las pruebas.
 .panelset[
 .panel[.panel-name[362]
 
-### Grabación
+### Análisis acústico
 
-Se hará una grabación al principio y al final del semestre. Consistirá en la 
-lectura de varias palabras/frases/párrafos. 
-Es buena idea hacer al menos una cita con el profesor para obtener comentarios 
-y sugerencias para mejorar su pronunciación en base a esta grabación.
+El estudiante va a buscar a un aprendiz del español como L2 para enseñarle a 
+pronunciar las oclusivas sordas (/p, t, k/) y sonoras (/b, d, g/) del español. 
+Hará un análisis acústico de la pronunciación de su participante antes y 
+después de su intervención pedagógica y escribirá un detallado informe en el 
+cual se explican los resultados.
 
 ]
 
@@ -328,13 +329,12 @@ Ver programa
 .panelset[
 .panel[.panel-name[362]
 
-### Análisis acústico
+### Grabación
 
-El estudiante va a buscar a un aprendiz del español como L2 para enseñarle a 
-pronunciar las oclusivas sordas (/p, t, k/) y sonoras (/b, d, g/) del español. 
-Hará un análisis acústico de la pronunciación de su participante antes y 
-después de su intervención pedagógica y escribirá un detallado informe en el 
-cual se explican los resultados.
+Se hará una grabación al principio y al final del semestre. Consistirá en la 
+lectura de varias palabras/frases/párrafos. 
+Es buena idea hacer al menos una cita con el profesor para obtener comentarios 
+y sugerencias para mejorar su pronunciación en base a esta grabación.
 
 ]
 
