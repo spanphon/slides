@@ -380,6 +380,89 @@ class: title-slide-section-grey, middle
 # .white[Los monoptongos y los diptongos]
 
 ---
+
+# Los monoptongos
+
+<ru-blockquote>
+**Monoptongo**: Una sola vocal dentro de una sílaba cuya articulación se 
+mantiene relativamente fija
+</ru-blockquote>
+
+### Ejemplos
+
+|  Palabra       | Silabificación | Transcripción          |
+| :------------- | :------------- | :--------------------- |
+| "c**a**s**a**" | c**a**.s**a**  | /ˈk**a**.s**a**/       |
+| "t**a**b**u**r**e**t**e**" | t**a**.b**u**.r**e**.t**e** | /t**a**.b**u**.ˈɾ**e**.t**e**/ |
+
+---
+layout: true
+
+# Los diptongos
+
+---
+
+<ru-blockquote>
+**Diptongo**: La secuencia de dos vocales seguidas (una vocal y una deslizada) 
+en una sola sílaba.
+</ru-blockquote>
+
+### Ejemplos
+
+|    Palabra    | Silabificación | Transcripción   |
+| :------------ | :------------- | :-------------- |
+| "canc**ió**n" | can.c**ió**n   | [kan.ˈs**i̯o**n] |
+| "p**ue**rta"  | p**ue**r.ta    | [ˈp**u̯e**ɾ.ta]  |
+
+---
+
+<ru-blockquote>
+**Diptongo**: La secuencia de dos vocales seguidas (una vocal y una deslizada) 
+en una sola sílaba.
+</ru-blockquote>
+
+</br>
+
+- Hay 3 tipos de diptongos
+
+- Se clasifican según las vocales que contengan
+
+---
+
+### 3 tipos de diptongos
+
+- **Diptongo creciente**: Vocal débil en posición inicial
+
+- **Diptongo decreciente**: Vocal débil en posición final
+
+- **Diptongo acreciente**: Dos vocales débiles (distintas) juntas
+
+---
+layout: true
+
+# Clasificación de las vocales
+
+---
+background-image: url(./assets/img/lasvocales.png)
+background-position: 50% 80%
+background-size: 700px
+
+---
+background-image: url(./assets/img/vocaleslines.png)
+background-position: 50% 80%
+background-size: 700px
+
+---
+background-image: url(./assets/img/vocalesdebiles.png)
+background-position: 50% 80%
+background-size: 700px
+
+---
+background-image: url(./assets/img/debiles.png)
+background-position: 50% 80%
+background-size: 700px
+
+---
 background-image: url(./assets/img/fuertes.png)
 background-position: 50% 80%
 background-size: 700px
@@ -395,6 +478,112 @@ background-position: 50% 60%
 background-size: 700px
 
 .footnote[**Cuanto más abierta, más energía**]
+
+---
+layout: true
+
+# Los diptongos
+
+---
+
+### Los diptongos crecientes
+
+| Grafemas |   Ejemplos   | Transcripción     |
+| :------- | :----------- | :---------------- |
+| ie       | ej. “sierra” |  s\[**i̯e**\].ra   |
+| ia       | ej. “piano”  |  p\[**i̯a**\].no   |
+| io       | ej. “idiota” |  i.d\[**i̯o**\].ta |
+| ue       | ej. “cuento” |  c\[**u̯e**\]n.to  |
+| ua       | ej. “cuadro” |  c\[**u̯a**\].dro  |
+| uo       | ej. “cuota”  |  c\[**u̯o**\].ta   |
+
+
+</br>
+
+--
+
+.pull-left[
+
+|               |     |             |
+| :------------ | :-: | :---------- |
+| débil         |  →  | fuerte      |
+| cerrada       |  →  | abierta     |
+| menos energía |  →  | más energía |
+
+]
+
+---
+
+### Los diptongos decrecientes
+
+| Grafemas |       Ejemplos       |   Transcripción                     |
+| :------- | :------------------- | :---------------------------------- |
+| ei/ey    | ej. “reina” “rey”    | r\[**ei̯**\].na / r\[**ei̯**\]        |
+| ai/ay    | ej. “traigo” “caray” | tr\[**ai̯**\].go / ca.r\[**ai̯**\]    |
+| oi/oy    | ej. “oigo” “voy”     | \[ˈ**oi̯**\].go  / v\[**oi̯**\]       |
+| eu       | ej. “deuda”          | d\[**eu̯**\].da                      |
+| au       | ej. “jaula”          | j\[**au̯**\].la                      |
+| ou       | ej. “genitourinario” | ge.ni.t\[**ou̯**\].ri.na.r\[**i̯o**\] |
+
+</br>
+
+--
+
+.pull-left[
+
+|             |     |               |
+| :---------- | :-: | :------------ |
+| fuerte      | →   | débil         |
+| abierta     | →   | cerrada       |
+| más energía | →   | menos energía |
+
+]
+
+---
+
+### Los diptongos acrecientes
+
+| Grafemas |       Ejemplos      |     Transcripción                               |
+| :------- | :------------------ | :---------------------------------------------- |
+| iu       | ej. “ciudad”        |  c\[**i̯u**\].dad o c\[**ju**\].dad              |
+| ui/uy    | ej. “buitre”, “muy” |  b\[**u̯i**\].tre o b\[**wi**\].tre, m\[**ui̯**\] |
+
+</br>
+
+--
+
+.pull-left[
+
+|         |     |         |
+| :------ | :-: | :------ |
+| débil   |  →  | débil   |
+| cerrada |  →  | cerrada |
+
+.center[La energía no cambia (mucho)]
+
+]
+
+---
+layout: false
+
+# Vocal vs. deslizada
+
+<ru-blockquote>
+**Las vocales**: /i/ /e/ /a/ /o/ /u/  
+.lightgrey[h]  
+**Las deslizadas**: \[i̯\] \[u̯\] 
+</ru-blockquote>
+
+</br>
+
+- Las deslizadas cuentan con una duración más corta. 
+
+---
+background-image: url(./assets/img/fuertes.png)
+background-position: 50% 80%
+background-size: 650px
+
+# Las vocales
 
 ---
 layout: false
@@ -474,23 +663,24 @@ layout: false
 ]
 
 ---
-
-# Vocal vs. deslizada
-
-<ru-blockquote>
-**Las vocales**: /i/ /e/ /a/ /o/ /u/  
-.lightgrey[h]  
-**Las deslizadas**: \[i̯\] \[u̯\] 
-</ru-blockquote>
-
-</br>
-
-- Las deslizadas cuentan con una duración más corta. 
-
----
 class: title-slide-section-grey, middle
 
 # .white[Los hiatos]
+
+---
+
+# Los hiatos
+
+<ru-blockquote>
+**Hiato**: La secuencia de dos vocales seguidas que se separan en dos sílabas
+</ru-blockquote>
+
+### Ejemplos 
+
+| Palabra     | Silabificación  | Transcripción fonémica |
+| :---------- | :-------------- | :--------------------- |
+| "ár**ea**"  | á.r**e**.**a**  | /ˈa.ɾ**e**.**a**/      |
+| "hér**oe**" | hé.r**o**.**e** | /ˈe.ɾ**o**.**e**/      |
 
 ---
 background-image: url(./assets/img/fuertes.png)
@@ -535,6 +725,21 @@ background-size: 350px
 - Suele haber diptongación hacia el final
 
 - Con frecuencia se reducen a [ə] en posición átona
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/California_English_vowel_chart.svg/1920px-California_English_vowel_chart.svg.png)
+background-size: contain
+
+---
+background-image: url(./assets/img/tension1.png)
+background-position: 90% 50%
+background-size: 350px
+
+# Las vocales del español
+
+1. Son <u>más</u> cortas
+
+2. Requieren <u>más</u> tensión.
 
 ---
 background-image: url(./assets/img/tension2.png), url(./assets/img/tension3.png)
