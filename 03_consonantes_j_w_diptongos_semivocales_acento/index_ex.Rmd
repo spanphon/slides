@@ -234,6 +234,7 @@ por un sólo grafema.
 
 
 class: title-slide-section-grey, middle
+layout: false
 
 # Correspondencia NO exclusiva
 
@@ -241,12 +242,13 @@ class: title-slide-section-grey, middle
 background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/memes/phonetics_grapheme_phoneme_correspondence.png)
 background-size: 400px
 class: inverse, center, middle
-layout: false
 
 ---
 background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/memes/phonetics_grapheme_phoneme_correspondence.png)
 background-size: 400px
 background-position: 90% 50%
+
+# Correspondencia NO exclusiva
 
 .pull-left[
 
@@ -264,10 +266,14 @@ background-image: url(./assets/img/noexclusivaC.png)
 background-size: 600px
 background-position: 50% 50%
 
+# Correspondencia NO exclusiva
+
 ---
 background-image: url(./assets/img/noexclusivaC2.png)
 background-size: 600px
 background-position: 50% 50%
+
+# Correspondencia NO exclusiva
 
 .footnote[
 
@@ -283,10 +289,14 @@ background-image: url(./assets/img/noexclusiva.png)
 background-size: 600px
 background-position: 50% 50%
 
+# Correspondencia NO exclusiva
+
 ---
 background-image: url(./assets/img/noexclusiva2.png)
 background-size: 600px
 background-position: 50% 50%
+
+# Correspondencia NO exclusiva
 
 .footnote[
 
