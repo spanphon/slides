@@ -159,12 +159,79 @@ español?
 
 
 
+
+
 layout:false
 class: title-slide-section-grey, middle
 
 # Correspondencia exclusiva
 
 ---
+layout: true
+
+# Correspondencia exclusiva
+
+---
+
+<ru-blockquote>
+**Correspondencia exclusiva**: La relación entre el grafema y el fonema es 1:1.
+</ru_blockquote>
+
+--
+
+### En otras palabras
+
+- El grafema es representado por un sólo fonema y el fonema es respresentado 
+por un sólo grafema.
+
+- Hay 9 casos de correspondencia exclusiva en español.
+
+---
+
+|     | Grafema/Dígrafo | Fonema |
+| :-- | :-------------- | :----- |
+|     | "a"             | /a/    |
+|     | "e"             | /e/    |
+|     | "o"             | /o/    |
+|     | "ch"            | /ʧ/    |
+|     | "d"             | /d/    |
+|     | "f"             | /f/    |
+|     | "l"             | /l/    |
+|     | "p"             | /p/    |
+|     | "t"             | /t/    |
+
+---
+
+| Grafema/</br>Dígrafo |            | Fonema |
+| -------------------: | :--------: | :----- |
+| "a"                  |  **⇦⇦⇨⇨**  | /a/    |
+| "e"                  |  **⇦⇦⇨⇨**  | /e/    |
+| "o"                  |  **⇦⇦⇨⇨**  | /o/    |
+| "ch"                 |  **⇦⇦⇨⇨**  | /ʧ/    |
+| "d"                  |  **⇦⇦⇨⇨**  | /d/    |
+| "f"                  |  **⇦⇦⇨⇨**  | /f/    |
+| "l"                  |  **⇦⇦⇨⇨**  | /l/    |
+| "p"                  |  **⇦⇦⇨⇨**  | /p/    |
+| "t"                  |  **⇦⇦⇨⇨**  | /t/    |
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class: title-slide-section-grey, middle
 
@@ -177,6 +244,73 @@ class: inverse, center, middle
 layout: false
 
 ---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/linguistics/memes/phonetics_grapheme_phoneme_correspondence.png)
+background-size: 400px
+background-position: 90% 50%
+
+.pull-left[
+
+- La correspondencia entre grafema/dígrafo y fonema no es exclusiva en todos los casos.
+
+- Dicho de otra manera, no siempre es una relación de 1:1  
+	- Ej. las 21 letras que quedan...
+
+- ¿Qué problemas puede crear este hecho?
+
+]
+
+---
+background-image: url(./assets/img/noexclusivaC.png)
+background-size: 600px
+background-position: 50% 50%
+
+---
+background-image: url(./assets/img/noexclusivaC2.png)
+background-size: 600px
+background-position: 50% 50%
+
+.footnote[
+
+### Ej. 
+
+- /k/: casa
+- /s/ o /θ/: cien
+
+]
+
+---
+background-image: url(./assets/img/noexclusiva.png)
+background-size: 600px
+background-position: 50% 50%
+
+---
+background-image: url(./assets/img/noexclusiva2.png)
+background-size: 600px
+background-position: 50% 50%
+
+.footnote[
+
+### Ej.
+
+- cabe (inf. *caber*): /ˈka.be/
+- cave (inf. *cavar*): /ˈka.be/
+
+]
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 layout: false
 background-image: url(./assets/img/resumen.png)
 background-size: 600px
@@ -366,7 +500,7 @@ class: title-slide-section-grey, middle
 
 # .white[Semivocales y vocales]
 
-???
+---
 
 # Las semivocales (deslizadas)
 
@@ -392,8 +526,29 @@ p
 
 ---
 
+# Semivocales y vocales
 
+### Representación ortográfica de las semivocales (letras)
 
+### [ i̯ ]
+
+.pull-left[
+
+|     |         |     |          |
+| :-- | :------ | :-: | :------- |
+| "i" | "adiós" | ⟶  | ad[i̯o]s  |
+| "y" | "hay"   | ⟶  | [ai̯]     |
+
+### [ u̯ ]
+
+|     |           |     |              |
+| :-- | :-------- | :-: | :----------- |
+| "u" | suave     | ⟶  | [su̯a]ve      |
+| "ü" | lingüista | ⟶  | lin[ˈgu̯is]ta |
+
+]
+
+---
 
 
 
@@ -413,7 +568,7 @@ layout: true
 
 # [ʝ] y [w]
 
-???
+---
 
 - Son consonantes fricativas
 
@@ -432,6 +587,7 @@ layout: true
 |   hielo    |    [ʝé.lo]    | \***[i̯elo]**  |
 |   huerta   |    [wér.ta]   | \***[u̯erta]** |
 
+---
 
 ### También corresponden a las letras 'll', 'y' y 'w'
 
@@ -442,6 +598,8 @@ layout: true
 | llamar     | /ʝa.ˈmar/     |
 | payaso     | /pa.ˈʝa.so/   |
 | whisky     | /ˈwis.ki/     |
+
+---
 
 ### Se relacionan con las vocales /i/ y /u/ y con las semivocales [ i̯ ] y [ u̯ ]
 
@@ -456,7 +614,7 @@ layout: true
 | [i̯] - [u̯]:   | - fricción | + deslizamiento | - nucleares |
 | [i] - [u]:   | - fricción | - deslizamiento | + nucleares |
 
----
+</br>
 
 - Hay lingüistas que transcriben todos los diptongos con semiconsonantes
   - "suave" ⟶ [ˈswa].be o [ˈsu̯a].be
@@ -490,7 +648,7 @@ class: title-slide-section-grey, middle
 
 # El acento
 
-???
+---
 
 # Acento prosódico vs. acento ortográfico
 
@@ -507,6 +665,50 @@ class: title-slide-section-grey, middle
 | "casa"  | /ˈka.sa/               |
 | "móvil" | /ˈmo.bil/              |
 
+---
+background-image: url(../assets/img/huh.gif)
+background-size: 200px
+background-position: 90% 50%
+
+# El acento ortográfico
+
+.pull-left[
+
+### Las palabras en español se denominan de manera diferente dependiendo de la sílaba en la que cae el acento primario de la palabra. 
+
+> - agudas
+> - llanas
+> - esdrújulas
+> - sobreesdrújulas
+
+]
+
+---
+background-image: url(./assets/img/acentuacion.png)
+background-size: 500px
+background-position: 50% 80%
+
+# El acento ortográfico
+
+```{r, echo=FALSE, results='asis'}
+`Tipo de palabra` <- c("Agudas", "Llanas", "Esdrújulas", "Sobreesdrújulas")
+`Descripción` <- c(
+  "Llevan el acento prosódico en la última sílaba",
+  "Llevan el acento prosódico en la penúltima sílaba",
+  "Llevan el acento prosódico en la antepenúlima sílaba",
+  "Llevan el acento prosódico antes de la antepenúltima sílaba")
+`Ejemplos` <- c("'fatal', 'capaz'",
+                "'casa', 'hermano'",
+                "'sábana', 'esdrújula'",
+                "'dándoselo', 'escríbemelo'")
+
+tibble(`Tipo de palabra`, `Descripción`, `Ejemplos`) %>% 
+  kable(., format = "html", escape = F)  %>% 
+  column_spec(1, width = "1.8in", color = "#cc0033") %>% 
+  column_spec(2, width = "7in") %>%
+  column_spec(3, width = "2.8in") %>% 
+  row_spec(1:4, font_size = 18)
+```
 
 ---
 background-image: url(./assets/img/acentuacion.png)
@@ -566,6 +768,7 @@ Las palabras llanas y agudas que no siguen la tendencia general llevan una tilde
 
 ---
 
+
 # A practicar
 
 ### Explicad por qué las siguientes palabras requieren o no una tilde...
@@ -609,8 +812,6 @@ Las palabras llanas y agudas que no siguen la tendencia general llevan una tilde
 ---
 
 # Las palabras monosilábicas
-
-???
 
 - Las palabras monosilábicas en español no llevan tilde, excepto en los casos de homonimia
 
