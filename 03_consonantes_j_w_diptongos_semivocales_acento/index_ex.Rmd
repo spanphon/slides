@@ -519,10 +519,12 @@ class: title-slide-section-grey, middle
 - más breves que las vocales; se 'deslizan' hacia el sonido vocálico
 
 - no pueden ir solas (sin una vocal que las acompañe)
-p
+
 - no pueden comenzar una sílaba
 
 - no pueden llevar acento
+
+--
 
 ### [ i ] - [ u ]... (y las demás)
 
