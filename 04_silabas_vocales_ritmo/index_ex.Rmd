@@ -433,8 +433,28 @@ background-position: 95% 50%
 
 ---
 
+# Actividad
 
+### En grupos de 2 o 3 haced lo siguiente...
 
+.large[
+1. Abrir Praat y hacer una grabación nueva
+2. Escoge una persona del grupo y graba la palabra "Anita" dos veces
+  - La primera vez di "Anita" con reducción vocálica, i.e. uh-knee-tuh
+  - La segunda vez abre bien la boca (exagera) y evita la schwa
+3. Examina el oscilograma (View and Edit)
+  - Compara la duración de la primera sílaba en ambas palabras
+  - Compara la duración de la última sílaba en ambas palabras
+  - ¿Hay alguna diferencia?
+4. Examina el espectrograma
+  - Selecciona "Formant" > "Show formants"
+  - Compara los puntos rojos de la primera sílaba en ambas palabras
+  - Compara los puntos rojos de la última sílaba en ambas palabras
+  - ¿Hay alguna diferencia?
+5. Resume las diferencias acústicas entre las dos producciones
+]
+
+---
 
 
 
