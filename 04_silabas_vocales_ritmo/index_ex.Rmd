@@ -521,7 +521,7 @@ little green guy from Star Wars.
 ]
 
 ---
-exclude: true
+exclude: false
 background-image: url(./assets/img/superbowl.jpg)
 background-size: 400px
 background-position: 95% 50%
@@ -535,7 +535,8 @@ background-position: 95% 50%
 - La duración
 
 ---
-exclude: true
+exclude: false
+
 # El ritmo
 
 ### Español: Ritmo silábico 
@@ -608,7 +609,8 @@ background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/
 background-size: contain
 
 ---
-exclude: true
+exclude: false
+
 # La transcripción fonética
 
 ### La transcripción fonética puede ser **estrecha** o **ancha**: 
@@ -622,7 +624,8 @@ exclude: true
 La transcripción ancha será suficiente para los propósitos de nuestra clase.
 
 ---
-exclude: true
+exclude: false
+
 # La transcripción
 
 ### Recordad
@@ -638,7 +641,8 @@ class: title-slide-section-grey, middle
 # /ɾ/ vs. /r/
 
 ---
-exclude: true
+exclude: false
+
 # Las vibrantes
 
 ### En español tenemos dos tipos de vibrantes
@@ -649,16 +653,16 @@ exclude: true
 ### /ɾ/ vs. /r/
 
 --
-exclude: true
+exclude: false
 - /ɾ/ ⟶ "r" (siempre)
 - /r/ ⟶ "r" o "rr"
 
 --
-exclude: true
+exclude: false
 ### ¿Cómo sabemos cuándo?
 
 ---
-exclude: true
+exclude: false
 # Las vibrantes
 
 ### "r" = /r/ en los siguientes contextos...
