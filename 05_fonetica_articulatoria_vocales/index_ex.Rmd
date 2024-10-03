@@ -75,15 +75,19 @@ background-position: 50% 50%
 
 ### Articulamos los sonidos con *los articuladores pasivos* y *los articuladores activos*
 
+.large[
 <ru-blockquote>
 **los articuladores pasivos**: los articuladores que *reciben* el contacto  
 .lightgrey[h]  
 **los articuladores activos**: los articuladores que *producen* el contacto
 </ru-blockquote>
+]
 
 ---
 
 </br></br></br>
+
+.Large[
 
 | Articuladores pasivos |            Articuladores activos             |
 | :-------------------- | :------------------------------------------- |
@@ -91,6 +95,8 @@ background-position: 50% 50%
 | **Zona alveolar**     | **Lengua**: se retrae/adelanta/baja/sube     |
 | **Zona palatal**      | **Mandíbula inferior**: se abre              |
 |                       | **Úvula**: se extiende hacia atrás o se baja |
+
+]
 
 ---
 background-image: url(./assets/img/dientes.png)
@@ -145,17 +151,21 @@ background-position: 100% 80%
 
 ### Los articuladores en acción
 
+<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZquuC1Nju3w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ---
 
 ### ¿En qué se diferencian?
 
+.large[
 <ru-blockquote>
 **Las vocales**: ningún obstáculo a la salida del aire  
 .lightgrey[h]  
 **Las consonantes**: algún tipo de obstáculo a la salida del aire
 </ru-blockquote>
+]
 
 ---
 layout: false
@@ -174,15 +184,19 @@ layout: true
 
 ### Clasificación:
 
+.Large[
 - Posición de la lengua en dos ejes
     - horizontal
     - vertical
+]
 
 ### .RUred[¿Podemos decir que las vocales tienen un punto de articulación?]
 
 ---
 
+<div align="center">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/bOni5SLHmsI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ---
 
@@ -190,10 +204,15 @@ layout: true
   
 ### Clasificación:
 
+.Large[
 - Posición de la lengua en dos ejes 
   - horizontal 
   - vertical
+]
+
+.Large[
 - El redondeamiento de los labios
+]
 
 ---
 
@@ -289,11 +308,13 @@ layout: true
 
 ### Diferencias con respecto a las vocales del inglés (otra vez)
 
+.Large[
 - Son cortas y tensas
 
 - Nunca llegan a ser diptongos *por accidente*
 
 - No se reducen
+]
 
 ---
 layout: false
@@ -302,6 +323,7 @@ layout: false
 
 ### Con un compañero, describid articulatoriamente las 5 vocales del español
 
+.Large[
 - /i/
 
 - /e/
@@ -311,6 +333,7 @@ layout: false
 - /o/
 
 - /u/
+]
 
 ---
 
@@ -318,6 +341,7 @@ layout: false
 
 ### Con un compañero, describid articulatoriamente las 5 vocales del español
 
+.Large[
 - /i/: alta, anterior, estirada
 
 - /e/: media, anterior, estirada
@@ -327,19 +351,28 @@ layout: false
 - /o/: media, posterior, redondeada
 
 - /u/: alta, posterior, redondeada
-
+]
 
 ---
-layout: false
-class: title-slide-final, left
 
-# References
+# Actividad
 
-- Barrutia, Richard & Armin Schwegler (eds.) 1994. Fonética y fonología españolas: teoría y práctica.  New York: Wiley. [2nd edition] 
+### La acústica de las vocales
 
-- Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
+- Con un/a compañero/a, abre praat hacer una grabación de las siguientes palabras
+  - "pipí"
+  - "papá"
+  - "pupú"
 
-- Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+- Analiza F1 y F2 de las vocales
+
+- Escribe los valores en una tabla como esta: 
+
+| Nombre | Vocal | F1  | F2   |
+| :----- | :---- | --: | ---: |
+| Joseph | /i/   | 320 | 2400 |
+| Joseph | /a/   | 850 | 1300 |
+| Joseph | /u/   | 560 | 800  |
 
 ---
 
@@ -436,3 +469,17 @@ nuestras_vocales |>
   )
 
 ```
+
+---
+layout: false
+class: title-slide-final, left
+
+# References
+
+- Barrutia, Richard & Armin Schwegler (eds.) 1994. Fonética y fonología españolas: teoría y práctica.  New York: Wiley. [2nd edition] 
+
+- Teschner, Richard V. 1996. Camino oral: fonética, fonología y práctica de los sonidos del español.  New York: McGraw-Hill. [Libro de texto y cassettes]. 
+
+- Hualde, J.I. (2013). *Los sonidos del español*. Cambridge University Press.
+
+---
