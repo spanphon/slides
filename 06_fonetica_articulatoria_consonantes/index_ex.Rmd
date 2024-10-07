@@ -44,15 +44,19 @@ background-size: 400px
 
 ### **Grafema**/**dígrafo** (letras): Entre comillas
 
+.Large[
 - "a" 
 - "ch"
 - "ll"
+]
 
 ### .blue[Fonema] (sonidos): Entre barras
 
+.Large[
 - /a/
 - /ʧ/
 - /ʝ/
+]
 
 ---
 exclude: false
@@ -70,18 +74,22 @@ background-position: 50% 50%
 exclude: false
 # El aparato fonador
 
+.Large[
 - **Aparato fonador**: las partes del cuerpo humano donde producimos los sonidos
+]
 
 ---
 exclude: false
 # El aparato fonador
 
+.Large[
 |     | Articuladores pasivos |            Articuladores activos             |
 | :-- | :-------------------- | :------------------------------------------- |
 |     | **Dientes**           | **Labios**: se abren/cierran/redondean       |
 |     | **Zonja alveolar**    | **Lengua**: se retrae/adelanta/baja/sube     |
 |     | **Zona palatal**      | **Mandíbula inferior**: se abre              |
 |     |                       | **Úvula**: se extiende hacia atrás o se baja |
+]
 
 </br>
 
@@ -89,17 +97,21 @@ exclude: false
 exclude: false
 ### ¿Lo puedo mover?
 
+.Large[
 - Sí. Es un articulador *activo*.
 
 - No. Es un articulador *pasivo*.
+]
 
 ---
 exclude: false
 # ¿En qué se diferencian?
 
+.Large[
 - **Las vocales**: ningún obstáculo a la salida del aire
 
 - **Las consonantes**: algún tipo de obstáculo a la salida del aire
+]
 
 ---
 exclude: false
@@ -115,10 +127,12 @@ exclude: false
   
 ### Clasificación:
 
+.Large[
 - Posición de la lengua en dos ejes 
   - horizontal 
   - vertical
 - El redondeamiento de los labios
+]
 
 ---
 exclude: false
@@ -154,11 +168,13 @@ background-position: 95% 50%
 
 ### Utilizamos 3 parámetros para la descripción de las consonantes
 
+.Large[
 1. La **sonoridad** 
 
 2. El **modo** de articulación
 
 3. El **punto** de articulación
+]
 
 ---
 class: inverse
@@ -169,18 +185,20 @@ background-position: 50% 50%
 # 1. La sonoridad
 
 ---
-exclude: true
+exclude: false
 
 # La sonoridad
 
 ### Todos los sonidos de todos los idiomas pertenecen a uno de estos dos grandes grupos:
 
+.Large[
 - **SONOROS**: vibran las cuerdas vocales [+son]
 
 - **SORDOS**: no vibran las cuerdas vocales [-son] 
+]
 
 ---
-exclude: true
+exclude: false
 background-image: url(./assets/img/serpiente2.png), url(./assets/img/abeja1.png)
 background-size: 325px, 350px
 background-position: 25% 80%, 75% 80%
@@ -189,15 +207,19 @@ background-position: 25% 80%, 75% 80%
 
 ### Una prueba para comprobar la sonoridad de un sonido dado...
 
+.large[
 - Podemos sentir las vibraciones de las cuerdas vocales si nos tocamos la garganta
 	- ssssss (sordo)
 	- zzzzzz (sonoro)
+]
 
 ---
 exclude: false
 # La sonoridad
 
+<div align="center">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/VbpvVPTe2TI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ---
 exclude: false
@@ -205,6 +227,7 @@ exclude: false
 
 ### ¿Cuáles son los sonidos sordos y sonoros?
 
+.Large[
 /p, t, d, k, s, f, θ, g, b, n, m, ʝ, x, r, ɾ, w, l, ʧ, ɲ, a, e, i, o, u/  
 
 
@@ -215,6 +238,7 @@ exclude: false
 |     | \_       | \_ \_ \_ \_ \_ |
 |     | \_ \_    | \_ \_          |
 |     | \_       | \_ \_ \_       |
+]
 
 ---
 exclude: false
@@ -222,6 +246,7 @@ exclude: false
 
 ### ¿Cuáles son los sonidos sordos y sonoros?
 
+.Large[
 /p, t, d, k, s, f, θ, g, b, n, m, ʝ, x, r, ɾ, w, l, ʧ, ɲ, a, e, i, o, u/  
 
 |          Sordos         |                                       Sonoros          |
@@ -231,6 +256,7 @@ exclude: false
 | /**ʧ**/                 | /.blue[i]/ /.blue[e]/ /.blue[a]/ /.blue[o]/ /.blue[u]/ |
 | /**f**/ /**θ**/         | /.blue[ʝ]/ /.blue[w]/                                  |
 | /**x**/                 | /.blue[r]/ /.blue[ɾ]/ /.blue[l]/                       |
+]
 
 ---
 background-image: url(./assets/img/fonemas_edit.png)
@@ -249,6 +275,7 @@ background-position: 100% 50%
 
 # El modo
 
+.Large[
 1. Oclusivo
 
 2. Fricativo
@@ -258,6 +285,7 @@ background-position: 100% 50%
 4. Nasal
 
 5. Líquido
+]
 
 ---
 
@@ -265,9 +293,11 @@ background-position: 100% 50%
 
 ### Dos características...
 
+.Large[
 1. Obstáculo total
 
 2. Explosión
+]
 
 ---
 exclude: false
@@ -275,9 +305,11 @@ exclude: false
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - Las consonantes oclusivas sordas 
 
 - Las consonantes oclusivas sonoras
+]
 
 ---
 
@@ -285,9 +317,11 @@ exclude: false
 
 ### ¿Cuáles son los fonemas correspondientes? 
 
+.Large[
 - Las consonantes oclusivas sordas /**p**, **t**, **k**/
 
 - Las consonantes oclusivas sonoras /.blue[b], .blue[d], .blue[g]/
+]
 
 ---
 background-image: url(./assets/img/oclusivo.png)
@@ -302,15 +336,19 @@ exclude: false
 
 ### Obstáculo parcial
 
+.Large[
 - un estrechamiento de los órganos articulatorios sin que éstos lleguen a juntarse → fricción
+]
 
 </br>
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - Las consonantes fricativas sordas 
 
 - Las consonantes fricativas sonoras
+]
 
 ---
 
@@ -318,15 +356,19 @@ exclude: false
 
 ### Obstáculo parcial
 
+.Large[
 - un estrechamiento de los órganos articulatorios sin que éstos lleguen a juntarse → fricción
+]
 
 </br>
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - Las consonantes fricativas sordas /**f**, **θ**, **s**, **x**/
 
 - Las consonante fricativa sonora /.blue[ʝ]/
+]
 
 ---
 exclude: false
@@ -334,15 +376,19 @@ exclude: false
 
 ### Obstáculo total + obstáculo parcial
 
+.Large[
 - Cierre completo de dos órganos articulatorios seguido por una fricción
+]
 
 </br>
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - Las consonantes africadas sordas 
 
 - Las consonantes africadas sonoras
+]
 
 ---
 
@@ -350,11 +396,15 @@ exclude: false
 
 ### Obstáculo total + obstáculo parcial
 
+.Large[
 - Cierre completo de dos órganos articulatorios seguido por una fricción
+]
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - La consonante africada sorda /.blue[ʧ]/
+]
 
 ---
 background-image: url(./assets/img/africado.png)
@@ -369,15 +419,19 @@ exclude: false
 
 ### Uso de la cavidad nasal
 
+.Large[
 - La cavidad oral está cerrada y el pasaje nasal abierto
 
 - La úvula baja y permite que el aire pase a la cavidad nasal
+]
 
 </br>
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - Las consonantes nasales son sonoras
+]
 
 ---
 
@@ -385,15 +439,19 @@ exclude: false
 
 ### Uso de la cavidad nasal
 
+.Large[
 - La cavidad oral está cerrada y el pasaje nasal abierto 
 
 - La úvula baja y permite que el aire pase a la cavidad nasal 
+]
 
 </br>
 
 ### ¿Cuáles son los fonemas correspondientes?
 
+.Large[
 - Las consonantes nasales son sonoras /**m**, **n**, **ɲ**/
+]
 
 ---
 exclude: false
@@ -401,10 +459,12 @@ exclude: false
 
 ### 2 categorías:
 
+.Large[
 1. **Lateral**:
 
   - se produce un bloqueo y el aire escapa lateralmente por los costados de la 
   lengua - 
+]
 
 ---
 
@@ -412,10 +472,12 @@ exclude: false
 
 ### 2 categorías:
 
+.Large[
 1. **Lateral**:
 
   - se produce un bloqueo y el aire escapa lateralmente por los costados de la 
   lengua - /.blue[l]/
+]
 
 ---
 
@@ -423,11 +485,13 @@ exclude: false
 
 ### 2 categorías:
 
+.Large[
 1. Lateral
 2. **Vibrante**:
 
 - .blue[Simple]: el ápice toca los alvéolos una sola vez - /.blue[ɾ]/
 - .blue[Múltiple]: el ápice toca los alvéolos varias veces - /.blue[r]/
+]
 
 ---
 background-image: url(./assets/img/fonemas_edit.png)
@@ -440,6 +504,7 @@ exclude: false
 
 ### Identifica el modo de las siguientes consonantes y explica cómo se producen:
 
+.Large[
 |     | Fonema | Modo |
 | :-- | :----- | :--- |
 |     | /s/    | -    |
@@ -451,6 +516,7 @@ exclude: false
 |     | /θ/    | -    |
 |     | /ɲ/    | -    |
 |     | /ʝ/    | -    |
+]
 
 ---
 exclude: false
@@ -458,6 +524,7 @@ exclude: false
 
 ### Identifica el modo de las siguientes consonantes y explica cómo se producen:
 
+.Large[
 |     | Fonema |    Modo   |
 | :-- | :----- | :-------- |
 |     | /s/    | fricativo |
@@ -469,6 +536,7 @@ exclude: false
 |     | /θ/    | fricativo |
 |     | /ɲ/    | nasal     |
 |     | /ʝ/    | fricativo |
+]
 
 ---
 class: title-slide-section-grey, center, middle
@@ -479,9 +547,11 @@ class: title-slide-section-grey, center, middle
 
 # El punto de articulación
 
+.Large[
 - El punto de articulación describe el lugar donde se produce el contacto entre 
 los articuladores.
 - Los fonemas consonánticos del español se producen en los siguientes lugares:
+]
 
 </br>
 
@@ -503,14 +573,16 @@ background-size: 700px
 
 # El punto de articulación
 
-1. Bilabial     
-2. Labiodental  
+.Large[
+1. Bilabial
+2. Labiodental
 3. Interdental
-4. Dental       
-5. Alveolar     
-6. Alveopalatal 
-7. Palatal      
-8. Velar        
+4. Dental
+5. Alveolar
+6. Alveopalatal
+7. Palatal
+8. Velar
+]
 
 ---
 exclude: false
@@ -518,6 +590,7 @@ exclude: false
 
 ### Los puntos de articulación
 
+.Large[
 |    Punto     |              Articulador              |     Fonema     |
 | :----------- | :------------------------------------ | :------------- |
 | Bilabial     | Los dos labios                        | \_ \_ \_       |
@@ -528,6 +601,7 @@ exclude: false
 | Alveopalatal | Predorso y la zona postalveolar       | \_             |
 | Palatal      | Dorso de la lengua y paladar          | \_ \_          |
 | Velar        | Dorso de la lengua y velo del paladar | \_ \_ \_       |
+]
 
 ---
 exclude: false
@@ -535,6 +609,7 @@ exclude: false
 
 ### Los puntos de articulación
 
+.Large[
 |    Punto     |              Articulador              |      Fonema     |
 | :----------- | :------------------------------------ | :-------------- |
 | Bilabial     | Los dos labios                        | /p, b, m/       |
@@ -545,6 +620,7 @@ exclude: false
 | Alveopalatal | Predorso y la zona postalveolar       | /ʧ/             |
 | Palatal      | Dorso de la lengua y paladar          | /ɲ, ʝ/          |
 | Velar        | Dorso de la lengua y velo del paladar | /k, g, x/       |
+]
 
 ---
 
@@ -570,6 +646,7 @@ class: title-slide-section-grey, middle
 exclude: false
 # Descripción articulatoria
 
+.Large[
 1. En vuestras propias palabras definid los siguientes términos. 
 	- La sonoridad
 	- El modo de articulación 
@@ -581,6 +658,7 @@ exclude: false
 
 4. ¿Cuántos puntos de articulación hay en español? ¿Qué diferencias hay según la 
 variedad?
+]
 
 ---
 exclude: false
@@ -592,6 +670,7 @@ class: title-slide-section-grey, middle
 
 # Describid los siguientes sonidos según su modo, punto y sonoridad...
 
+.Large[
 | Fonema | Descripción articulatoria |
 | :----- | :------------------------ |
 | /a/    |                           |
@@ -605,11 +684,13 @@ class: title-slide-section-grey, middle
 | /o/    |                           |
 | /w/    |                           |
 | /ɾ/    |                           |
+]
 
 ---
 exclude: false
 # Describid los siguientes sonidos según su modo, punto y sonoridad...
 
+.Large[
 | Fonema |     Descripción articulatoria     |
 | :----- | :-------------------------------- |
 | /a/    | baja, central                     |
@@ -623,11 +704,13 @@ exclude: false
 | /o/    | media, posterior, redondeada      |
 | /w/    | fricativa, labio-velar, sonora    |
 | /ɾ/    | vibrante simple, alveolar, sonora |
+]
 
 ---
 exclude: false
 # Identificad los siguientes sonidos de acuerdo a su modo, punto y sonoridad...
 
+.Large[
 |      Descripción articulatoria      | Fonema |
 | :---------------------------------- | :----- |
 | media, anterior, estirada           |        |
@@ -641,11 +724,13 @@ exclude: false
 | nasal, alveolar, sonora             |        |
 | fricativa, alveolar, sorda          |        |
 | alta, posterior, redondeada         |        |
+]
 
 ---
 exclude: false
 # Identificad los siguientes sonidos de acuerdo a su modo, punto y sonoridad...
 
+.Large[
 |      Descripción articulatoria      | Fonema |
 | :---------------------------------- | :----- |
 | media, anterior, estirada           | /e/    |
@@ -659,6 +744,7 @@ exclude: false
 | nasal, alveolar, sonora             | /n/    |
 | fricativa, alveolar, sorda          | /s/    |
 | alta, posterior, redondeada         | /u/    |
+]
 
 ---
 exclude: false
@@ -700,10 +786,12 @@ class: title-slide-section-grey, middle
 exclude: false
 # Unos ejemplos...
 
+.Large[
 - Juan y Ernesto insisten mucho.
 - Pedro hizo dos viajes a Indio, California.
 - Nadie sabía si Marta tenía cáncer. 
 - Este señor es un amigo mío. 
+]
 
 ---
 exclude: false
@@ -715,6 +803,7 @@ class: title-slide-section-grey, middle
 
 # Hemos visto...
 
+.Large[
 - Fonética articulatoria
 	- las vocales
 	- las consonantes
@@ -725,6 +814,7 @@ class: title-slide-section-grey, middle
 	- el modo de articulación
 	- el punto de articulación
 	- la sonoridad
+]
 
 ---
 class: title-slide-final, left
