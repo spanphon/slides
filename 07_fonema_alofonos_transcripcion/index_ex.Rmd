@@ -81,18 +81,22 @@ background-size: 300px
 
 ### En **inglés**, establecen diferencias de significado,</br> son **contrastivos**:
 
+.Large[
 - **th**en [ð]
 - **d**en [d]
+]
 
 ### *then* y *den* son cosas diferentes. Hay **dos fonemas**.
 
 ---
 background-image: url(../assets/img/swift.gif)
 background-position: 90% 50%
-background-size: 250px
+background-size: 350px
 
 # Fonema vs. Alófono
 
+.pull-left[
+.large[
 - En **español**, [ð] y [d] son variantes de un 'sonido' básico.
 
 - La palabra 'den' en estas frases es la misma, a pesar de que se</br>pronuncia diferente:
@@ -100,6 +104,8 @@ background-size: 250px
 	- pon ‘den’ [d] 'write "den"'
 
 - [ð] y [d] son dos variantes (**alófonos**) del **mismo fonema**.
+]
+]
 
 ---
 background-image: url(./assets/img/1.png)
@@ -117,12 +123,13 @@ background-size: 350px
 # Definamos
 
 .pull-left[
+.Large[
 - **Fonema**: La unidad mínima que puede cambiar el significado de una palabra. 
 
 - Es una representación abstracta de uno o más sonidos (estos sonidos se llaman **alófonos**).
 	- '**p**eso' /ˈ**p**e.so/
 	- '**b**eso' /ˈ**b**e.so/ 
-
+]
 ]
 
 ---
@@ -137,11 +144,11 @@ background-size: 300px
 ### Las realizaciones de /b/ en "un beso" y "ese beso" son distintas pero no representan dos fonemas porque el significado de la palabra no cambia.
 
 </br>
-
+.large[
 - **Alófono**: La realización específica y concreta de un fonema.
 	- Un **b**eso [um.ˈ**b**e.so]
 	- Ese **b**eso [e.se.ˈ**β**e.so]
-
+]
 ]
 
 ---
@@ -152,21 +159,21 @@ background-size: 425px
 # Repasemos
 
 .pull-left[
-
+.Large[
 **Fonema**: 
 
 - representación abstracta y generalizada de un sonido
 - se escribe entre //
-
+]
 ]
 
 .pull-right[
-
+.Large[
 .blue[Alófono]: 
 
 - cada realización concreta y específica de un fonema
 - se escribe entre [ ] 
-
+]
 ]
 
 ---
@@ -176,11 +183,14 @@ background-size: 325px
 
 # Pensemos
 
+.Large[
 - ¿Cómo sabemos si dos sonidos cambian el significado y por ello pertenecen a 
 dos fonemas diferentes?
+]
 
 --
 
+.Large[
 - Si podemos formar un *par mínimo*.
 
 - Un par mínimo es un par de palabras que sólo se diferencian en la 
@@ -190,11 +200,13 @@ pronunciación en un sonido y esa diferencia establece diferencias de significad
 mismos sonidos no son contrastivos en español (sólo hay /d/).
   - /ðen/ y /den/ son palabras distintas en inglés
   - [den] y [ðen] no son palabras distintas en español
+]
 
 ---
 
 # Pares mínimos
 
+.Large[
 | Par mínimo  | Transcripción fonémica | Significado |
 | :---------- | :--------------------- | :---------- |
 | **den**     | /ˈden/                 | 'guarida'   |
@@ -207,6 +219,7 @@ mismos sonidos no son contrastivos en español (sólo hay /d/).
 | .blue[doma] | /ˈdo.ma/               | 'taming'    |
 | **casa**    | /ˈka.sa/               | 'house'     |
 | **gasa**    | /ˈga.sa/               | 'gauze'     |
+]
 
 ---
 background-image: url(./assets/img/4.png)
@@ -268,34 +281,47 @@ abstractas diferentes. Son dos fonemas.
 
 # Repasemos
 
+.Large[
 - El fonema es un concepto abstracto.
+]
 
 --
 
+.Large[
 - El alófono es la representación de un sonido.
+]
 
 --
 
+.Large[
 - Los fonemas no se articulan, pero los alófonos sí.
+]
 
 --
 
+.Large[
 - Los fonemas cambian **el significado** de una palabra. Son contrastivos.
+]
 
 --
 
+.Large[
 - Los alófonos no cambian el significado de una palabra. 
 **No son contrastivos**.
+]
 
 --
 
+.Large[
 - Para saber si un sonido es fonema o no hay que intentar establecer un 
 "par mínimo".
+]
 
 ---
 
 # Repasemos
 
+.Large[
 - Todos los fonemas tienen al menos un alófono
 
 - Transcripción fonética: \[ \]  (representación 'exacta' de los sonidos).
@@ -303,11 +329,13 @@ abstractas diferentes. Son dos fonemas.
 - Transcripción fonológica: /   / (representación abstracta).
 
 - Lo que es un fonema en un idioma, puede ser un alófono en otro.
+]
 
 ---
 
 # A practicar
 
+.Large[
 - ¿Cuántos alófonos tiene el fonema /t/ en inglés?
 
 - ¿Cuáles son algunos de los factores que influyen en cómo pronunciamos 
@@ -315,17 +343,22 @@ abstractas diferentes. Son dos fonemas.
 
 - Dad un ejemplo de un par mínimo. Explicad cómo sabéis que es un par mínimo. 
 Fundamentad vuestro ejemplo con datos.
+]
 
 ---
 
 # A practicar
 
+.Large[
 - ¿Cuántos alófonos tiene el fonema /t/ en inglés?
   - [t]: 's**t**orm'
   - [t<sup>h</sup>]: '**t**alk'
   - [ɾ]: 'wa**t**er'
+]
+
 --
 
+.Large[
 - ¿Cuáles son algunos de los factores que influyen en cómo pronunciamos 
 (alófonos) los sonidos de nuestra fonología nativa (fonemas)?
   - El contxto fonético
@@ -333,6 +366,7 @@ Fundamentad vuestro ejemplo con datos.
   - Otras cosas: estado de animo, énfasis, cansancio, velocidad, etc.
 - Dad un ejemplo de un par mínimo. Explicad cómo sabéis que es un par mínimo. 
 Fundamentad vuestro ejemplo con datos.
+]
 
 ---
 class: title-slide-section-grey, middle
@@ -345,15 +379,18 @@ class: title-slide-section-grey, middle
 
 ### Transcribid...
 
+.Large[
 - Juan y Ernesto insisten mucho.
 - Pedro hizo dos viajes a Indio, California.
 - Nadie sabía si Marta tenía cáncer. 
 - Este señor es un amigo mío. 
+]
 
 ---
 
 # Unos ejemplos...
 
+.Large[
 - Juan y Ernesto insisten mucho.  
 jua.nyer.nes.toin.sis.ten.mu.cho
 - Pedro hizo dos viajes a Indio, California.  
@@ -362,11 +399,13 @@ pe.dro.hi.zo.dos.via.je.sa.in.dio.ca.li.for.nia
 na.die.sa.bí.a.si.mar.ta.te.ní.a.kán.cer
 - Este señor es un amigo mío.  
 es.te.se.ño.re.su.na.mi.go.mí.o
+]
 
 ---
 
 # Unos ejemplos...
 
+.Large[
 - Juan y Ernesto insisten mucho.  
 jua.nyer.nes.toin.sis.ten.mu.cho  
 /ˈxua.nier.ˈnes.toin.ˈsis.ten.ˈmu.ʧo/
@@ -379,6 +418,7 @@ na.die.sa.bí.a.si.mar.ta.te.ní.a.kán.cer
 - Este señor es un amigo mío.  
 es.te.se.ño.re.su.na.mi.go.mí.o  
 /ˈes.te.se.ˈɲo.ˈre.su.na.ˈmi.go.ˈmi.o/
+]
 
 <!-- - p. 38 de las notas de clase  -->
 
