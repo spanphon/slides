@@ -41,7 +41,7 @@ background-position: 95% 50%
 # En grupos...
 
 .pull-left[
-
+.Large[
 - Definid **fonema** y aportad un ejemplo.
 
 - Definid **alófono** y aportad un ejemplo.
@@ -51,7 +51,7 @@ usar?
 
 - ¿Cuáles son las diferencias entre las oclusivas sordas del inglés con 
 respecto a las del español?
-
+]
 ]
 
 ---
@@ -139,13 +139,17 @@ exclude: false
 
 # Los triptongos
 
+.Large[
 - **Triptongo**: Cualquier combinación monosilábica que empieza con una deslizada, tiene por núcleo una vocal media o baja y termina con otra deslizada. 
+]
 
 </br>
 
+.Large[
 <div align="center">
   deslizada → vocal → deslizada
 </div>
+]
 
 ---
 exclude: false
@@ -153,6 +157,8 @@ exclude: false
 # Los triptongos
 
 ### Se dan entre palabras...
+
+.Large[
 
 |     |       Secuencia        | Transcripción fonológica |
 | :-- | :--------------------- | :----------------------- |
@@ -160,6 +166,7 @@ exclude: false
 |     | anuncio irresponsable: |                          |
 |     | fue imposible:         |                          |
 |     | antiguo irlandés:      |                          |
+]
 
 ---
 exclude: false
@@ -167,6 +174,8 @@ exclude: false
 # Los triptongos
 
 ### Se dan entre palabras...
+
+.Large[
 
 |     |       Secuencia        |      Transcripción fonológica     | Triptongo |
 | :-- | :--------------------- | :-------------------------------- | :-------: |
@@ -175,16 +184,21 @@ exclude: false
 |     | fue imposible:         | /ˈ**fueim**.po.ˈsi.ble/           |  [u̯ei̯]    |
 |     | antiguo irlandés:      | /an.ˈti.**guoiɾ**.lan.ˈdes/       |  [u̯oi̯]    |
 
+]
+
 ---
 exclude: false
 
 # Los triptongos
 
 ### ...y también en la forma vosotros.
-  
+
+.Large[
+
 - cambiáis: /kam.ˈ**biais**/ - [i̯ai̯]
 
 - continuáis: /kon.ti.ˈ**nuais**/ - [u̯ai̯]
+]
 
 ---
 class: title-slide-section-grey, middle
@@ -207,11 +221,13 @@ class: title-slide-section-grey, middle
 
 </br>
 
+.Large[
 - /b/: **bilabial**, oclusivo, sonoro
 
 - /d/: **dental**, oclusivo, sonoro
 
 - /g/: **velar**, oclusivo, sonoro
+]
 
 <!-- <div align="center">
   <img src="./assets/img/bdg1.png">
@@ -273,11 +289,15 @@ class: title-slide-section-grey, middle
 
 ### La pronunciación
 
+.Large[
+
 - El inglés no tiene [β] ni [ɣ]
 
 - [ð] es un fonema en inglés, pero es un alófono de /d/ en español
 
 - [ð] es interdental en inglés, pero dental en español
+
+]
 
 <!-- <div align="center">
   <img src="./assets/img/bdg5.png">
@@ -293,6 +313,8 @@ class: title-slide-section-grey, middle
 
 # Los fonemas oclusivos sonoros: /b, d, g/
 
+.Large[
+
 - El español no tiene como fonema el sonido labiodental [v]
 
 - Los grafemas 'b' y 'v' siempre son bilabiales
@@ -303,6 +325,8 @@ class: title-slide-section-grey, middle
 | :------ | :------- | :--------------------- |
 | inglés  | 'visit'  | [ˈ**v**ɪ.zɪt]          |
 | español | 'visita' | [**b**i.ˈsi.ta]        |
+
+]
 
 <!-- <div align="center">
   <img src="./assets/img/bdg6.png">
@@ -320,14 +344,17 @@ class: title-slide-section-grey, middle
 
 #### [b]: modo oclusivo
 
+.Large[
 - [ˈam.bos]
 - [ˈbe.to]
+]
 
 #### [β]: modo fricativo
 
+.Large[
 - [ˈu.βo]
 - [ˈal.βa]
-
+]
 ]
 
 --
@@ -336,9 +363,10 @@ class: title-slide-section-grey, middle
 
 ### ¿En qué contextos se encuentran?
 
+.Large[
 - [b] → después de una nasal o una pausa
 - [β] → en el resto de los contextos e incluso entre palabras
-
+]
 ]
 
 ---
@@ -358,8 +386,10 @@ class: title-slide-section-grey, middle
   <img width="400" src="./assets/img/distComp2.png">
 </div>
 
+.Large[
 - Es una situación lingüística en la cual un sonido "A" aparece en determinados contextos y "B" aparece en el resto de los contextos en los cuales "A" no 
 aparece.
+]
 
 ---
 
@@ -371,13 +401,16 @@ aparece.
 
 #### [d]: modo oclusivo
 
+.Large[
 - [ˈan.do]
 - [al.ˈde.a]
+]
 
 #### [ð]: modo fricativo
 
+.Large[
 - [ˈla.ðo]
-
+]
 ]
 
 .pull-right[
@@ -386,12 +419,15 @@ aparece.
 
 #### [g]: modo oclusivo
 
+.Large[
 - [ˈtaŋ.go]
+]
 
 #### [ɣ]: modo fricativo
 
+.Large[
 - [ˈma.ɣo]
-
+]
 ]
 
 ---
@@ -430,22 +466,25 @@ aparece.
 
 # Distribución complementaria
 
+.large[
 |     |           |     |                                                                     |
 | :-: | :-------- | :-: | :------------------------------------------------------------------ |
 |  -  | [b, d, g] |  →  | Después de una nasal o una pausa; después de [l] en el caso de [d]. |
 |     |           |     |                                                                     |
 |     |           |     |                                                                     |
+]
 
 ---
 
 # Distribución complementaria
 
-
+.large[
 |     |           |     |                                                                     |
 | :-: | :-------- | :-: | :------------------------------------------------------------------ |
 |  -  | [b, d, g] |  →  | Después de una nasal o una pausa; después de [l] en el caso de [d]. |
 |     |           |     |                                                                     |
 |  -  | [β, ð, ɣ] |  →  | En el resto de los contextos e incluso entre palabras               |
+]
 
 ---
 
@@ -453,10 +492,12 @@ aparece.
 
 ### \*Esta regla se aplica incluso entre palabras, dentro de un mismo grupo fónico, como en:
 
+.Large[
 |             |                    |
 | :---------- | :----------------- |
 | En Guadiana | [eŋ.gu̯a.ˈði̯a.na] |
 | A Guadiana  | [a.ɣu̯a.ði̯a.na]   |
+]
 
 ---
 
@@ -464,16 +505,20 @@ aparece.
 
 ### \*Esta regla se aplica incluso entre palabras, dentro de un mismo grupo fónico, como en:
 
+.Large[
 |          |                |
 | :------- | :------------- |
 | El dueño | [el.ˈdu̯e.ɲo]  |
 | A Damián | [a.ða.ˈmi̯an] |
+]
 
 ---
 
 # La fricativización
 
 ### /b, d, g/ → [β, ð, ɣ]
+
+.Large[
 
 - Este proceso ocurre cuando los sonidos oclusivos sonoros (en español /b, d, g/) se pronuncian con fricción.  Este proceso convierte los oclusivos en fricativos [β, ð, ɣ]
 
@@ -482,6 +527,8 @@ aparece.
 - El sonido afectado aparece en posición inicial de sílaba 
 
 - El único proceso en el cual el sonido que aparece *anteriormente* dicta el cambio del sonido
+
+]
 
 ---
 exclude: false
