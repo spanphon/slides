@@ -347,39 +347,44 @@ vot_data <- tribble(
   
   
   
-   'esther',        'p',       ,          , 
-   'esther',        't',       ,          , 
-   'esther',        'k',       ,          , 
-   'dunia',         'p',       ,          , 
-   'dunia',         't',       ,          , 
-   'dunia',         'k',       ,          , 
-   'bella',         'p',       ,          , 
-   'bella',         't',       ,          , 
-   'bella',         'k',       ,          , 
-   'erin',          'p',       ,          , 
-   'erin',          't',       ,          , 
-   'erin',          'k',       ,          , 
-   'charlie',       'p',       ,          , 
-   'charlie',       't',       ,          , 
-   'charlie',       'k',       ,          , 
-   'alexandria',    'p',       ,          , 
-   'alexandria',    't',       ,          , 
-   'alexandria',    'k',       ,          , 
-   'gabriella',     'p',       ,          , 
-   'gabriella',     't',       ,          , 
-   'gabriella',     'k',       ,          , 
-   'jasia',         'p',       ,          , 
-   'jasia',         't',       ,          , 
-   'jasia',         'k',       ,          , 
-   'sydney',        'p',       ,          , 
-   'sydney',        't',       ,          , 
-   'sydney',        'k',       ,          , 
-   'laura',         'p',       ,          , 
-   'laura',         't',       ,          , 
-   'laura',         'k',       ,          , 
-   'giuliano',      'p',       ,          , 
-   'giuliano',      't',       ,          , 
-   'giuliano',      'k',       ,          , 
+  
+  
+   'joseph',        'p',      7,        36,
+   'joseph',        't',     13,        62, 
+   'joseph',        'k',     21,        59, 
+   'esther',        'p',       5,          14, 
+   'esther',        't',       22,          21, 
+   'esther',        'k',       5,          20, 
+   #'dunia',         'p',       ,          , 
+   #'dunia',         't',       ,          , 
+   #'dunia',         'k',       ,          , 
+   'bella',         'p',       11,          94, 
+   'bella',         't',       26,          98, 
+   'bella',         'k',       21,          79, 
+   'erin',          'p',       8,          27, 
+   'erin',          't',       13,          81, 
+   'erin',          'k',       24,          87, 
+   'charlie',       'p',       17,          46, 
+   'charlie',       't',       22,          59, 
+   'charlie',       'k',       29,          99, 
+   'alexandria',    'p',       16,          36, 
+   'alexandria',    't',       15,          22, 
+   'alexandria',    'k',       35,          42, 
+   'gabriella',     'p',       17,          70, 
+   'gabriella',     't',       32,          95, 
+   'gabriella',     'k',       48,          84, 
+   #'jasia',         'p',       ,          , 
+   #'jasia',         't',       ,          , 
+   #'jasia',         'k',       ,          , 
+   'sydney',        'p',       14,          50, 
+   'sydney',        't',       18,          66, 
+   'sydney',        'k',       32,          83, 
+   'laura',         'p',       20,          46, 
+   'laura',         't',       21,          58, 
+   'laura',         'k',       38,          96, 
+   'giuliano',      'p',       20,          43, 
+   'giuliano',      't',       18,          71, 
+   'giuliano',      'k',       27,          77, 
 
    ) |> 
   pivot_longer(
@@ -451,7 +456,7 @@ vot_data |>
   scale_fill_viridis_d(name = NULL, begin = 0.2, end = 0.8) + 
   scale_y_discrete(labels = c("Español", "Inglés")) + 
   labs(title = "Oclusivas sordas", 
-    subtitle = "VOT de /p/ en inglés y español", 
+    subtitle = "VOT de /t/ en inglés y español", 
     x = "VOT (ms)", y = NULL) + 
   ds4ling::ds4ling_bw_theme(base_size = 16, base_family = 'Palatino')
 
@@ -484,7 +489,7 @@ vot_data |>
   scale_fill_viridis_d(name = NULL, begin = 0.2, end = 0.8) + 
   scale_y_discrete(labels = c("Español", "Inglés")) + 
   labs(title = "Oclusivas sordas", 
-    subtitle = "VOT de /p/ en inglés y español", 
+    subtitle = "VOT de /k/ en inglés y español", 
     x = "VOT (ms)", y = NULL) + 
   ds4ling::ds4ling_bw_theme(base_size = 16, base_family = 'Palatino')
 
