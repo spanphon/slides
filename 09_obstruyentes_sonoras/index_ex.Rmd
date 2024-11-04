@@ -587,7 +587,7 @@ background-position: 95% 50%
 # Repaso
 
 .pull-left[
-
+.large[
 - ¿Cuáles son las obstruyentes sordas del español? ¿Cómo se diferencian de 
 las del inglés? (Recordad el enemigo \#2)
 
@@ -597,7 +597,7 @@ las del inglés?
 - Las obstruyentes sonoras se someten a un proceso fonológico en ciertos 
 contextos fónicos. ¿Cuál es el proceso (cómo se llama) y en qué contextos 
 ocurre?
-
+]
 ]
 
 ---
@@ -612,12 +612,14 @@ Este proceso ocurre cuando los sonidos oclusivos sonoros
 los oclusivos en fricativos [β, ð, ɣ]
 </ru-blockquote>
 
+.Large[
 - Supone un cambio de modo
 
 - El sonido afectado aparece en posición inicial de sílaba 
 
 - El único proceso en el cual el sonido que aparece *anteriormente* dicta el 
 cambio del sonido
+]
 
 ---
 exclude: false
@@ -626,6 +628,7 @@ exclude: false
 
 ### Taller de Praat
 
+.Large[
 - Grabad las siguientes palabras en praat
   - "bull" (ing.)
   - "pull" (ing.)
@@ -633,10 +636,13 @@ exclude: false
   - "pata" (es.)
   - "data"
   - "gata"
+]
 
 <p></p>
 
+.Large[
 - Estudiad los espectrogramas y apuntad vuestras observaciones
+]
 
 ---
 exclude: false
@@ -674,14 +680,18 @@ background-position: 26% 90%, 50% 85%, 73% 90%
 
 # VOT positivo
 
+.Large[
 - Short-lag: 
   - español sordo (/p, t, k/)
   - inglés sonoro (/b, d, g/)
+]
 
 <p></p>
 
+.Large[
 - Long-lag: 
   - inglés sordo (/p, t, k/ > [ p<sup>h</sup>, t<sup>h</sup>, k<sup>h</sup> ])
+]
 
 ---
 exclude: false
@@ -707,18 +717,23 @@ background-position: 26% 90%, 50% 85%, 73% 90%
 
 # VOT negativo
 
+.Large[
 - lead VOT: 
   - español sonoro (/b, d, g/)
+]
 
 ---
 exclude: false
+
 # Trabajo práctico #1
 
-- Ver handout
+.Large[
+- Ver handout en canvas
+
 - Más ayuda
   - [Taller 1](https://www.jvcasillas.com/praat/slides/00_intro/index.html)
   - [Taller 2](https://www.jvcasillas.com/praat/slides/01_vot/index.html)
-
+]
 
 
 
@@ -812,9 +827,12 @@ sin sa**β**er como ha **β**eni**ð**o te ha co**x**i**ð**o la tormenta.
 
 ---
 exclude: false
+
 # Transcribid
 
+.Large[
 - Juan fue inmediatamente a la tienda a comprar pan.
+]
 
 ---
 
@@ -822,21 +840,26 @@ exclude: false
 
 # Transcripción fonémica
 
+.Large[
 - /ˈxuan.ˈfuein.me.dia.ta.men.te.a.la.ˈtien.daː.kom.pɾaɾ.pan/
+]
 
 ---
 exclude: false
 
 # Transcripción fonética
 
+.Large[
 - /ˈxuan.ˈfuein.me.dia.ta.men.te.a.la.ˈtien.daː.kom.pɾaɾ.pan/  
   [ˈxu̯aɱ.ˈfu̯ei̯m.me.**ð**i̯a.ta.men̪.te.a.la.ˈti̯en̪.**d**aː.kom.pɾaɾ.pan]
+]
 
 ---
 exclude: false
 
 # Describid
 
+.Large[
 |     |       Modo       |      Punto       |    Sonoridad     |
 | :-- | :--------------- | :--------------- | :--------------- |
 | [b] | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ |
@@ -847,6 +870,7 @@ exclude: false
 | [f] | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ |
 | [x] | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ |
 | [β] | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_ |
+]
 
 ---
 
@@ -854,6 +878,7 @@ exclude: false
 
 # Describid
 
+.Large[
 |     |    Modo   |    Punto    | Sonoridad |
 | :-- | :-------- | :---------- | :-------- |
 | [b] | oclusivo  | bilabial    | sonoro    |
@@ -864,7 +889,8 @@ exclude: false
 | [f] | fricativo | labiodental | sordo     |
 | [x] | fricativo | velar       | sordo     |
 | [β] | fricativo | bilabial    | sonoro    |
-
+]
+5
 ---
 exclude: false
 class: title-slide-section-grey, middle
@@ -902,7 +928,9 @@ class: title-slide-section-grey, middle
   <img src="./assets/img/yoda3.png">
 </div>
 
+.Large[
 - /ʝ/: fricativa, palatal, sonora
+]
 
 <!-- <div align="center">
   <img src="./assets/img/yod1.png">
@@ -920,11 +948,13 @@ class: title-slide-section-grey, middle
 
 ### Es un fonema, hay pares mínimos
 
-</br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
 
+.large[
 | Principio de palabra |                           |     | Interior de palabra |                           |
 | :------------------- | :------------------------ | :-- | :------------------ | :------------------------ |
 | **ll**oro/**l**oro   | /ˈ**ʝ**o.ro/ /ˈ**l**o.ɾo/ |     | be**ll**a/be**s**a  | /ˈbe.**ʝ**a/ /ˈbe.**s**a/ |
+]
 
 <!-- <div align="center">
   <img src="./assets/img/yod2.png">
@@ -988,11 +1018,13 @@ class: title-slide-section-grey, middle
 
 ### Ortografía
 
+.Large[
 | Fonema | Grafemas |   Ejemplos   |
 | :----- | :------- | :----------- |
 | /ʝ/    | 'll'     | '**ll**anto' |
 |        | 'y'      | '**y**o'     |
 |        | 'hi-'    | '**hi**erba' |
+]
 
 <!-- <div align="center">
   <img src="./assets/img/yod6.png">
@@ -1006,6 +1038,7 @@ class: title-slide-section-grey, middle
 
 ### Pronunciación
 
+.Large[
 - [ʝ]
   - Más fuerte que 'y' en inglés en
       - '**y**ellow'
@@ -1013,6 +1046,7 @@ class: title-slide-section-grey, middle
   - Parecido a la pronunciación de 'j' y 'dg' en inglés en 
       - '**j**ungle'
       - 'ju**dg**e'
+]
 
 <!-- <div align="center">
   <img src="./assets/img/yod7.png">
