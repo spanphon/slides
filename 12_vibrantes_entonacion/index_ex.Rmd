@@ -31,7 +31,7 @@ xaringanExtra::use_xaringan_extra(
 exclude: false
 # Fito
 
-<iframe width="1000" height="400" src="https://www.youtube.com/embed/DgGOz9-KFuc?controls=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="1000" height="400" src="https://www.youtube.com/embed/DgGOz9-KFuc?si=guou19_pSgsDqKEu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 exclude: false
@@ -40,6 +40,7 @@ exclude: false
 
 ### Buscad...
 
+.Large[
 1. Tres ejemplos de sonorización
 2. Tres ejemplos de fricitivización
 3. Tres ejemplos en los que la fricativización se bloquee 
@@ -48,9 +49,10 @@ debido a la presencia de una nasal
 5. Una nasal velar
 6. Una nasal interdental
 7. Una lateral interdental
+]
 
 .footnote[
-Las letras están disponibles [aquí](https://www.spanphon.jvcasillas.com/slides/12_vibrantes_entonacion/assets/img/fito2/fito2.pdf)
+Las letras están disponibles [aquí](https://www.spanphon.jvcasillas.com/slides/12_vibrantes_entonacion/assets/img/fito2/fito2.pdf) o en canvas
 ]
 
 ---
@@ -68,23 +70,29 @@ class: title-slide-section-grey, middle
 
 ### Hay 2 fonemas vibrantes del español
 
+.Large[
 - /ɾ/: vibrante simple, alveolar, sonora
 - /r/: vibrante múltiple, alveolar, sonora
+]
 
 ---
 
 # Las vibrantes
 
+.Large[
 - Son fonemas en posición intervocálica
 - Hay pares mínimos
+]
 
 </br>
 
+.Large[
 |     |   Palabra    |       Transcripción       |
 | --- | :----------- | :------------------------ |
 |     | 'coro/corro' | /ˈko.**ɾ**o/ /ˈko.**r**o/ |
 |     | 'pero/perro' | /ˈpe.**ɾ**o/ /ˈpe.**r**o/ |
 |     | 'caro/carro' | /ˈka.**ɾ**o/ /ˈka.**r**o/ |
+]
 
 ---
 
@@ -104,8 +112,10 @@ class: title-slide-section-grey, middle
 
 ### ¡OJO!
 
+.Large[
 - En otras posiciones no hay distinción fonémica
 - Se trata de un fonema con dos alófonos
+]
 
 </br>
 
@@ -119,10 +129,12 @@ class: title-slide-section-grey, middle
 
 ### [ɾ]
 
+.Large[
 - En un <BLUE>ataque complejo</BLUE> (ataque compuesto de dos consonantes)
   - 'broma' [ˈb<BLUE>ɾ</BLUE>o.ma]
   - 'tren' [t<BLUE>ɾ</BLUE>en]
   - 'dragón' [d<BLUE>ɾ</BLUE>a.ˈɣon]
+]
 
 ---
 
@@ -130,6 +142,7 @@ class: title-slide-section-grey, middle
 
 ### [r]
 
+.Large[
 - A principio de palabra
   - 'rosa' [ˈ**r**o.sa]
   - 'rojo' [ˈ**r**o.xo]
@@ -138,6 +151,7 @@ class: title-slide-section-grey, middle
   - 'alrededor' [al.**r**e.ðe.ˈðoɾ]
   - 'Enrique' [en.ˈ**r**i.ke]
   - 'Israel' [is.**r**a.ˈel]
+]
 
 ---
 
@@ -145,10 +159,12 @@ class: title-slide-section-grey, middle
 
 ### [ɾ] / \[r]  (opcional)
 
+.Large[
 - En posición de coda, o posición enfática
   - 'dar' [da<BLUE>ɾ</BLUE>]/[da**r**]
   - 'harto' [a<BLUE>ɾ</BLUE>.to]/[a**r**.to]
   - 'hace un calorrr' [ka.ˈlo<BLUE>ɾ</BLUE>]/[ka.ˈlo**r**]
+]
 
 ---
 
@@ -250,6 +266,8 @@ exclude: false
 
 ## Transcribid
 
+.Large[
+
 - Un cubano canoso cuenta la caña con cuidado
 - Concepción Núñez de Los Ángeles tiene un pato nombrado Chencho Núñez.
 - Con que te vas inmediatamente a la cabaña para no tener que nadar. 
@@ -258,10 +276,14 @@ exclude: false
 - Un gringo me mandó un folleto. 
 - Muchos de los mejores estudiantes se esforzaron para poder hacerlo cuanto antes.  
 
+]
+
 ---
 exclude: false
 
 ## Transcribid
+
+.Large[
 
 - Uncubanocanosocuentalacañaconcuidado
 - ConcepciónNúñezdeLosÁngelestieneunpatonombradoChenchoNúñez.
@@ -270,6 +292,8 @@ exclude: false
 - Eraunañoantesdelaindependenciadelpaís. 
 - Ungringomemandóunfolleto. 
 - Muchosdelosmejoresestudiantesseesforzaronparapoderhacerlocuantoantes
+
+]
 
 ---
 exclude: false
