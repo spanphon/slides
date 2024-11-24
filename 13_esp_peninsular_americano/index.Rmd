@@ -38,7 +38,9 @@ class: title-slide-section-grey, middle
 
 ### Los procesos fonológicos
 
+.Large[
 - Cuéntale al vecino acerca de los tres procesos fonológicos que hemos visto en clase (i.e. cuáles son, cuándo ocurren, da ejemplos)
+]
 
 ```{r, 'timer', echo=F}
 countdown::countdown(minutes = 2, play_sound = T, top = 0)
@@ -48,9 +50,11 @@ countdown::countdown(minutes = 2, play_sound = T, top = 0)
 
 <p></p>
 
+.Large[
 - Fricativización
 - Sonorización
 - Asimilación 
+]
 
 ---
 exclude: true
@@ -83,9 +87,11 @@ exclude: true
 
 ### Las vibrantes
 
+.Large[
 - ¿Cuántos fonemas hay? ¿Cuántos alófonos hay? ¿De qué depende?
 - ¿En posición no intervocálica? ¿Cuántos fonemas hay? ¿Cuántos alófonos hay?
 - ¿Cuáles son las reglas para su distribución?
+]
 
 ---
 
@@ -114,7 +120,7 @@ exclude: true
 ### Decidid si se trata de un vibrante <BLUE>simple</BLUE> o **múltiple**
 
 .pull-left[
-
+.Large[
 - 'para'
 - 'parra'
 - 'Rita'
@@ -123,13 +129,13 @@ exclude: true
 - 'comer'
 - 'al rato'
 - 'trato'
-
+]
 ]
 
 --
 
 .pull-right[
-
+.Large[
 - [ˈpa.<BLUE>ɾ</BLUE>a]
 - [ˈpa.**r**a]
 - [ˈ**r**i.ta]
@@ -138,16 +144,18 @@ exclude: true
 - [ko.me**r**] o [ko.me<BLUE>ɾ</BLUE>]
 - [al.ˈ**r**a.to]
 - [t<BLUE>ɾ</BLUE>a.to]
-
+]
 ]
 
 ---
 
 # Pregunta
 
+.Large[
 - ¿Por qué existen las diferencias dialectales? 
 - ¿A qué se deben? 
 - Identificad algunas de las variedades del español.
+]
 
 ---
 
@@ -179,9 +187,11 @@ background-color: black
 
 # Tres zona importantes
 
+.Large[
 - La península ibérica
 - Las tierras altas
 - Las tierras bajas
+]
 
 ---
 
@@ -203,16 +213,20 @@ background-color: black
 
 ### Dos grandes zonas dialectales: 
 
+.Large[
 1. el centro y norte de España: el castellano peninsular 
 2. el sur de España: el andaluz (volveremos a hablar de esto) 
+]
 
 ### Características del castellano
 
+.Large[
 1. La uvularización de /x/
 2. Distinción entre /θ/ y /s/
 3. Distinción entre /ʎ/ y /ʝ/ 
 4. la apicalización de /s/
 5. la velarización de /s/
+]
 
 ---
 
@@ -224,19 +238,25 @@ background-color: black
 
 # La uvularización de /x/
 
+.Large[
 - /x/ → [χ]
 - 'jamón' /xa.ˈmon/ → [**x**a.ˈmon] vs. [<BLUE>χ</BLUE>a.ˈmon]
 - 'Jose' /ˈxo.se/ → [ˈ**x**o.se] vs. [ˈ<BLUE>χ</BLUE>o.se] 
+]
 
 ---
 
 # La distinción entre /θ/ y /s/
 
+.Large[
 - Distinción: /θ/ ≠ /s/
 - /s/ → 's'
 - /θ/ → 'c' (delante de 'e'/ 'i'), 'z' 
+]
 
 </br>
+
+.large[
 
 | Fonema | Grafema | Palabra  | Transcripción fonémica | Transcripción fonética |
 | :----- | :------ | :------- | :--------------------- | :--------------------- |
@@ -245,24 +265,34 @@ background-color: black
 |        |         | 'cine'   | /ˈθi.ne/               | [ˈθi.ne]               |
 | /θ/    | 'z'     | 'zapato' | /θa.ˈpa.to/            | [θa.ˈpa.to]            |
 
+]
+
 ---
 
 # Distinción entre /ʎ/ y /ʝ/
 
+.Large[
 - Distinción: /ʎ/ ≠ /ʝ/
 - /ʎ/ → 'll'
 - /ʝ/ → 'y'
+]
 
 </br>
+
+.large[
 
 | Fonema | Grafema |  Palabra   | Transcripción fonémica | Transcripción fonética |
 | :----- | :------ | :--------- | :--------------------- | :--------------------- |
 | /ʎ/    | 'll'    | 'se calló' | /se.ka.ˈʎo/            | [se.ka.ˈʎo]            |
 | /ʝ/    | 'y'     | 'se cayó'  | /se.ka.ˈʝo/            | [se.ka.ˈʝo]            |
 
+]
+
 </br>
 
+.Large[
 - Esta distinción se mantiene en muy pocos sitios
+]
 
 ---
 
@@ -276,15 +306,19 @@ Your browser does not support the video tag.
 </video>
 </div>
 
+.large[
 - /s/ → Alveolar, **predorsal**
 - /s̺/ → Alveolar, <BLUE>apical</BLUE>
+]
 
 ### Ejemplos
 
+.large[
 - 'pasaje'  
 [pa.ˈsa.xe] vs. [pa.ˈs̺a.xe]
 - 'solo'  
 [ˈso.lo] vs. [ˈs̺o.lo]
+]
 
 ---
 
@@ -294,8 +328,10 @@ Your browser does not support the video tag.
 
 # La velarización de /s/
 
+.Large[
 - /s/ → [χ] en posición de coda
 - 'es que' [eχ.ke]
+]
 
 ---
 
@@ -316,9 +352,13 @@ Your browser does not support the video tag.
 
 # Repasito
 
+.Large[
 - ¿Cuáles son las tres zonas importantes en la dialectología hispánica?
+
 - ¿Qué significa *hacer distinción*? Dad ejemplos.
+
 - Nombrad 2 diferencias dialectales con respecto a la /s/ castellana.
+]
 
 ---
 
@@ -331,11 +371,13 @@ Your browser does not support the video tag.
 
 ### La zona alteña comprende todas las tierras 'altas' del Nuevo Mundo, es decir, las que se encuentran a cierta altura sobre el nivel del mar:
 
+.Large[
 - casi todo México,
 - Guatemala, 
 - la altiplanicie de Colombia, 
 - los altos occidentales de Venezuela,
 - la gran mayoría del territorio de los países andinos (el Ecuador, el Perú, Bolivia y el norte montañoso de la Argentina). 
+]
 
 ---
 
@@ -365,16 +407,20 @@ Your browser does not support the video tag.
 
 ### **Seseo**: neutralización de la distinción entre /θ/ y /s/:
 
+.large[
 - /s/ → 's', 'c' (delante de 'e'/ 'i'), 'z' 
+]
 
 </br>
 
+.large[
 | Fonema | Grafema | Palabra  | Transcripción fonémica | Transcripción fonética |
 | :----- | :------ | :------- | :--------------------- | :--------------------- |
 | /s/    | 's'     | 'sana'   | /ˈsa.na/               | [ˈsa.na]               |
 |        | 'c'     | 'cera'   | /ˈse.ɾa/               | [ˈse.ɾa]               |
 |        |         | 'cine'   | /ˈsi.ne/               | [ˈsi.ne]               |
 |        | 'z'     | 'zapato' | /sa.ˈpa.to/            | [sa.ˈpa.to]            |
+]
 
 ---
 
@@ -397,10 +443,15 @@ Your browser does not support the video tag.
 
 ### Información básica
 
+.Large[
 - El término 'tierras bajas' se refiere al nivel del mar
+
 - Es el dialecto predominante en las zonas 'bajas' con respecto al nivel del mar en las Américas (y el sur de España) 
+
 - Representa el andaluz que fue llevado por los colonizadores que llegaron más tarde a las Américas.
+
 - Es un andaluz más evolucionado
+]
 
 ---
 
@@ -413,14 +464,23 @@ Your browser does not support the video tag.
 
 ### Características generales
 
+.large[
 - el seseo
+
 - el debilitamiento/pérdida de fricativas
+
 - la glotización de /x/
+
 - la aspiración/pérdida/geminación de /s/
+
 - la velarización /n/
+
 - la lateralizacion de /r/
+
 - la fricativización velar de /r/
+
 - el rehilamiento de /ʝ/
+]
 
 <!-- - la yodización, geminación, elisión -->
 
@@ -428,27 +488,31 @@ Your browser does not support the video tag.
 
 # El debilitamiento/pérdida de fricativas
 
+.Large[
 |             |                                |
 | :---------- | :----------------------------: |
 | 'escuchado' | [es.ku.ˈʧa.ðo] → [es.ku.ˈʧa.o] |
 | 'es verdad' | [ez.βer.ˈðað]  → [ez.βer.ˈða]  |
 | 'todo'      |      [to.ðo]       → [to]      |
+]
 
 ---
 
 # La /s/
 
+.Large[
 - La aspiración: proceso por el cual la /s/ se realiza como [h], típicamente en posición de coda
 - La elisión: proceso por el cual un sonido (la /s/) se elide
 - La geminación: proceso por el cual un sonido (/s/) se duplica entre sílabas 
+]
 
 ### Ejemplos
 
+.Large[
 - Aspiración:  [ˈpu̯es.to] → [ˈpu̯eh.to] 
 - Elisión:     [ˈpu̯eh.to] → [ˈpu̯e.to]  
 - Geminación:  [ˈpu̯e.to] → [ˈpu̯et.to]  
-
-</br>
+]
 
 <audio controls>
   <source src="./assets/img/puehto.ogg" type="audio/ogg">
@@ -466,17 +530,21 @@ Your browser does not support the audio element.
 
 # La velarización de /n/
 
+.Large[
 - /n/ → [ŋ]
 - Ya sabemos que [ŋ] se da cuando /n/ se encuentra antes de una consonante velar.
   - ej. tengo [ˈteŋ.go]
 - En algunas variedades /n/ se realiza como [ŋ] en posición de coda (final de sílaba)
+]
 
 </br>
 
+.Large[
 |  Palabra  |   Transcpción   |   Resultado    |
 | :-------- | :-------------- | :------------- |
 | en Bogotá | [em.bo.ɣo.ˈta]  | [eŋ.bo.ɣo.ˈta] |
 | en Toledo | [en̪.to.ˈle.ðo] | [eŋ.to.ˈle.ðo] |
+]
 
 </br>
 
@@ -490,14 +558,18 @@ Your browser does not support the audio element.
 
 # La lateralización de /r/
 
+.Large[
 - También conocida como “lambdaización”
 - /r/ → [l]
 - Ocurre en posicion de coda (final de sílaba)
+]
 
 ### Ejemplos
 
+.Large[
 - Hace falta, mi amor 
 - [ˈa.se.ˈfal.ta//mi̯a.moɾ] → [ˈa.se.ˈfal.ta//mi̯a.ˈmol]
+]
 
 </br>
 
@@ -511,8 +583,13 @@ Your browser does not support the audio element.
 
 # La fricativización velar de /r/
 
+.Large[
+
 - /r/ → [x]
+
 - Es uno de los ragos más destacados del español puertorriqueño ([ˈpu̯el̪.to.χi.ˈke.ɲo])
+
+]
 
 ---
 
@@ -528,10 +605,12 @@ Your browser does not support the audio element.
 
 # El rehilamiento
 
+.Large[
 - [ʝ] fricativo palatal sonoro: la lluvia
 - [dʒ] africado alveopalatal sonoro : las llaves
 - [ʒ] fricativo alveopalatal sonoro : los caballos
 - **[ʃ] fricativo alveopalatal sordo**: el llanto
+]
 
 </br>
 
@@ -572,30 +651,43 @@ background-color: black
 # El andaluz
 
 ---
+background-image: url("./assets/img/andalucia.png")
+background-size: 400px
+background-position: 95% 50%
 
 # El andaluz
 
-<div style="float:right">
-  <img width="50" src="../assets/img/fill.png">
-  <img width="400" src="./assets/img/andalucia.png">
-</div>
+.Large[
 
 - el debilitamiento y pérdida de fricativas
+
 - el seseo
+
 - el ceceo
+
 - la simplificación de grupos consonánticos
+
 - el rotacismo de /l/
+
 - la desafricación de /ʧ/
+
+]
 
 ---
 
 # El ceceo
 
+.Large[
+
 - Ceceo: solamente /θ/
 - /θ/ →  's', 'c' (delante de 'e'/'i'), 'z'  
 - Sólo ocurre en posición de ataque
 
+]
+
 </br>
+
+.large[
 
 | Fonema | Grafema | Palabra  | Transcripción fonémica | Transcripción fonética |
 | :----- | :------ | :------- | :--------------------- | :--------------------- |
@@ -603,6 +695,8 @@ background-color: black
 |        | 'c'     | 'cera'   | /ˈθe.ɾa/               | [ˈθe.ɾa]               |
 |        |         | 'cine'   | /ˈθi.ne/               | [ˈθi.ne]               |
 |        | 'z'     | 'zapato' | /θa.ˈpa.to/            | [θa.ˈpa.to]            |
+
+]
 
 ---
 
@@ -624,11 +718,15 @@ Your browser does not support the audio element.
 
 </br>
 
+.Large[
+
 |            |    /θ/ y /s/     | sólo /θ/ | sólo /s/ |
 | :--------- | :--------------- | :------- | :------- |
 | sustantivo | distinción       | ceceo    | seseo    |
 | adjetivo   | distinguidor     | ceceante | seseante |
 | verbo      | hacer distinción | cecear   | sesear   |
+
+]
 
 ---
 
@@ -638,6 +736,8 @@ Your browser does not support the audio element.
 
 </br>
 
+.Large[
+
 |           |    DISTINCIÓN   |      CECEO      |      SESEO      |
 | :-------- | :-------------- | :-------------- | :-------------- |
 | celoso    | [θe.ˈlo.so]     | [θe.ˈlo.θo]     | [se.ˈlo.so]     |
@@ -646,20 +746,30 @@ Your browser does not support the audio element.
 | cazado    | [ka.ˈθa.ðo]     | [ka.ˈθa.ðo]     | [ka.ˈsa.ðo]     |
 | casado    | [ka.ˈsa.ðo]     | [ka.ˈθa.ðo]     | [ka.ˈsa.ðo]     |
 
+]
+
 ---
 
 # La simplificación de grupos consonánticos
 
+.Large[
+
 - El grupo consonántico se reduce para que la sílaba pueda aproximarse a la estructura silábica preferida.
 - También ocurre en una secuencia de dos o más consonantes que se encuentran en diferentes sílabas
 
+]
+
 </br>
+
+.Large[
 
 |     Palabra      |     Transcripción      |     Resultado     |
 | :--------------- | :--------------------- | :---------------- |
 | co**ns**trucción | [ko**ns**.tɾuk.ˈsi̯on]  | [kos.tɾuk.ˈsi̯on]  |
 | explicar         | [e**ks**.pli.ˈkaɾ]     | [es.pli.ˈkaɾ]     |
 | gimnasio         | [xim.ˈna.si̯o]          | [xi.ˈna.si̯o]      |
+
+]
 
 ---
 
@@ -673,21 +783,34 @@ Your browser does not support the video tag.
 </video>
 </div>
 
+.Large[
+
 - /l/ → [r]
 - Ocurre en posicion de coda (final de sílaba)
 
+]
+
 ### Ejemplos
+
+.Large[
 
 - Hace falta, mi amor 
 - [ˈa.se.ˈfal.ta//mi̯a.ˈmor] → [ˈa.se.ˈfar.ta//mi̯a.ˈmor]
+
+]
 
 ---
 
 # La desafricación de /ʧ/
 
+.Large[
+
 - [ʧ]: africado, alveopalatal, sordo → [ʃ]
+
 - [ʧ] sin la oclusión [t] = [ʃ]
   - 'muchacho' → /mu.ˈʧa.ʧo/  → [mu.ˈʃa.ʃo] 
+
+]
 
 ---
 
@@ -715,20 +838,26 @@ class: title-slide-section-grey, middle
 
 ### 3 zonas
 
+.Large[
 - La península
 - La tierra alta
 - La tierra baja
+]
 
 ### Contexto fónico
 
+.Large[
 - En posición de coda (débil)
   - cv.cv
   - cv**c**.cv
 - En posición de ataque (no débil)
+]
 
 ---
 
 # Variación en posición de coda (débil)
+
+.Large[
 
 - la simplificación de grupos consonánticos
 - la /s/
@@ -740,9 +869,13 @@ class: title-slide-section-grey, middle
 - la lateralización de /r/
 - el rotacismo de /l/
 
+]
+
 ---
 
 # Variación en posición de ataque (no débil)
+
+.Large[
 
 - Debilitamiento y pérdida de fricativas
 - Rehilamiento de /ʝ/
@@ -750,14 +883,17 @@ class: title-slide-section-grey, middle
 - Fricatización velar de /r/
 - Desafricación de /ʧ/
 
+]
+
 ---
+background-image: url(https://raw.githubusercontent.com/jvcasillas/media/master/teaching/img/think.png)
+background-size: 400px
+background-position: 95% 50%
 
 # Preguntas
 
-<div style="float:right">
-  <img width="50" src="../assets/img/fill.png">
-  <img src="../assets/img/pensar.png">
-</div>
+.pull-left[
+.large[
 
 1. ¿Por qué existen las diferencias dialectales? ¿A qué se deben? Identifique 
 algunas de las variedades del español.
@@ -768,6 +904,9 @@ da más con los geodialectos, sociolectos, etnolectos o con los idiolectos?
 
 3. ¿Qué dialectos gozan de mayor prestigio? ¿Qué características hacen que un 
 dialecto sea más o menos prestigioso?
+
+]
+]
 
 ---
 
@@ -796,6 +935,7 @@ class: title-slide-section-grey, middle
 
 # Transcribid
 
+.Large[
 - Un cubano canoso cuenta la caña con cuidado
 - Concepción Núñez de Los Ángeles tiene un pato nombrado Chencho Núñez.
 - Con que te vas inmediatamente a la cabaña para no tener que nadar. 
@@ -803,11 +943,13 @@ class: title-slide-section-grey, middle
 - Era un año antes de la independencia del país. 
 - Un gringo me mandó un folleto. 
 - Muchos de los meʝores estudiantes se esforzaron para poder hacerlo cuanto antes.  
+]
 
 ---
 
 # Transcribid
 
+.Large[
 - Uncubanocanosocuentalacañaconcuidado
 - ConcepciónNúñezdeLosÁngelestieneunpatonombradoChenchoNúñez.
 - Conquetevasinmediatamentealacabañaparanotenerquenadar. 
@@ -815,6 +957,7 @@ class: title-slide-section-grey, middle
 - Eraunañoantesdelaindependenciadelpaís. 
 - Ungringomemandóunfolleto. 
 - Muchosdelosmeʝoresestudiantesseesforzaronparapoderhacerlocuantoantes
+]
 
 ---
 
