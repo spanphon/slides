@@ -640,12 +640,27 @@ Your browser does not support the audio element.
 
 
 
+# Repasito
 
+### En grupos, discutid los siguientes fenómenos fonológicos (¿qué son? ¿dónde se dan? ejemplos...)
 
+- el seseo
 
+- el debilitamiento/pérdida de fricativas
 
+- la glotización de /x/
 
+- la aspiración/pérdida/geminación de /s/
 
+- la velarización /n/
+
+- la lateralizacion de /r/
+
+- la fricativización velar de /r/
+
+- el rehilamiento de /ʝ/
+
+---
 background-color: black
 
 # El andaluz
