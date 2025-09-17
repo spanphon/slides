@@ -14,7 +14,7 @@
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"c385be8e6b22485bb75c414a561f5c00","expires":14}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x57a312b521e493f87f61b0c9c8d63e9","expires":14}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -37,7 +37,7 @@ class: center, middle, inverse, title-slide
 ### Joseph V. Casillas, PhD
 ]
 .date[
-### Rutgers University | Spring 2024</br>Last update: 02/26/24
+### Rutgers University | Fall 2025</br>Last update: 09/17/25
 ]
 
 ---
@@ -540,7 +540,7 @@ exclude: true
 - Import results directly into stats program
 
 
-```r
+``` r
 library(knitr)
 read_chunk('./assets/scripts/analysis.R')
 ```
@@ -595,17 +595,24 @@ exclude: true
 ---
 exclude: true
 
-&lt;img src="index_files/figure-html/unnamed-chunk-12-1.png" width="936" /&gt;
+&lt;img src="index_files/figure-html/unnamed-chunk-6-1.png" width="936" /&gt;
 
 ---
 exclude: true
 
-&lt;img src="index_files/figure-html/unnamed-chunk-13-1.png" width="936" /&gt;
+
+```
+## Warning: Computation failed in `stat_summary()`.
+## Caused by error in `fun.data()`:
+## ! The package "Hmisc" is required.
+```
+
+&lt;img src="index_files/figure-html/unnamed-chunk-7-1.png" width="936" /&gt;
 
 ---
 exclude: true
 
-&lt;img src="index_files/figure-html/unnamed-chunk-14-1.png" width="936" /&gt;
+&lt;img src="index_files/figure-html/unnamed-chunk-8-1.png" width="936" /&gt;
 
 
 
@@ -676,10 +683,10 @@ exclude: true
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "monokai",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
+  "highlightStyle": "monokai",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
