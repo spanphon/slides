@@ -282,7 +282,7 @@ background-size: contain
 
 - Las diferencias entre categorías se aumentan
 
-.footnote[AX [download](https://www.spanphon.jvcasillas.com/slides/16_percepcion/libs/discriminationAX.zip)]
+.footnote[Example experiments](https://run.pavlovia.org/jvcasillas/categorical_perception)]
 
 
 ---
